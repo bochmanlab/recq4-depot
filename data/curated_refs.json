@@ -1,0 +1,3673 @@
+{
+ "proteins": {
+  "sfth-msmegmatis": [
+   {
+    "topic": "Mycobacterium smegmatis SftH",
+    "items": [
+     {
+      "n": 25,
+      "authors": "Yakovleva L, Shuman S",
+      "year": "2012",
+      "title": "Mycobacterium smegmatis SftH exemplifies a distinctive clade of superfamily II DNA-dependent ATPases with 3' to 5' translocase and helicase activities.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "22641846",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "mrfa-bsubtilis": [
+   {
+    "topic": "Bacillus subtilis MrfA: specialization in antibiotic-induced DNA repair",
+    "items": [
+     {
+      "n": 26,
+      "authors": "Burby PE, Simmons LA",
+      "year": "2019",
+      "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
+      "journal": "Mol Microbiol",
+      "pmid": "30379365",
+      "doi": null
+     },
+     {
+      "n": 29,
+      "authors": "Roske JJ et al.",
+      "year": "2021",
+      "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "33300032",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "hrq1-spombe": [
+   {
+    "topic": "Fission yeast Hrq1",
+    "items": [
+     {
+      "n": 22,
+      "authors": "Barea F, Tessaro S, Bonatto D",
+      "year": "2008",
+      "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+      "journal": "Comput Biol Chem",
+      "pmid": "18701350",
+      "doi": null
+     },
+     {
+      "n": 72,
+      "authors": "Groocock LM et al.",
+      "year": "2012",
+      "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast.",
+      "journal": "Mol Cell Biol",
+      "pmid": "22064477",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "hrq1-scerevisiae": [
+   {
+    "topic": "Overview",
+    "items": [
+     {
+      "n": 22,
+      "authors": "Barea F, Tessaro S, Bonatto D",
+      "year": "2008",
+      "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+      "journal": "Comput Biol Chem",
+      "pmid": "18701350",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Basic biochemistry and structural biology",
+    "items": [
+     {
+      "n": 63,
+      "authors": "Bochman ML et al.",
+      "year": "2014",
+      "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+      "journal": "Cell Rep",
+      "pmid": "24440721",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     },
+     {
+      "n": 123,
+      "authors": "Kwon SH et al.",
+      "year": "2012",
+      "title": "Saccharomyces cerevisiae Hrq1 requires a long 3'-tailed DNA substrate for helicase activity.",
+      "journal": "Biochem Biophys Res Commun",
+      "pmid": "23026052",
+      "doi": null
+     },
+     {
+      "n": 86,
+      "authors": "Rogers CM, Bochman ML",
+      "year": "2017",
+      "title": "Saccharomyces cerevisiae Hrq1 helicase activity is affected by the sequence but not the length of single-stranded DNA.",
+      "journal": "Biochem Biophys Res Commun",
+      "pmid": "28385527",
+      "doi": null
+     },
+     {
+      "n": 41,
+      "authors": "Keller H et al.",
+      "year": "2014",
+      "title": "The intrinsically disordered amino-terminal region of human RecQL4: multiple DNA-binding domains confer annealing, strand exchange and G4 DNA binding.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "25336622",
+      "doi": null
+     },
+     {
+      "n": 124,
+      "authors": "Sedlackova H et al.",
+      "year": "2015",
+      "title": "RECQ4 selectively recognizes Holliday junctions.",
+      "journal": "DNA Repair (Amst)",
+      "pmid": "25769792",
+      "doi": null
+     },
+     {
+      "n": 97,
+      "authors": "Nickens DG, Rogers CM, Bochman ML",
+      "year": "2018",
+      "title": "The Saccharomyces cerevisiae Hrq1 and Pif1 DNA helicases synergistically modulate telomerase activity in vitro.",
+      "journal": "J Biol Chem",
+      "pmid": "30068549",
+      "doi": null
+     },
+     {
+      "n": 82,
+      "authors": "Simmons RH et al.",
+      "year": "2026",
+      "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+      "journal": "bioRxiv",
+      "pmid": "41726939",
+      "doi": "10.64898/2026.02.13.705743"
+     },
+     {
+      "n": 91,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair.",
+      "journal": "J Biol Chem",
+      "pmid": "32371399",
+      "doi": null
+     },
+     {
+      "n": 125,
+      "authors": "Shumaker KA et al.",
+      "year": "2025",
+      "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "40994099",
+      "doi": "10.1093/g3journal/jkaf222"
+     },
+     {
+      "n": 22,
+      "authors": "Barea F, Tessaro S, Bonatto D",
+      "year": "2008",
+      "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+      "journal": "Comput Biol Chem",
+      "pmid": "18701350",
+      "doi": null
+     },
+     {
+      "n": 53,
+      "authors": "Huang Q et al.",
+      "year": "2022",
+      "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+      "journal": "FASEB J",
+      "pmid": "34921745",
+      "doi": null
+     },
+     {
+      "n": 52,
+      "authors": "Kohzaki M et al.",
+      "year": "2020",
+      "title": "Human RECQL4 represses the RAD52-mediated single-strand annealing pathway after ionizing radiation or cisplatin treatment.",
+      "journal": "Int J Cancer",
+      "pmid": "31495919",
+      "doi": null
+     },
+     {
+      "n": 132,
+      "authors": "Zhu X et al.",
+      "year": "2026",
+      "title": "Mechanistic study of ATP-dependent regulation of the Hrq1 oligomeric state and its DNA unwinding activity in Saccharomyces cerevisiae.",
+      "journal": "J Biol Chem",
+      "pmid": "42567513",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Inter-strand crosslink (ICL) repair",
+    "items": [
+     {
+      "n": 45,
+      "authors": "Choi DH et al.",
+      "year": "2014",
+      "title": "Hrq1 facilitates nucleotide excision repair of DNA damage induced by 4-nitroquinoline-1-oxide and cisplatin in Saccharomyces cerevisiae.",
+      "journal": "J Microbiol",
+      "pmid": "24682993",
+      "doi": null
+     },
+     {
+      "n": 49,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+      "journal": "Prog Biophys Mol Biol",
+      "pmid": "32877700",
+      "doi": "10.1016/j.pbiomolbio.2020.08.005"
+     },
+     {
+      "n": 63,
+      "authors": "Bochman ML et al.",
+      "year": "2014",
+      "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+      "journal": "Cell Rep",
+      "pmid": "24440721",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     },
+     {
+      "n": 82,
+      "authors": "Simmons RH et al.",
+      "year": "2026",
+      "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+      "journal": "bioRxiv",
+      "pmid": "41726939",
+      "doi": "10.64898/2026.02.13.705743"
+     },
+     {
+      "n": 91,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair.",
+      "journal": "J Biol Chem",
+      "pmid": "32371399",
+      "doi": null
+     },
+     {
+      "n": 125,
+      "authors": "Shumaker KA et al.",
+      "year": "2025",
+      "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "40994099",
+      "doi": "10.1093/g3journal/jkaf222"
+     },
+     {
+      "n": 47,
+      "authors": "Jin W et al.",
+      "year": "2008",
+      "title": "Sensitivity of RECQL4-deficient fibroblasts from Rothmund-Thomson syndrome patients to genotoxic agents.",
+      "journal": "Hum Genet",
+      "pmid": "18504617",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Intra-strand crosslink repair and PRR pathways",
+    "items": [
+     {
+      "n": 45,
+      "authors": "Choi DH et al.",
+      "year": "2014",
+      "title": "Hrq1 facilitates nucleotide excision repair of DNA damage induced by 4-nitroquinoline-1-oxide and cisplatin in Saccharomyces cerevisiae.",
+      "journal": "J Microbiol",
+      "pmid": "24682993",
+      "doi": null
+     },
+     {
+      "n": 49,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+      "journal": "Prog Biophys Mol Biol",
+      "pmid": "32877700",
+      "doi": "10.1016/j.pbiomolbio.2020.08.005"
+     },
+     {
+      "n": 63,
+      "authors": "Bochman ML et al.",
+      "year": "2014",
+      "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+      "journal": "Cell Rep",
+      "pmid": "24440721",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     },
+     {
+      "n": 82,
+      "authors": "Simmons RH et al.",
+      "year": "2026",
+      "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+      "journal": "bioRxiv",
+      "pmid": "41726939",
+      "doi": "10.64898/2026.02.13.705743"
+     },
+     {
+      "n": 91,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair.",
+      "journal": "J Biol Chem",
+      "pmid": "32371399",
+      "doi": null
+     },
+     {
+      "n": 125,
+      "authors": "Shumaker KA et al.",
+      "year": "2025",
+      "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "40994099",
+      "doi": "10.1093/g3journal/jkaf222"
+     },
+     {
+      "n": 48,
+      "authors": "Luong TT et al.",
+      "year": "2022",
+      "title": "Hrq1/RECQL4 regulation is critical for preventing aberrant recombination during DNA intrastrand crosslink repair and is upregulated in breast cancer.",
+      "journal": "PLoS Genet",
+      "pmid": "36126066",
+      "doi": null
+     },
+     {
+      "n": 64,
+      "authors": "Sanders E et al.",
+      "year": "2020",
+      "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "33115720",
+      "doi": null
+     },
+     {
+      "n": 137,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The Genetic and Physical Interactomes of the Saccharomyces cerevisiae Hrq1 Helicase.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "33115721",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Telomere maintenance and telomerase regulation",
+    "items": [
+     {
+      "n": 63,
+      "authors": "Bochman ML et al.",
+      "year": "2014",
+      "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+      "journal": "Cell Rep",
+      "pmid": "24440721",
+      "doi": null
+     },
+     {
+      "n": 97,
+      "authors": "Nickens DG, Rogers CM, Bochman ML",
+      "year": "2018",
+      "title": "The Saccharomyces cerevisiae Hrq1 and Pif1 DNA helicases synergistically modulate telomerase activity in vitro.",
+      "journal": "J Biol Chem",
+      "pmid": "30068549",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     },
+     {
+      "n": 96,
+      "authors": "Ghosh AK et al.",
+      "year": "2011",
+      "title": "RECQL4, the protein mutated in Rothmund-Thomson syndrome, functions in telomere maintenance.",
+      "journal": "J Biol Chem",
+      "pmid": "22039056",
+      "doi": null
+     },
+     {
+      "n": 150,
+      "authors": "Ferrarelli LK et al.",
+      "year": "2013",
+      "title": "The RECQL4 protein, deficient in Rothmund-Thomson syndrome is active on telomeric D-loops containing DNA metabolism blocking lesions.",
+      "journal": "DNA Repair (Amst)",
+      "pmid": "23683351",
+      "doi": null
+     },
+     {
+      "n": 151,
+      "authors": "Kaczmarczyk A et al.",
+      "year": "2025",
+      "title": "Novel mutations in the RECQL4 gene affect its helicase functions, interactions with the BLM helicase and chemotherapeutics-induced cell death.",
+      "journal": "Cell Death Discov",
+      "pmid": "41419455",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Genetic interaction networks and systems-level integration",
+    "items": [
+     {
+      "n": 64,
+      "authors": "Sanders E et al.",
+      "year": "2020",
+      "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "33115720",
+      "doi": null
+     },
+     {
+      "n": 125,
+      "authors": "Shumaker KA et al.",
+      "year": "2025",
+      "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "40994099",
+      "doi": "10.1093/g3journal/jkaf222"
+     },
+     {
+      "n": 137,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The Genetic and Physical Interactomes of the Saccharomyces cerevisiae Hrq1 Helicase.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "33115721",
+      "doi": null
+     },
+     {
+      "n": 153,
+      "authors": "Leung GP et al.",
+      "year": "2014",
+      "title": "Conditional genetic interactions of RTT107, SLX4, and HRQ1 reveal dynamic networks upon DNA damage in S. cerevisiae.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "24700328",
+      "doi": null
+     },
+     {
+      "n": 82,
+      "authors": "Simmons RH et al.",
+      "year": "2026",
+      "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+      "journal": "bioRxiv",
+      "pmid": "41726939",
+      "doi": "10.64898/2026.02.13.705743"
+     },
+     {
+      "n": 48,
+      "authors": "Luong TT et al.",
+      "year": "2022",
+      "title": "Hrq1/RECQL4 regulation is critical for preventing aberrant recombination during DNA intrastrand crosslink repair and is upregulated in breast cancer.",
+      "journal": "PLoS Genet",
+      "pmid": "36126066",
+      "doi": null
+     },
+     {
+      "n": 49,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+      "journal": "Prog Biophys Mol Biol",
+      "pmid": "32877700",
+      "doi": "10.1016/j.pbiomolbio.2020.08.005"
+     },
+     {
+      "n": 53,
+      "authors": "Huang Q et al.",
+      "year": "2022",
+      "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+      "journal": "FASEB J",
+      "pmid": "34921745",
+      "doi": null
+     },
+     {
+      "n": 96,
+      "authors": "Ghosh AK et al.",
+      "year": "2011",
+      "title": "RECQL4, the protein mutated in Rothmund-Thomson syndrome, functions in telomere maintenance.",
+      "journal": "J Biol Chem",
+      "pmid": "22039056",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "RNA polymerase III-transcribed loci",
+    "items": [
+     {
+      "n": 106,
+      "authors": "Regmi S et al.",
+      "year": "2026",
+      "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes. bioRxiv doi:10.64898/2026.08.13.744683.",
+      "journal": null,
+      "pmid": null,
+      "doi": "10.64898/2026.08.13.744683",
+      "raw": "Regmi S, Alsulaiti N, Darling D, Bolgova A, Theulot B, Gray SJ, Bochman ML, Smith DJ. 2026. Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes. bioRxiv doi:10.64898/2026.08.13.744683."
+     }
+    ]
+   }
+  ],
+  "hrq1-athaliana": [
+   {
+    "topic": "Plant HRQ1",
+    "items": [
+     {
+      "n": 22,
+      "authors": "Barea F, Tessaro S, Bonatto D",
+      "year": "2008",
+      "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+      "journal": "Comput Biol Chem",
+      "pmid": "18701350",
+      "doi": null
+     },
+     {
+      "n": 65,
+      "authors": "Rohrig S et al.",
+      "year": "2018",
+      "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A.",
+      "journal": "New Phytol",
+      "pmid": "29577315",
+      "doi": null
+     },
+     {
+      "n": 176,
+      "authors": "Hartung F, Plchova H, Puchta H",
+      "year": "2000",
+      "title": "Molecular characterisation of RecQ homologues in Arabidopsis thaliana.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "11058127",
+      "doi": null
+     },
+     {
+      "n": 72,
+      "authors": "Groocock LM et al.",
+      "year": "2012",
+      "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast.",
+      "journal": "Mol Cell Biol",
+      "pmid": "22064477",
+      "doi": null
+     },
+     {
+      "n": 63,
+      "authors": "Bochman ML et al.",
+      "year": "2014",
+      "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+      "journal": "Cell Rep",
+      "pmid": "24440721",
+      "doi": null
+     },
+     {
+      "n": 69,
+      "authors": "Rogers CM et al.",
+      "year": "2017",
+      "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "28334827",
+      "doi": null
+     },
+     {
+      "n": 91,
+      "authors": "Rogers CM et al.",
+      "year": "2020",
+      "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair.",
+      "journal": "J Biol Chem",
+      "pmid": "32371399",
+      "doi": null
+     },
+     {
+      "n": 125,
+      "authors": "Shumaker KA et al.",
+      "year": "2025",
+      "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "40994099",
+      "doi": "10.1093/g3journal/jkaf222"
+     },
+     {
+      "n": 177,
+      "authors": "Herrmann NJ, Knoll A, Puchta H",
+      "year": "2015",
+      "title": "The nuclease FAN1 is involved in DNA crosslink repair in Arabidopsis thaliana independently of the nuclease MUS81.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "25779053",
+      "doi": null
+     },
+     {
+      "n": 178,
+      "authors": "Klemm T et al.",
+      "year": "2017",
+      "title": "The DNA translocase RAD5A acts independently of the other main DNA repair pathways, and requires both its ATPase and RING domain for activity in Arabidopsis thaliana.",
+      "journal": "Plant J",
+      "pmid": "28509359",
+      "doi": null
+     },
+     {
+      "n": 179,
+      "authors": "Serra H et al.",
+      "year": "2018",
+      "title": "Massive crossover elevation via combination of HEI10 and recq4a recq4b during Arabidopsis meiosis.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "29463699",
+      "doi": null
+     },
+     {
+      "n": 64,
+      "authors": "Sanders E et al.",
+      "year": "2020",
+      "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+      "journal": "G3 (Bethesda)",
+      "pmid": "33115720",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "recql4-human": [
+   {
+    "topic": "Overview",
+    "items": [
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 39,
+      "authors": "Abe T et al.",
+      "year": "2011",
+      "title": "The N-terminal region of RECQL4 lacking the helicase domain is both essential and sufficient for the viability of vertebrate cells. Role of the N-terminal region of RECQL4 in cells.",
+      "journal": "Biochim Biophys Acta",
+      "pmid": "21256165",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Replication initiation and origin regulation",
+    "items": [
+     {
+      "n": 40,
+      "authors": "Im JS et al.",
+      "year": "2009",
+      "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "19805216",
+      "doi": null
+     },
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 44,
+      "authors": "Xu X, Liu Y",
+      "year": "2009",
+      "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+      "journal": "EMBO J",
+      "pmid": "19177149",
+      "doi": null
+     },
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 77,
+      "authors": "Park SJ et al.",
+      "year": "2006",
+      "title": "A positive involvement of RecQL4 in UV-induced S-phase arrest.",
+      "journal": "DNA Cell Biol",
+      "pmid": "17184169",
+      "doi": null
+     },
+     {
+      "n": 78,
+      "authors": "Lim Y et al.",
+      "year": "2023",
+      "title": "In silico protein interaction screening uncovers DONSON's role in replication initiation.",
+      "journal": "Science",
+      "pmid": "37590370",
+      "doi": null
+     },
+     {
+      "n": 79,
+      "authors": "Evrin C et al.",
+      "year": "2023",
+      "title": "DONSON is required for CMG helicase assembly in the mammalian cell cycle.",
+      "journal": "EMBO Rep",
+      "pmid": "37781960",
+      "doi": null
+     },
+     {
+      "n": 80,
+      "authors": "Hashimoto Y et al.",
+      "year": "2023",
+      "title": "Novel role of DONSON in CMG helicase assembly during vertebrate DNA replication initiation.",
+      "journal": "EMBO J",
+      "pmid": "37458194",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Replication stress and fork remodeling",
+    "items": [
+     {
+      "n": 44,
+      "authors": "Xu X, Liu Y",
+      "year": "2009",
+      "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+      "journal": "EMBO J",
+      "pmid": "19177149",
+      "doi": null
+     },
+     {
+      "n": 77,
+      "authors": "Park SJ et al.",
+      "year": "2006",
+      "title": "A positive involvement of RecQL4 in UV-induced S-phase arrest.",
+      "journal": "DNA Cell Biol",
+      "pmid": "17184169",
+      "doi": null
+     },
+     {
+      "n": 40,
+      "authors": "Im JS et al.",
+      "year": "2009",
+      "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "19805216",
+      "doi": null
+     },
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 53,
+      "authors": "Huang Q et al.",
+      "year": "2022",
+      "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+      "journal": "FASEB J",
+      "pmid": "34921745",
+      "doi": null
+     },
+     {
+      "n": 184,
+      "authors": "Shin G et al.",
+      "year": "2019",
+      "title": "RecQL4 tethering on the pre-replicative complex induces unscheduled origin activation and replication stress in human cells.",
+      "journal": "J Biol Chem",
+      "pmid": "31519754",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "DSB repair pathway coordination",
+    "items": [
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 51,
+      "authors": "Shamanna RA et al.",
+      "year": "2014",
+      "title": "RECQ helicase RECQL4 participates in non-homologous end joining and interacts with the Ku complex.",
+      "journal": "Carcinogenesis",
+      "pmid": "24942867",
+      "doi": null
+     },
+     {
+      "n": 52,
+      "authors": "Kohzaki M et al.",
+      "year": "2020",
+      "title": "Human RECQL4 represses the RAD52-mediated single-strand annealing pathway after ionizing radiation or cisplatin treatment.",
+      "journal": "Int J Cancer",
+      "pmid": "31495919",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Telomere maintenance and cooperation with other enzymes",
+    "items": [
+     {
+      "n": 54,
+      "authors": "Singh DK et al.",
+      "year": "2010",
+      "title": "The involvement of human RECQL4 in DNA double-strand break repair.",
+      "journal": "Aging Cell",
+      "pmid": "20222902",
+      "doi": null
+     },
+     {
+      "n": 81,
+      "authors": "Singh DK et al.",
+      "year": "2012",
+      "title": "The human RecQ helicases BLM and RECQL4 cooperate to preserve genome stability.",
+      "journal": "Nucleic Acids Res",
+      "pmid": "22544709",
+      "doi": null
+     },
+     {
+      "n": 151,
+      "authors": "Kaczmarczyk A et al.",
+      "year": "2025",
+      "title": "Novel mutations in the RECQL4 gene affect its helicase functions, interactions with the BLM helicase and chemotherapeutics-induced cell death.",
+      "journal": "Cell Death Discov",
+      "pmid": "41419455",
+      "doi": null
+     },
+     {
+      "n": 180,
+      "authors": "Wojnicki K et al.",
+      "year": "2025",
+      "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses.",
+      "journal": "BMC Cancer",
+      "pmid": "41023983",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Roles in mitosis",
+    "items": [
+     {
+      "n": 54,
+      "authors": "Singh DK et al.",
+      "year": "2010",
+      "title": "The involvement of human RECQL4 in DNA double-strand break repair.",
+      "journal": "Aging Cell",
+      "pmid": "20222902",
+      "doi": null
+     },
+     {
+      "n": 102,
+      "authors": "Arora A et al.",
+      "year": "2016",
+      "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+      "journal": "J Pathol",
+      "pmid": "26690729",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Mitochondrial Genome Maintenance",
+    "items": [
+     {
+      "n": 107,
+      "authors": "Croteau DL et al.",
+      "year": "2012",
+      "title": "RECQL4 localizes to mitochondria and preserves mitochondrial DNA integrity.",
+      "journal": "Aging Cell",
+      "pmid": "22296597",
+      "doi": null
+     },
+     {
+      "n": 68,
+      "authors": "Kaiser S, Sauer F, Kisker C",
+      "year": "2017",
+      "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+      "journal": "Nat Commun",
+      "pmid": "28653661",
+      "doi": null
+     },
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 53,
+      "authors": "Huang Q et al.",
+      "year": "2022",
+      "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+      "journal": "FASEB J",
+      "pmid": "34921745",
+      "doi": null
+     },
+     {
+      "n": 70,
+      "authors": "Shin S et al.",
+      "year": "2025",
+      "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+      "journal": "FEBS Open Bio",
+      "pmid": "39462683",
+      "doi": null
+     },
+     {
+      "n": 109,
+      "authors": "Hussain M et al.",
+      "year": "2023",
+      "title": "Hyperubiquitylation of DNA helicase RECQL4 by E3 ligase MITOL prevents mitochondrial entry and potentiates mitophagy.",
+      "journal": "J Biol Chem",
+      "pmid": "37495109",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Human Disease and Cancer Implications",
+    "items": [
+     {
+      "n": 175,
+      "authors": "Siitonen HA et al.",
+      "year": "2009",
+      "title": "The mutation spectrum in RECQL4 diseases.",
+      "journal": "Eur J Hum Genet",
+      "pmid": "18716613",
+      "doi": null
+     },
+     {
+      "n": 187,
+      "authors": "Martins DJ, Di Lazzaro Filho R, Bertola DR, Hoch NC",
+      "year": "2023",
+      "title": "Rothmund-Thomson syndrome, a disorder far from solved.",
+      "journal": "Front Aging",
+      "pmid": "38021400",
+      "doi": null
+     },
+     {
+      "n": 188,
+      "authors": "Ho SKL et al.",
+      "year": "2025",
+      "title": "RECQL4-related Rothmund-Thomson syndrome: A case series and literature review.",
+      "journal": "Cancer Genet",
+      "pmid": "40031098",
+      "doi": null
+     },
+     {
+      "n": 102,
+      "authors": "Arora A et al.",
+      "year": "2016",
+      "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+      "journal": "J Pathol",
+      "pmid": "26690729",
+      "doi": null
+     },
+     {
+      "n": 189,
+      "authors": "Guo L et al.",
+      "year": "2020",
+      "title": "RECQL4, Negatively Regulated by miR-10a-5p, Facilitates Cell Proliferation and Invasion via MAFB in Ovarian Cancer.",
+      "journal": "Front Oncol",
+      "pmid": "33014878",
+      "doi": null
+     },
+     {
+      "n": 190,
+      "authors": "Krol SK et al.",
+      "year": "2020",
+      "title": "Aberrantly Expressed RECQL4 Helicase Supports Proliferation and Drug Resistance of Human Glioma Cells and Glioma Stem Cells.",
+      "journal": "Cancers (Basel)",
+      "pmid": "33050631",
+      "doi": null
+     },
+     {
+      "n": 191,
+      "authors": "Su Y et al.",
+      "year": "2010",
+      "title": "Human RecQL4 helicase plays critical roles in prostate carcinogenesis.",
+      "journal": "Cancer Res",
+      "pmid": "21045146",
+      "doi": null
+     },
+     {
+      "n": 192,
+      "authors": "Fang H et al.",
+      "year": "2013",
+      "title": "RecQL4 helicase amplification is involved in human breast tumorigenesis.",
+      "journal": "PLoS One",
+      "pmid": "23894508",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Germline mutations and developmental syndromes",
+    "items": [
+     {
+      "n": 175,
+      "authors": "Siitonen HA et al.",
+      "year": "2009",
+      "title": "The mutation spectrum in RECQL4 diseases.",
+      "journal": "Eur J Hum Genet",
+      "pmid": "18716613",
+      "doi": null
+     },
+     {
+      "n": 187,
+      "authors": "Martins DJ, Di Lazzaro Filho R, Bertola DR, Hoch NC",
+      "year": "2023",
+      "title": "Rothmund-Thomson syndrome, a disorder far from solved.",
+      "journal": "Front Aging",
+      "pmid": "38021400",
+      "doi": null
+     },
+     {
+      "n": 188,
+      "authors": "Ho SKL et al.",
+      "year": "2025",
+      "title": "RECQL4-related Rothmund-Thomson syndrome: A case series and literature review.",
+      "journal": "Cancer Genet",
+      "pmid": "40031098",
+      "doi": null
+     },
+     {
+      "n": 194,
+      "authors": "Jensen MB et al.",
+      "year": "2012",
+      "title": "The helicase and ATPase activities of RECQL4 are compromised by mutations reported in three human patients.",
+      "journal": "Aging (Albany NY)",
+      "pmid": "23238538",
+      "doi": null
+     },
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 73,
+      "authors": "Castillo-Tandazo W et al.",
+      "year": "2019",
+      "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+      "journal": "PLoS Genet",
+      "pmid": "31276497",
+      "doi": null
+     },
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 54,
+      "authors": "Singh DK et al.",
+      "year": "2010",
+      "title": "The involvement of human RECQL4 in DNA double-strand break repair.",
+      "journal": "Aging Cell",
+      "pmid": "20222902",
+      "doi": null
+     },
+     {
+      "n": 193,
+      "authors": "Wang LL et al.",
+      "year": "2003",
+      "title": "Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome.",
+      "journal": "J Natl Cancer Inst",
+      "pmid": "12734318",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Chromosomal instability and cancer predisposition",
+    "items": [
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 54,
+      "authors": "Singh DK et al.",
+      "year": "2010",
+      "title": "The involvement of human RECQL4 in DNA double-strand break repair.",
+      "journal": "Aging Cell",
+      "pmid": "20222902",
+      "doi": null
+     },
+     {
+      "n": 102,
+      "authors": "Arora A et al.",
+      "year": "2016",
+      "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+      "journal": "J Pathol",
+      "pmid": "26690729",
+      "doi": null
+     },
+     {
+      "n": 50,
+      "authors": "Lu H et al.",
+      "year": "2017",
+      "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+      "journal": "Nat Commun",
+      "pmid": "29229926",
+      "doi": null
+     },
+     {
+      "n": 73,
+      "authors": "Castillo-Tandazo W et al.",
+      "year": "2019",
+      "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+      "journal": "PLoS Genet",
+      "pmid": "31276497",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "RECQL4 overexpression in sporadic cancers",
+    "items": [
+     {
+      "n": 102,
+      "authors": "Arora A et al.",
+      "year": "2016",
+      "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+      "journal": "J Pathol",
+      "pmid": "26690729",
+      "doi": null
+     },
+     {
+      "n": 180,
+      "authors": "Wojnicki K et al.",
+      "year": "2025",
+      "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses.",
+      "journal": "BMC Cancer",
+      "pmid": "41023983",
+      "doi": null
+     },
+     {
+      "n": 195,
+      "authors": "Hong W et al.",
+      "year": "2024",
+      "title": "RECQL4 Inhibits Radiation-Induced Tumor Immune Awakening via Suppressing the cGAS-STING Pathway in Hepatocellular Carcinoma.",
+      "journal": "Adv Sci (Weinh)",
+      "pmid": "38381090",
+      "doi": null
+     },
+     {
+      "n": 189,
+      "authors": "Guo L et al.",
+      "year": "2020",
+      "title": "RECQL4, Negatively Regulated by miR-10a-5p, Facilitates Cell Proliferation and Invasion via MAFB in Ovarian Cancer.",
+      "journal": "Front Oncol",
+      "pmid": "33014878",
+      "doi": null
+     },
+     {
+      "n": 200,
+      "authors": "Zhou F et al.",
+      "year": "2021",
+      "title": "RecQ-like helicase 4 (RECQL4) exacerbates resistance to oxaliplatin in colon adenocarcinoma via activation of the PI3K/AKT signaling pathway.",
+      "journal": "Bioengineered",
+      "pmid": "34477047",
+      "doi": null
+     },
+     {
+      "n": 201,
+      "authors": "Li Y et al.",
+      "year": "2025",
+      "title": "Targeting RECQL4 in hepatocellular carcinoma: from prognosis to therapeutic potential.",
+      "journal": "BMC Med Genomics",
+      "pmid": "40001159",
+      "doi": null
+     },
+     {
+      "n": 202,
+      "authors": "Li R et al.",
+      "year": "2026",
+      "title": "RECQL4 promotes the malignant progression of lung adenocarcinoma through the YBX1/G3BP1-mediated NF-\u03baB signaling pathway.",
+      "journal": "Cell Death Discov",
+      "pmid": "41513625",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Chemoresistance and therapeutic targeting",
+    "items": [
+     {
+      "n": 102,
+      "authors": "Arora A et al.",
+      "year": "2016",
+      "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+      "journal": "J Pathol",
+      "pmid": "26690729",
+      "doi": null
+     },
+     {
+      "n": 180,
+      "authors": "Wojnicki K et al.",
+      "year": "2025",
+      "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses.",
+      "journal": "BMC Cancer",
+      "pmid": "41023983",
+      "doi": null
+     },
+     {
+      "n": 202,
+      "authors": "Li R et al.",
+      "year": "2026",
+      "title": "RECQL4 promotes the malignant progression of lung adenocarcinoma through the YBX1/G3BP1-mediated NF-\u03baB signaling pathway.",
+      "journal": "Cell Death Discov",
+      "pmid": "41513625",
+      "doi": null
+     },
+     {
+      "n": 203,
+      "authors": "Wang R, Zhang Y",
+      "year": "2024",
+      "title": "RecQ protein-like 4 drives cisplatin chemosensitivity of cervical cancer cells by modulating annexin A2.",
+      "journal": "Drug Dev Res",
+      "pmid": "39404003",
+      "doi": null
+     },
+     {
+      "n": 204,
+      "authors": "Qin Y et al.",
+      "year": "2026",
+      "title": "RECQL4 as a novel drug target against ovarian cancer.",
+      "journal": "Biochem Pharmacol",
+      "pmid": "41203034",
+      "doi": null
+     },
+     {
+      "n": 189,
+      "authors": "Guo L et al.",
+      "year": "2020",
+      "title": "RECQL4, Negatively Regulated by miR-10a-5p, Facilitates Cell Proliferation and Invasion via MAFB in Ovarian Cancer.",
+      "journal": "Front Oncol",
+      "pmid": "33014878",
+      "doi": null
+     },
+     {
+      "n": 206,
+      "authors": "Lu H et al.",
+      "year": "2016",
+      "title": "RECQL4 Promotes DNA End Resection in Repair of DNA Double-Strand Breaks.",
+      "journal": "Cell Rep",
+      "pmid": "27320928",
+      "doi": null
+     },
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 53,
+      "authors": "Huang Q et al.",
+      "year": "2022",
+      "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+      "journal": "FASEB J",
+      "pmid": "34921745",
+      "doi": null
+     },
+     {
+      "n": 70,
+      "authors": "Shin S et al.",
+      "year": "2025",
+      "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+      "journal": "FEBS Open Bio",
+      "pmid": "39462683",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Immune signaling and emerging roles",
+    "items": [
+     {
+      "n": 195,
+      "authors": "Hong W et al.",
+      "year": "2024",
+      "title": "RECQL4 Inhibits Radiation-Induced Tumor Immune Awakening via Suppressing the cGAS-STING Pathway in Hepatocellular Carcinoma.",
+      "journal": "Adv Sci (Weinh)",
+      "pmid": "38381090",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "recql4-mouse": [
+   {
+    "topic": "Mouse models",
+    "items": [
+     {
+      "n": 73,
+      "authors": "Castillo-Tandazo W et al.",
+      "year": "2019",
+      "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+      "journal": "PLoS Genet",
+      "pmid": "31276497",
+      "doi": null
+     },
+     {
+      "n": 75,
+      "authors": "Buco PAV et al.",
+      "year": "2026",
+      "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication.",
+      "journal": "EMBO Rep",
+      "pmid": "41807760",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "recq4-xenopus": [
+   {
+    "topic": "Egg-extract replication studies",
+    "items": [
+     {
+      "n": 43,
+      "authors": "Sangrithi MN et al.",
+      "year": "2005",
+      "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+      "journal": "Cell",
+      "pmid": "15960976",
+      "doi": null
+     },
+     {
+      "n": 78,
+      "authors": "Lim Y et al.",
+      "year": "2023",
+      "title": "In silico protein interaction screening uncovers DONSON's role in replication initiation.",
+      "journal": "Science",
+      "pmid": "37590370",
+      "doi": null
+     },
+     {
+      "n": 79,
+      "authors": "Evrin C et al.",
+      "year": "2023",
+      "title": "DONSON is required for CMG helicase assembly in the mammalian cell cycle.",
+      "journal": "EMBO Rep",
+      "pmid": "37781960",
+      "doi": null
+     },
+     {
+      "n": 80,
+      "authors": "Hashimoto Y et al.",
+      "year": "2023",
+      "title": "Novel role of DONSON in CMG helicase assembly during vertebrate DNA replication initiation.",
+      "journal": "EMBO J",
+      "pmid": "37458194",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "recq4-drosophila": [
+   {
+    "topic": "Drosophila RecQ4 genetics",
+    "items": [
+     {
+      "n": 181,
+      "authors": "Wu J et al.",
+      "year": "2008",
+      "title": "Drosophila homologue of the Rothmund-Thomson syndrome gene: essential function in DNA replication during development.",
+      "journal": "Dev Biol",
+      "pmid": "18755177",
+      "doi": null
+     },
+     {
+      "n": 182,
+      "authors": "Xu Y et al.",
+      "year": "2009",
+      "title": "dRecQ4 is required for DNA synthesis and essential for cell proliferation in Drosophila.",
+      "journal": "PLoS One",
+      "pmid": "19572017",
+      "doi": null
+     },
+     {
+      "n": 183,
+      "authors": "Capp C, Wu J, Hsieh TS",
+      "year": "2009",
+      "title": "Drosophila RecQ4 has a 3'-5' DNA helicase activity that is essential for viability.",
+      "journal": "J Biol Chem",
+      "pmid": "19759018",
+      "doi": null
+     }
+    ]
+   }
+  ]
+ },
+ "family": [
+  {
+   "topic": "Introduction",
+   "items": [
+    {
+     "n": 1,
+     "authors": "Berger JM",
+     "year": "2008",
+     "title": "SnapShot: nucleic acid helicases and translocases.",
+     "journal": "Cell",
+     "pmid": "18775318",
+     "doi": null
+    },
+    {
+     "n": 2,
+     "authors": "Bernstein KA, Gangloff S, Rothstein R",
+     "year": "2010",
+     "title": "The RecQ DNA helicases in DNA repair.",
+     "journal": "Annu Rev Genet",
+     "pmid": "21047263",
+     "doi": null
+    },
+    {
+     "n": 3,
+     "authors": "Bachrati CZ, Hickson ID",
+     "year": "2008",
+     "title": "RecQ helicases: guardian angels of the DNA replication fork.",
+     "journal": "Chromosoma",
+     "pmid": "18188578",
+     "doi": null
+    },
+    {
+     "n": 4,
+     "authors": "Chu WK, Hickson ID",
+     "year": "2009",
+     "title": "RecQ helicases: multifunctional genome caretakers.",
+     "journal": "Nat Rev Cancer",
+     "pmid": "19657341",
+     "doi": null
+    },
+    {
+     "n": 5,
+     "authors": "Nakayama H et al.",
+     "year": "1984",
+     "title": "Isolation and genetic characterization of a thymineless death-resistant mutant of Escherichia coli K12: identification of a new mutation (recQ1) that blocks the RecF recombination pathway.",
+     "journal": "Mol Gen Genet",
+     "pmid": "6381965",
+     "doi": null
+    },
+    {
+     "n": 6,
+     "authors": "Bohr VA",
+     "year": "2008",
+     "title": "Rising from the RecQ-age: the role of human RecQ helicases in genome maintenance.",
+     "journal": "Trends Biochem Sci",
+     "pmid": "18926708",
+     "doi": null
+    },
+    {
+     "n": 7,
+     "authors": "Singh DK, Ahn B, Bohr VA",
+     "year": "2009",
+     "title": "Roles of RECQ helicases in recombination based DNA repair, genomic stability and aging.",
+     "journal": "Biogerontology",
+     "pmid": "19083132",
+     "doi": null
+    },
+    {
+     "n": 8,
+     "authors": "Ellis NA",
+     "year": "1997",
+     "title": "DNA helicases in inherited human disorders.",
+     "journal": "Curr Opin Genet Dev",
+     "pmid": "9229111",
+     "doi": null
+    },
+    {
+     "n": 9,
+     "authors": "Ellis NA et al.",
+     "year": "1995",
+     "title": "The Bloom's syndrome gene product is homologous to RecQ helicases.",
+     "journal": "Cell",
+     "pmid": "7585968",
+     "doi": null
+    },
+    {
+     "n": 10,
+     "authors": "Yu CE et al.",
+     "year": "1996",
+     "title": "Positional cloning of the Werner's syndrome gene.",
+     "journal": "Science",
+     "pmid": "8602509",
+     "doi": null
+    },
+    {
+     "n": 11,
+     "authors": "Gray MD et al.",
+     "year": "1997",
+     "title": "The Werner syndrome protein is a DNA helicase.",
+     "journal": "Nat Genet",
+     "pmid": "9288107",
+     "doi": null
+    },
+    {
+     "n": 12,
+     "authors": "Kitao S et al.",
+     "year": "1998",
+     "title": "Cloning of two new human helicase genes of the RecQ family: biological significance of multiple species in higher eukaryotes.",
+     "journal": "Genomics",
+     "pmid": "9878247",
+     "doi": null
+    },
+    {
+     "n": 13,
+     "authors": "Kitao S et al.",
+     "year": "1999",
+     "title": "Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome.",
+     "journal": "Nat Genet",
+     "pmid": "10319867",
+     "doi": null
+    },
+    {
+     "n": 14,
+     "authors": "Abu-Libdeh B et al.",
+     "year": "2022",
+     "title": "RECON syndrome is a genome instability disorder caused by mutations in the DNA helicase RECQL1.",
+     "journal": "J Clin Invest",
+     "pmid": "35025765",
+     "doi": null
+    },
+    {
+     "n": 15,
+     "authors": "Larizza L, Roversi G, Volpi L",
+     "year": "2010",
+     "title": "Rothmund-Thomson syndrome.",
+     "journal": "Orphanet J Rare Dis",
+     "pmid": "20113479",
+     "doi": null
+    },
+    {
+     "n": 16,
+     "authors": "Van Maldergem L et al.",
+     "year": "1993",
+     "title": "Baller-Gerold Syndrome, Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Amemiya A (ed), GeneReviews((R)), Seattle (WA).",
+     "journal": null,
+     "pmid": null,
+     "doi": null,
+     "raw": "Van Maldergem L, Piard J, Larizza L, Wang LL. 1993. Baller-Gerold Syndrome, Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Amemiya A (ed), GeneReviews((R)), Seattle (WA)."
+    },
+    {
+     "n": 17,
+     "authors": "Vargas FR, de Almeida JC, Llerena Junior JC, Reis DF",
+     "year": "1992",
+     "title": "RAPADILINO syndrome.",
+     "journal": "Am J Med Genet",
+     "pmid": "1481838",
+     "doi": null
+    },
+    {
+     "n": 18,
+     "authors": "Swan MK et al.",
+     "year": "2014",
+     "title": "Structure of human Bloom's syndrome helicase in complex with ADP and duplex DNA.",
+     "journal": "Acta Crystallogr D Biol Crystallogr",
+     "pmid": "24816114",
+     "doi": null
+    },
+    {
+     "n": 19,
+     "authors": "Bernstein DA, Zittel MC, Keck JL",
+     "year": "2003",
+     "title": "High-resolution structure of the E.coli RecQ helicase catalytic core.",
+     "journal": "EMBO J",
+     "pmid": "14517231",
+     "doi": null
+    },
+    {
+     "n": 20,
+     "authors": "Pike AC et al.",
+     "year": "2009",
+     "title": "Structure of the human RECQ1 helicase reveals a putative strand-separation pin.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19151156",
+     "doi": null
+    },
+    {
+     "n": 21,
+     "authors": "Macris MA et al.",
+     "year": "2006",
+     "title": "Biochemical characterization of the RECQ4 protein, mutated in Rothmund-Thomson syndrome.",
+     "journal": "DNA Repair (Amst)",
+     "pmid": "16214424",
+     "doi": null
+    },
+    {
+     "n": 22,
+     "authors": "Barea F, Tessaro S, Bonatto D",
+     "year": "2008",
+     "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+     "journal": "Comput Biol Chem",
+     "pmid": "18701350",
+     "doi": null
+    },
+    {
+     "n": 23,
+     "authors": "Lee W, St Onge RP et al.",
+     "year": "2005",
+     "title": "Genome-wide requirements for resistance to functionally distinct DNA-damaging agents.",
+     "journal": "PLoS Genet",
+     "pmid": "16121259",
+     "doi": null
+    },
+    {
+     "n": 24,
+     "authors": "Shiratori A et al.",
+     "year": "1999",
+     "title": "Systematic identification, classification, and characterization of the open reading frames which encode novel helicase-related proteins in Saccharomyces cerevisiae by gene disruption and Northern analysis.",
+     "journal": "Yeast",
+     "pmid": "10077188",
+     "doi": null
+    },
+    {
+     "n": 25,
+     "authors": "Yakovleva L, Shuman S",
+     "year": "2012",
+     "title": "Mycobacterium smegmatis SftH exemplifies a distinctive clade of superfamily II DNA-dependent ATPases with 3' to 5' translocase and helicase activities.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "22641846",
+     "doi": null
+    },
+    {
+     "n": 26,
+     "authors": "Burby PE, Simmons LA",
+     "year": "2019",
+     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
+     "journal": "Mol Microbiol",
+     "pmid": "30379365",
+     "doi": null
+    },
+    {
+     "n": 27,
+     "authors": "Hajj M et al.",
+     "year": "2019",
+     "title": "Archaeal SF1 and SF2 Helicases: Unwinding in the Extreme, Tuteja R (ed), Helicases from All Domains of Life doi:10.1016/c2017-0-01756-1.",
+     "journal": null,
+     "pmid": null,
+     "doi": "10.1016/c2017-0-01756-1",
+     "raw": "Hajj M, El-Hamaoui S, Batista M, Bouvier M, Abdel-Razzak Z, d'Orval BC, Chamieh H. 2019. Archaeal SF1 and SF2 Helicases: Unwinding in the Extreme, Tuteja R (ed), Helicases from All Domains of Life doi:10.1016/c2017-0-01756-1."
+    },
+    {
+     "n": 28,
+     "authors": "Bell RT et al.",
+     "year": "2025",
+     "title": "YprA family helicases provide the missing link between diverse prokaryotic immune systems.",
+     "journal": "bioRxiv",
+     "pmid": "41000832",
+     "doi": "10.1101/2025.09.15.676423"
+    },
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 30,
+     "authors": "Cejka P et al.",
+     "year": "2010",
+     "title": "DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2.",
+     "journal": "Nature",
+     "pmid": "20811461",
+     "doi": null
+    },
+    {
+     "n": 31,
+     "authors": "Cejka P et al.",
+     "year": "2010",
+     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
+     "journal": "Nat Struct Mol Biol",
+     "pmid": "20935631",
+     "doi": null
+    },
+    {
+     "n": 32,
+     "authors": "Adams MD, McVey M, Sekelsky JJ",
+     "year": "2003",
+     "title": "Drosophila BLM in double-strand break repair by synthesis-dependent strand annealing.",
+     "journal": "Science",
+     "pmid": "12522255",
+     "doi": null
+    },
+    {
+     "n": 33,
+     "authors": "Gravel S et al.",
+     "year": "2008",
+     "title": "DNA helicases Sgs1 and BLM promote DNA double-strand break resection.",
+     "journal": "Genes Dev",
+     "pmid": "18923075",
+     "doi": null
+    },
+    {
+     "n": 34,
+     "authors": "Myung K et al.",
+     "year": "2001",
+     "title": "SGS1, the Saccharomyces cerevisiae homologue of BLM and WRN, suppresses genome instability and homeologous recombination.",
+     "journal": "Nat Genet",
+     "pmid": "11138010",
+     "doi": null
+    },
+    {
+     "n": 35,
+     "authors": "Nimonkar AV et al.",
+     "year": "2008",
+     "title": "Human exonuclease 1 and BLM helicase interact to resect DNA and initiate DNA repair.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "18971343",
+     "doi": null
+    },
+    {
+     "n": 36,
+     "authors": "Croteau DL et al.",
+     "year": "2014",
+     "title": "Human RecQ helicases in DNA repair, recombination, and replication.",
+     "journal": "Annu Rev Biochem",
+     "pmid": "24606147",
+     "doi": null
+    },
+    {
+     "n": 37,
+     "authors": "Orren DK, Theodore S, Machwe A",
+     "year": "2002",
+     "title": "The Werner syndrome helicase/exonuclease (WRN) disrupts and degrades D-loops in vitro.",
+     "journal": "Biochemistry",
+     "pmid": "12427008",
+     "doi": null
+    },
+    {
+     "n": 38,
+     "authors": "Suzuki N et al.",
+     "year": "1999",
+     "title": "Werner syndrome helicase contains a 5'-->3' exonuclease activity that digests DNA and RNA strands in DNA/DNA and RNA/DNA duplexes dependent on unwinding.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "10325426",
+     "doi": null
+    },
+    {
+     "n": 39,
+     "authors": "Abe T et al.",
+     "year": "2011",
+     "title": "The N-terminal region of RECQL4 lacking the helicase domain is both essential and sufficient for the viability of vertebrate cells. Role of the N-terminal region of RECQL4 in cells.",
+     "journal": "Biochim Biophys Acta",
+     "pmid": "21256165",
+     "doi": null
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 41,
+     "authors": "Keller H et al.",
+     "year": "2014",
+     "title": "The intrinsically disordered amino-terminal region of human RecQL4: multiple DNA-binding domains confer annealing, strand exchange and G4 DNA binding.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "25336622",
+     "doi": null
+    },
+    {
+     "n": 42,
+     "authors": "Marino F et al.",
+     "year": "2016",
+     "title": "Structural and biochemical characterization of an RNA/DNA binding motif in the N-terminal domain of RecQ4 helicases.",
+     "journal": "Sci Rep",
+     "pmid": "26888063",
+     "doi": null
+    },
+    {
+     "n": 43,
+     "authors": "Sangrithi MN et al.",
+     "year": "2005",
+     "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+     "journal": "Cell",
+     "pmid": "15960976",
+     "doi": null
+    },
+    {
+     "n": 44,
+     "authors": "Xu X, Liu Y",
+     "year": "2009",
+     "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+     "journal": "EMBO J",
+     "pmid": "19177149",
+     "doi": null
+    },
+    {
+     "n": 45,
+     "authors": "Choi DH et al.",
+     "year": "2014",
+     "title": "Hrq1 facilitates nucleotide excision repair of DNA damage induced by 4-nitroquinoline-1-oxide and cisplatin in Saccharomyces cerevisiae.",
+     "journal": "J Microbiol",
+     "pmid": "24682993",
+     "doi": null
+    },
+    {
+     "n": 46,
+     "authors": "Hussain M et al.",
+     "year": "2025",
+     "title": "RECQL4 requires PARP1 for recruitment to DNA damage, and PARG dePARylation facilitates its associated role in end joining.",
+     "journal": "Exp Mol Med",
+     "pmid": "39870799",
+     "doi": null
+    },
+    {
+     "n": 47,
+     "authors": "Jin W et al.",
+     "year": "2008",
+     "title": "Sensitivity of RECQL4-deficient fibroblasts from Rothmund-Thomson syndrome patients to genotoxic agents.",
+     "journal": "Hum Genet",
+     "pmid": "18504617",
+     "doi": null
+    },
+    {
+     "n": 48,
+     "authors": "Luong TT et al.",
+     "year": "2022",
+     "title": "Hrq1/RECQL4 regulation is critical for preventing aberrant recombination during DNA intrastrand crosslink repair and is upregulated in breast cancer.",
+     "journal": "PLoS Genet",
+     "pmid": "36126066",
+     "doi": null
+    },
+    {
+     "n": 49,
+     "authors": "Rogers CM et al.",
+     "year": "2020",
+     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+     "journal": "Prog Biophys Mol Biol",
+     "pmid": "32877700",
+     "doi": "10.1016/j.pbiomolbio.2020.08.005"
+    },
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 51,
+     "authors": "Shamanna RA et al.",
+     "year": "2014",
+     "title": "RECQ helicase RECQL4 participates in non-homologous end joining and interacts with the Ku complex.",
+     "journal": "Carcinogenesis",
+     "pmid": "24942867",
+     "doi": null
+    },
+    {
+     "n": 52,
+     "authors": "Kohzaki M et al.",
+     "year": "2020",
+     "title": "Human RECQL4 represses the RAD52-mediated single-strand annealing pathway after ionizing radiation or cisplatin treatment.",
+     "journal": "Int J Cancer",
+     "pmid": "31495919",
+     "doi": null
+    },
+    {
+     "n": 53,
+     "authors": "Huang Q et al.",
+     "year": "2022",
+     "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+     "journal": "FASEB J",
+     "pmid": "34921745",
+     "doi": null
+    },
+    {
+     "n": 54,
+     "authors": "Singh DK et al.",
+     "year": "2010",
+     "title": "The involvement of human RECQL4 in DNA double-strand break repair.",
+     "journal": "Aging Cell",
+     "pmid": "20222902",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 From E. coli RecQ to RecQ Diversity",
+   "items": [
+    {
+     "n": 5,
+     "authors": "Nakayama H et al.",
+     "year": "1984",
+     "title": "Isolation and genetic characterization of a thymineless death-resistant mutant of Escherichia coli K12: identification of a new mutation (recQ1) that blocks the RecF recombination pathway.",
+     "journal": "Mol Gen Genet",
+     "pmid": "6381965",
+     "doi": null
+    },
+    {
+     "n": 55,
+     "authors": "Hanada K et al.",
+     "year": "1997",
+     "title": "RecQ DNA helicase is a suppressor of illegitimate recombination in Escherichia coli.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "9108069",
+     "doi": null
+    },
+    {
+     "n": 56,
+     "authors": "Irino N, Nakayama K, Nakayama H",
+     "year": "1986",
+     "title": "The recQ gene of Escherichia coli K12: primary structure and evidence for SOS regulation.",
+     "journal": "Mol Gen Genet",
+     "pmid": "3027506",
+     "doi": null
+    },
+    {
+     "n": 57,
+     "authors": "Nakayama K, Irino N, Nakayama H",
+     "year": "1985",
+     "title": "The recQ gene of Escherichia coli K12: molecular cloning and isolation of insertion mutants.",
+     "journal": "Mol Gen Genet",
+     "pmid": "2993821",
+     "doi": null
+    },
+    {
+     "n": 58,
+     "authors": "Umezu K, Nakayama H",
+     "year": "1993",
+     "title": "RecQ DNA helicase of Escherichia coli. Characterization of the helix-unwinding activity with emphasis on the effect of single-stranded DNA-binding protein.",
+     "journal": "J Mol Biol",
+     "pmid": "8387604",
+     "doi": null
+    },
+    {
+     "n": 59,
+     "authors": "Umezu K, Nakayama K, Nakayama H",
+     "year": "1990",
+     "title": "Escherichia coli RecQ protein is a DNA helicase.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "2164680",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 The Emergence of RECQL4",
+   "items": [
+    {
+     "n": 15,
+     "authors": "Larizza L, Roversi G, Volpi L",
+     "year": "2010",
+     "title": "Rothmund-Thomson syndrome.",
+     "journal": "Orphanet J Rare Dis",
+     "pmid": "20113479",
+     "doi": null
+    },
+    {
+     "n": 60,
+     "authors": "Lu H, Davis AJ",
+     "year": "2021",
+     "title": "Human RecQ Helicases in DNA Double-Strand Break Repair.",
+     "journal": "Front Cell Dev Biol",
+     "pmid": "33718381",
+     "doi": null
+    },
+    {
+     "n": 61,
+     "authors": "Kamimura Y et al.",
+     "year": "1998",
+     "title": "Sld2, which interacts with Dpb11 in Saccharomyces cerevisiae, is required for chromosomal DNA replication.",
+     "journal": "Mol Cell Biol",
+     "pmid": "9742127",
+     "doi": null
+    },
+    {
+     "n": 62,
+     "authors": "Kanter DM, Kaplan DL",
+     "year": "2011",
+     "title": "Sld2 binds to origin single-stranded DNA and stimulates DNA annealing.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "21109535",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 The Discovery of Hrq1 and Phylogenetic Separation",
+   "items": [
+    {
+     "n": 22,
+     "authors": "Barea F, Tessaro S, Bonatto D",
+     "year": "2008",
+     "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+     "journal": "Comput Biol Chem",
+     "pmid": "18701350",
+     "doi": null
+    },
+    {
+     "n": 63,
+     "authors": "Bochman ML et al.",
+     "year": "2014",
+     "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+     "journal": "Cell Rep",
+     "pmid": "24440721",
+     "doi": null
+    },
+    {
+     "n": 64,
+     "authors": "Sanders E et al.",
+     "year": "2020",
+     "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+     "journal": "G3 (Bethesda)",
+     "pmid": "33115720",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 Expansion into Plants and Early Eukaryotes",
+   "items": [
+    {
+     "n": 22,
+     "authors": "Barea F, Tessaro S, Bonatto D",
+     "year": "2008",
+     "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+     "journal": "Comput Biol Chem",
+     "pmid": "18701350",
+     "doi": null
+    },
+    {
+     "n": 65,
+     "authors": "Rohrig S et al.",
+     "year": "2018",
+     "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A.",
+     "journal": "New Phytol",
+     "pmid": "29577315",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 Bacterial DUF1998 Helicases and Modular Evolution",
+   "items": [
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Domain Architecture And Structural Organization \u2014 RecA motor mechanics and conformational cycling",
+   "items": [
+    {
+     "n": 66,
+     "authors": "Singleton MR, Dillingham MS, Wigley DB",
+     "year": "2007",
+     "title": "Structure and mechanism of helicases and nucleic acid translocases.",
+     "journal": "Annu Rev Biochem",
+     "pmid": "17506634",
+     "doi": null
+    },
+    {
+     "n": 67,
+     "authors": "Wu Y, Brosh RM, Jr",
+     "year": "2010",
+     "title": "Helicase-inactivating mutations as a basis for dominant negative phenotypes.",
+     "journal": "Cell Cycle",
+     "pmid": "20980836",
+     "doi": null
+    },
+    {
+     "n": 19,
+     "authors": "Bernstein DA, Zittel MC, Keck JL",
+     "year": "2003",
+     "title": "High-resolution structure of the E.coli RecQ helicase catalytic core.",
+     "journal": "EMBO J",
+     "pmid": "14517231",
+     "doi": null
+    },
+    {
+     "n": 20,
+     "authors": "Pike AC et al.",
+     "year": "2009",
+     "title": "Structure of the human RECQ1 helicase reveals a putative strand-separation pin.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19151156",
+     "doi": null
+    },
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 22,
+     "authors": "Barea F, Tessaro S, Bonatto D",
+     "year": "2008",
+     "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+     "journal": "Comput Biol Chem",
+     "pmid": "18701350",
+     "doi": null
+    },
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 53,
+     "authors": "Huang Q et al.",
+     "year": "2022",
+     "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+     "journal": "FASEB J",
+     "pmid": "34921745",
+     "doi": null
+    },
+    {
+     "n": 70,
+     "authors": "Shin S et al.",
+     "year": "2025",
+     "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+     "journal": "FEBS Open Bio",
+     "pmid": "39462683",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Domain Architecture And Structural Organization \u2014 Consequences of lacking RQC and HRDC domains",
+   "items": [
+    {
+     "n": 18,
+     "authors": "Swan MK et al.",
+     "year": "2014",
+     "title": "Structure of human Bloom's syndrome helicase in complex with ADP and duplex DNA.",
+     "journal": "Acta Crystallogr D Biol Crystallogr",
+     "pmid": "24816114",
+     "doi": null
+    },
+    {
+     "n": 71,
+     "authors": "Kitano K, Kim SY, Hakoshima T",
+     "year": "2010",
+     "title": "Structural basis for DNA strand separation by the unconventional winged-helix domain of RecQ helicase WRN.",
+     "journal": "Structure",
+     "pmid": "20159463",
+     "doi": null
+    },
+    {
+     "n": 20,
+     "authors": "Pike AC et al.",
+     "year": "2009",
+     "title": "Structure of the human RECQ1 helicase reveals a putative strand-separation pin.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19151156",
+     "doi": null
+    },
+    {
+     "n": 67,
+     "authors": "Wu Y, Brosh RM, Jr",
+     "year": "2010",
+     "title": "Helicase-inactivating mutations as a basis for dominant negative phenotypes.",
+     "journal": "Cell Cycle",
+     "pmid": "20980836",
+     "doi": null
+    },
+    {
+     "n": 19,
+     "authors": "Bernstein DA, Zittel MC, Keck JL",
+     "year": "2003",
+     "title": "High-resolution structure of the E.coli RecQ helicase catalytic core.",
+     "journal": "EMBO J",
+     "pmid": "14517231",
+     "doi": null
+    },
+    {
+     "n": 31,
+     "authors": "Cejka P et al.",
+     "year": "2010",
+     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
+     "journal": "Nat Struct Mol Biol",
+     "pmid": "20935631",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 64,
+     "authors": "Sanders E et al.",
+     "year": "2020",
+     "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+     "journal": "G3 (Bethesda)",
+     "pmid": "33115720",
+     "doi": null
+    },
+    {
+     "n": 72,
+     "authors": "Groocock LM et al.",
+     "year": "2012",
+     "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast.",
+     "journal": "Mol Cell Biol",
+     "pmid": "22064477",
+     "doi": null
+    },
+    {
+     "n": 63,
+     "authors": "Bochman ML et al.",
+     "year": "2014",
+     "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+     "journal": "Cell Rep",
+     "pmid": "24440721",
+     "doi": null
+    },
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Domain Architecture And Structural Organization \u2014 DUF1998 canopy architecture in bacterial RecQ4-family helicases",
+   "items": [
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Domain Architecture And Structural Organization \u2014 Structural implications of the Sld2-like N-terminal fusion",
+   "items": [
+    {
+     "n": 61,
+     "authors": "Kamimura Y et al.",
+     "year": "1998",
+     "title": "Sld2, which interacts with Dpb11 in Saccharomyces cerevisiae, is required for chromosomal DNA replication.",
+     "journal": "Mol Cell Biol",
+     "pmid": "9742127",
+     "doi": null
+    },
+    {
+     "n": 62,
+     "authors": "Kanter DM, Kaplan DL",
+     "year": "2011",
+     "title": "Sld2 binds to origin single-stranded DNA and stimulates DNA annealing.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "21109535",
+     "doi": null
+    },
+    {
+     "n": 73,
+     "authors": "Castillo-Tandazo W et al.",
+     "year": "2019",
+     "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+     "journal": "PLoS Genet",
+     "pmid": "31276497",
+     "doi": null
+    },
+    {
+     "n": 74,
+     "authors": "Padayachy L, Ntallis SG, Halazonetis TD",
+     "year": "2024",
+     "title": "RECQL4 is not critical for firing of human DNA replication origins.",
+     "journal": "Sci Rep",
+     "pmid": "38565932",
+     "doi": null
+    },
+    {
+     "n": 75,
+     "authors": "Buco PAV et al.",
+     "year": "2026",
+     "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication.",
+     "journal": "EMBO Rep",
+     "pmid": "41807760",
+     "doi": null
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 44,
+     "authors": "Xu X, Liu Y",
+     "year": "2009",
+     "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+     "journal": "EMBO J",
+     "pmid": "19177149",
+     "doi": null
+    },
+    {
+     "n": 18,
+     "authors": "Swan MK et al.",
+     "year": "2014",
+     "title": "Structure of human Bloom's syndrome helicase in complex with ADP and duplex DNA.",
+     "journal": "Acta Crystallogr D Biol Crystallogr",
+     "pmid": "24816114",
+     "doi": null
+    },
+    {
+     "n": 19,
+     "authors": "Bernstein DA, Zittel MC, Keck JL",
+     "year": "2003",
+     "title": "High-resolution structure of the E.coli RecQ helicase catalytic core.",
+     "journal": "EMBO J",
+     "pmid": "14517231",
+     "doi": null
+    },
+    {
+     "n": 71,
+     "authors": "Kitano K, Kim SY, Hakoshima T",
+     "year": "2010",
+     "title": "Structural basis for DNA strand separation by the unconventional winged-helix domain of RecQ helicase WRN.",
+     "journal": "Structure",
+     "pmid": "20159463",
+     "doi": null
+    },
+    {
+     "n": 76,
+     "authors": "Bernstein DA, Keck JL",
+     "year": "2005",
+     "title": "Conferring substrate specificity to DNA helicases: role of the RecQ HRDC domain.",
+     "journal": "Structure",
+     "pmid": "16084389",
+     "doi": null
+    },
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 77,
+     "authors": "Park SJ et al.",
+     "year": "2006",
+     "title": "A positive involvement of RecQL4 in UV-induced S-phase arrest.",
+     "journal": "DNA Cell Biol",
+     "pmid": "17184169",
+     "doi": null
+    },
+    {
+     "n": 78,
+     "authors": "Lim Y et al.",
+     "year": "2023",
+     "title": "In silico protein interaction screening uncovers DONSON's role in replication initiation.",
+     "journal": "Science",
+     "pmid": "37590370",
+     "doi": null
+    },
+    {
+     "n": 79,
+     "authors": "Evrin C et al.",
+     "year": "2023",
+     "title": "DONSON is required for CMG helicase assembly in the mammalian cell cycle.",
+     "journal": "EMBO Rep",
+     "pmid": "37781960",
+     "doi": null
+    },
+    {
+     "n": 80,
+     "authors": "Hashimoto Y et al.",
+     "year": "2023",
+     "title": "Novel role of DONSON in CMG helicase assembly during vertebrate DNA replication initiation.",
+     "journal": "EMBO J",
+     "pmid": "37458194",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Domain Architecture And Structural Organization \u2014 Full-length RECQL4 structural model",
+   "items": [
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 44,
+     "authors": "Xu X, Liu Y",
+     "year": "2009",
+     "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+     "journal": "EMBO J",
+     "pmid": "19177149",
+     "doi": null
+    },
+    {
+     "n": 73,
+     "authors": "Castillo-Tandazo W et al.",
+     "year": "2019",
+     "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+     "journal": "PLoS Genet",
+     "pmid": "31276497",
+     "doi": null
+    },
+    {
+     "n": 20,
+     "authors": "Pike AC et al.",
+     "year": "2009",
+     "title": "Structure of the human RECQ1 helicase reveals a putative strand-separation pin.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19151156",
+     "doi": null
+    },
+    {
+     "n": 67,
+     "authors": "Wu Y, Brosh RM, Jr",
+     "year": "2010",
+     "title": "Helicase-inactivating mutations as a basis for dominant negative phenotypes.",
+     "journal": "Cell Cycle",
+     "pmid": "20980836",
+     "doi": null
+    },
+    {
+     "n": 74,
+     "authors": "Padayachy L, Ntallis SG, Halazonetis TD",
+     "year": "2024",
+     "title": "RECQL4 is not critical for firing of human DNA replication origins.",
+     "journal": "Sci Rep",
+     "pmid": "38565932",
+     "doi": null
+    },
+    {
+     "n": 75,
+     "authors": "Buco PAV et al.",
+     "year": "2026",
+     "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication.",
+     "journal": "EMBO Rep",
+     "pmid": "41807760",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Biochemical Activities And Mechanistic Logic \u2014 ATPase kinetics and DNA coupling",
+   "items": [
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 81,
+     "authors": "Singh DK et al.",
+     "year": "2012",
+     "title": "The human RecQ helicases BLM and RECQL4 cooperate to preserve genome stability.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "22544709",
+     "doi": null
+    },
+    {
+     "n": 82,
+     "authors": "Simmons RH et al.",
+     "year": "2026",
+     "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+     "journal": "bioRxiv",
+     "pmid": "41726939",
+     "doi": "10.64898/2026.02.13.705743"
+    },
+    {
+     "n": 83,
+     "authors": "Karow JK et al.",
+     "year": "2000",
+     "title": "The Bloom's syndrome gene product promotes branch migration of holliday junctions.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "10823897",
+     "doi": null
+    },
+    {
+     "n": 84,
+     "authors": "Rossi ML et al.",
+     "year": "2010",
+     "title": "Conserved helicase domain of human RecQ4 is required for strand annealing-independent DNA unwinding.",
+     "journal": "DNA Repair (Amst)",
+     "pmid": "20451470",
+     "doi": null
+    },
+    {
+     "n": 85,
+     "authors": "Khadka P, Croteau DL, Bohr VA",
+     "year": "2016",
+     "title": "RECQL5 has unique strand annealing properties relative to the other human RecQ helicase proteins.",
+     "journal": "DNA Repair (Amst)",
+     "pmid": "26717024",
+     "doi": null
+    },
+    {
+     "n": 41,
+     "authors": "Keller H et al.",
+     "year": "2014",
+     "title": "The intrinsically disordered amino-terminal region of human RecQL4: multiple DNA-binding domains confer annealing, strand exchange and G4 DNA binding.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "25336622",
+     "doi": null
+    },
+    {
+     "n": 86,
+     "authors": "Rogers CM, Bochman ML",
+     "year": "2017",
+     "title": "Saccharomyces cerevisiae Hrq1 helicase activity is affected by the sequence but not the length of single-stranded DNA.",
+     "journal": "Biochem Biophys Res Commun",
+     "pmid": "28385527",
+     "doi": null
+    },
+    {
+     "n": 87,
+     "authors": "Suzuki T, Kohno T, Ishimi Y",
+     "year": "2009",
+     "title": "DNA helicase activity in purified human RECQL4 protein.",
+     "journal": "J Biochem",
+     "pmid": "19451148",
+     "doi": null
+    },
+    {
+     "n": 88,
+     "authors": "Capp C, Wu J, Hsieh TS",
+     "year": "2010",
+     "title": "RecQ4: the second replicative helicase?",
+     "journal": "Crit Rev Biochem Mol Biol",
+     "pmid": "20429771",
+     "doi": null
+    },
+    {
+     "n": 70,
+     "authors": "Shin S et al.",
+     "year": "2025",
+     "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+     "journal": "FEBS Open Bio",
+     "pmid": "39462683",
+     "doi": null
+    },
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 53,
+     "authors": "Huang Q et al.",
+     "year": "2022",
+     "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+     "journal": "FASEB J",
+     "pmid": "34921745",
+     "doi": null
+    },
+    {
+     "n": 89,
+     "authors": "Wu L et al.",
+     "year": "2005",
+     "title": "The HRDC domain of BLM is required for the dissolution of double Holliday junctions.",
+     "journal": "EMBO J",
+     "pmid": "15990871",
+     "doi": null
+    },
+    {
+     "n": 90,
+     "authors": "Wu L, Hickson ID",
+     "year": "2003",
+     "title": "The Bloom's syndrome helicase suppresses crossing over during homologous recombination.",
+     "journal": "Nature",
+     "pmid": "14685245",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Biochemical Activities And Mechanistic Logic \u2014 Substrate specificity",
+   "items": [
+    {
+     "n": 63,
+     "authors": "Bochman ML et al.",
+     "year": "2014",
+     "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+     "journal": "Cell Rep",
+     "pmid": "24440721",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 31,
+     "authors": "Cejka P et al.",
+     "year": "2010",
+     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
+     "journal": "Nat Struct Mol Biol",
+     "pmid": "20935631",
+     "doi": null
+    },
+    {
+     "n": 89,
+     "authors": "Wu L et al.",
+     "year": "2005",
+     "title": "The HRDC domain of BLM is required for the dissolution of double Holliday junctions.",
+     "journal": "EMBO J",
+     "pmid": "15990871",
+     "doi": null
+    },
+    {
+     "n": 64,
+     "authors": "Sanders E et al.",
+     "year": "2020",
+     "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+     "journal": "G3 (Bethesda)",
+     "pmid": "33115720",
+     "doi": null
+    },
+    {
+     "n": 81,
+     "authors": "Singh DK et al.",
+     "year": "2012",
+     "title": "The human RecQ helicases BLM and RECQL4 cooperate to preserve genome stability.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "22544709",
+     "doi": null
+    },
+    {
+     "n": 26,
+     "authors": "Burby PE, Simmons LA",
+     "year": "2019",
+     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
+     "journal": "Mol Microbiol",
+     "pmid": "30379365",
+     "doi": null
+    },
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 91,
+     "authors": "Rogers CM et al.",
+     "year": "2020",
+     "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair.",
+     "journal": "J Biol Chem",
+     "pmid": "32371399",
+     "doi": null
+    },
+    {
+     "n": 65,
+     "authors": "Rohrig S et al.",
+     "year": "2018",
+     "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A.",
+     "journal": "New Phytol",
+     "pmid": "29577315",
+     "doi": null
+    },
+    {
+     "n": 92,
+     "authors": "Bochman ML, Paeschke K, Zakian VA",
+     "year": "2012",
+     "title": "DNA secondary structures: stability and function of G-quadruplex structures.",
+     "journal": "Nat Rev Genet",
+     "pmid": "23032257",
+     "doi": null
+    },
+    {
+     "n": 93,
+     "authors": "Rhodes D, Lipps HJ",
+     "year": "2015",
+     "title": "G-quadruplexes and their regulatory roles in biology.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "26350216",
+     "doi": null
+    },
+    {
+     "n": 41,
+     "authors": "Keller H et al.",
+     "year": "2014",
+     "title": "The intrinsically disordered amino-terminal region of human RecQL4: multiple DNA-binding domains confer annealing, strand exchange and G4 DNA binding.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "25336622",
+     "doi": null
+    },
+    {
+     "n": 94,
+     "authors": "Lopes J et al.",
+     "year": "2011",
+     "title": "G-quadruplex-induced instability during leading-strand replication.",
+     "journal": "EMBO J",
+     "pmid": "21873979",
+     "doi": null
+    },
+    {
+     "n": 95,
+     "authors": "Paeschke K, Capra JA, Zakian VA",
+     "year": "2011",
+     "title": "DNA replication through G-quadruplex motifs is promoted by the Saccharomyces cerevisiae Pif1 DNA helicase.",
+     "journal": "Cell",
+     "pmid": "21620135",
+     "doi": null
+    },
+    {
+     "n": 96,
+     "authors": "Ghosh AK et al.",
+     "year": "2011",
+     "title": "RECQL4, the protein mutated in Rothmund-Thomson syndrome, functions in telomere maintenance.",
+     "journal": "J Biol Chem",
+     "pmid": "22039056",
+     "doi": null
+    },
+    {
+     "n": 97,
+     "authors": "Nickens DG, Rogers CM, Bochman ML",
+     "year": "2018",
+     "title": "The Saccharomyces cerevisiae Hrq1 and Pif1 DNA helicases synergistically modulate telomerase activity in vitro.",
+     "journal": "J Biol Chem",
+     "pmid": "30068549",
+     "doi": null
+    },
+    {
+     "n": 49,
+     "authors": "Rogers CM et al.",
+     "year": "2020",
+     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+     "journal": "Prog Biophys Mol Biol",
+     "pmid": "32877700",
+     "doi": "10.1016/j.pbiomolbio.2020.08.005"
+    },
+    {
+     "n": 98,
+     "authors": "Siddiqui-Jain A et al.",
+     "year": "2002",
+     "title": "Direct evidence for a G-quadruplex in a promoter region and its targeting with a small molecule to repress c-MYC transcription.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "12195017",
+     "doi": null
+    },
+    {
+     "n": 99,
+     "authors": "Huppert JL, Balasubramanian S",
+     "year": "2007",
+     "title": "G-quadruplexes in promoters throughout the human genome.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "17169996",
+     "doi": null
+    },
+    {
+     "n": 100,
+     "authors": "Chen Y et al.",
+     "year": "2024",
+     "title": "An Upstream G-Quadruplex DNA Structure Can Stimulate Gene Transcription.",
+     "journal": "ACS Chem Biol",
+     "pmid": "38417105",
+     "doi": null
+    },
+    {
+     "n": 101,
+     "authors": "Castillo Bosch P et al.",
+     "year": "2014",
+     "title": "FANCJ promotes DNA synthesis through G-quadruplex structures.",
+     "journal": "EMBO J",
+     "pmid": "25193968",
+     "doi": null
+    },
+    {
+     "n": 102,
+     "authors": "Arora A et al.",
+     "year": "2016",
+     "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+     "journal": "J Pathol",
+     "pmid": "26690729",
+     "doi": null
+    },
+    {
+     "n": 103,
+     "authors": "Papageorgiou AC et al.",
+     "year": "2023",
+     "title": "Recognition and coacervation of G-quadruplexes by a multifunctional disordered region in RECQ4 helicase.",
+     "journal": "Nat Commun",
+     "pmid": "37875529",
+     "doi": null
+    },
+    {
+     "n": 104,
+     "authors": "Gray SJ, Bochman ML",
+     "year": "2026",
+     "title": "A genetically buffered helicase network promotes tolerance of G-quadruplex stabilization in Saccharomyces cerevisiae. bioRxiv doi:10.64898/2026.07.07.737069.",
+     "journal": null,
+     "pmid": null,
+     "doi": "10.64898/2026.07.07.737069",
+     "raw": "Gray SJ, Bochman ML. 2026. A genetically buffered helicase network promotes tolerance of G-quadruplex stabilization in Saccharomyces cerevisiae. bioRxiv doi:10.64898/2026.07.07.737069."
+    },
+    {
+     "n": 105,
+     "authors": "Revy P et al.",
+     "year": "2000",
+     "title": "Activation-induced cytidine deaminase (AID) deficiency causes the autosomal recessive form of the Hyper-IgM syndrome (HIGM2).",
+     "journal": "Cell",
+     "pmid": "11007475",
+     "doi": null
+    },
+    {
+     "n": 106,
+     "authors": "Regmi S et al.",
+     "year": "2026",
+     "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes. bioRxiv doi:10.64898/2026.08.13.744683.",
+     "journal": null,
+     "pmid": null,
+     "doi": "10.64898/2026.08.13.744683",
+     "raw": "Regmi S, Alsulaiti N, Darling D, Bolgova A, Theulot B, Gray SJ, Bochman ML, Smith DJ. 2026. Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes. bioRxiv doi:10.64898/2026.08.13.744683."
+    }
+   ]
+  },
+  {
+   "topic": "Biochemical Activities And Mechanistic Logic \u2014 Regulatory logic",
+   "items": [
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 51,
+     "authors": "Shamanna RA et al.",
+     "year": "2014",
+     "title": "RECQ helicase RECQL4 participates in non-homologous end joining and interacts with the Ku complex.",
+     "journal": "Carcinogenesis",
+     "pmid": "24942867",
+     "doi": null
+    },
+    {
+     "n": 53,
+     "authors": "Huang Q et al.",
+     "year": "2022",
+     "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+     "journal": "FASEB J",
+     "pmid": "34921745",
+     "doi": null
+    },
+    {
+     "n": 46,
+     "authors": "Hussain M et al.",
+     "year": "2025",
+     "title": "RECQL4 requires PARP1 for recruitment to DNA damage, and PARG dePARylation facilitates its associated role in end joining.",
+     "journal": "Exp Mol Med",
+     "pmid": "39870799",
+     "doi": null
+    },
+    {
+     "n": 70,
+     "authors": "Shin S et al.",
+     "year": "2025",
+     "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+     "journal": "FEBS Open Bio",
+     "pmid": "39462683",
+     "doi": null
+    },
+    {
+     "n": 107,
+     "authors": "Croteau DL et al.",
+     "year": "2012",
+     "title": "RECQL4 localizes to mitochondria and preserves mitochondrial DNA integrity.",
+     "journal": "Aging Cell",
+     "pmid": "22296597",
+     "doi": null
+    },
+    {
+     "n": 108,
+     "authors": "Chi Z et al.",
+     "year": "2012",
+     "title": "RecQL4 cytoplasmic localization: implications in mitochondrial DNA oxidative damage repair.",
+     "journal": "Int J Biochem Cell Biol",
+     "pmid": "22824301",
+     "doi": null
+    },
+    {
+     "n": 109,
+     "authors": "Hussain M et al.",
+     "year": "2023",
+     "title": "Hyperubiquitylation of DNA helicase RECQL4 by E3 ligase MITOL prevents mitochondrial entry and potentiates mitophagy.",
+     "journal": "J Biol Chem",
+     "pmid": "37495109",
+     "doi": null
+    },
+    {
+     "n": 103,
+     "authors": "Papageorgiou AC et al.",
+     "year": "2023",
+     "title": "Recognition and coacervation of G-quadruplexes by a multifunctional disordered region in RECQ4 helicase.",
+     "journal": "Nat Commun",
+     "pmid": "37875529",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Overview",
+   "items": [
+    {
+     "n": 27,
+     "authors": "Hajj M et al.",
+     "year": "2019",
+     "title": "Archaeal SF1 and SF2 Helicases: Unwinding in the Extreme, Tuteja R (ed), Helicases from All Domains of Life doi:10.1016/c2017-0-01756-1.",
+     "journal": null,
+     "pmid": null,
+     "doi": "10.1016/c2017-0-01756-1",
+     "raw": "Hajj M, El-Hamaoui S, Batista M, Bouvier M, Abdel-Razzak Z, d'Orval BC, Chamieh H. 2019. Archaeal SF1 and SF2 Helicases: Unwinding in the Extreme, Tuteja R (ed), Helicases from All Domains of Life doi:10.1016/c2017-0-01756-1."
+    },
+    {
+     "n": 110,
+     "authors": "Chamieh H, Ibrahim H, Kozah J",
+     "year": "2016",
+     "title": "Genome-wide identification of SF1 and SF2 helicases from archaea.",
+     "journal": "Gene",
+     "pmid": "26456193",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "YprA helicases in prokaryotic immune systems",
+   "items": [
+    {
+     "n": 66,
+     "authors": "Singleton MR, Dillingham MS, Wigley DB",
+     "year": "2007",
+     "title": "Structure and mechanism of helicases and nucleic acid translocases.",
+     "journal": "Annu Rev Biochem",
+     "pmid": "17506634",
+     "doi": null
+    },
+    {
+     "n": 79,
+     "authors": "Evrin C et al.",
+     "year": "2023",
+     "title": "DONSON is required for CMG helicase assembly in the mammalian cell cycle.",
+     "journal": "EMBO Rep",
+     "pmid": "37781960",
+     "doi": null
+    },
+    {
+     "n": 80,
+     "authors": "Hashimoto Y et al.",
+     "year": "2023",
+     "title": "Novel role of DONSON in CMG helicase assembly during vertebrate DNA replication initiation.",
+     "journal": "EMBO J",
+     "pmid": "37458194",
+     "doi": null
+    },
+    {
+     "n": 81,
+     "authors": "Singh DK et al.",
+     "year": "2012",
+     "title": "The human RecQ helicases BLM and RECQL4 cooperate to preserve genome stability.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "22544709",
+     "doi": null
+    },
+    {
+     "n": 34,
+     "authors": "Myung K et al.",
+     "year": "2001",
+     "title": "SGS1, the Saccharomyces cerevisiae homologue of BLM and WRN, suppresses genome instability and homeologous recombination.",
+     "journal": "Nat Genet",
+     "pmid": "11138010",
+     "doi": null
+    },
+    {
+     "n": 2,
+     "authors": "Bernstein KA, Gangloff S, Rothstein R",
+     "year": "2010",
+     "title": "The RecQ DNA helicases in DNA repair.",
+     "journal": "Annu Rev Genet",
+     "pmid": "21047263",
+     "doi": null
+    },
+    {
+     "n": 18,
+     "authors": "Swan MK et al.",
+     "year": "2014",
+     "title": "Structure of human Bloom's syndrome helicase in complex with ADP and duplex DNA.",
+     "journal": "Acta Crystallogr D Biol Crystallogr",
+     "pmid": "24816114",
+     "doi": null
+    },
+    {
+     "n": 19,
+     "authors": "Bernstein DA, Zittel MC, Keck JL",
+     "year": "2003",
+     "title": "High-resolution structure of the E.coli RecQ helicase catalytic core.",
+     "journal": "EMBO J",
+     "pmid": "14517231",
+     "doi": null
+    },
+    {
+     "n": 20,
+     "authors": "Pike AC et al.",
+     "year": "2009",
+     "title": "Structure of the human RECQ1 helicase reveals a putative strand-separation pin.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19151156",
+     "doi": null
+    },
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 63,
+     "authors": "Bochman ML et al.",
+     "year": "2014",
+     "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+     "journal": "Cell Rep",
+     "pmid": "24440721",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 82,
+     "authors": "Simmons RH et al.",
+     "year": "2026",
+     "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+     "journal": "bioRxiv",
+     "pmid": "41726939",
+     "doi": "10.64898/2026.02.13.705743"
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions",
+   "items": [
+    {
+     "n": 22,
+     "authors": "Barea F, Tessaro S, Bonatto D",
+     "year": "2008",
+     "title": "In silico analyses of a new group of fungal and plant RecQ4-homologous proteins.",
+     "journal": "Comput Biol Chem",
+     "pmid": "18701350",
+     "doi": null
+    },
+    {
+     "n": 67,
+     "authors": "Wu Y, Brosh RM, Jr",
+     "year": "2010",
+     "title": "Helicase-inactivating mutations as a basis for dominant negative phenotypes.",
+     "journal": "Cell Cycle",
+     "pmid": "20980836",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 A Conserved Motor, Divergent Scaffolds",
+   "items": [
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 66,
+     "authors": "Singleton MR, Dillingham MS, Wigley DB",
+     "year": "2007",
+     "title": "Structure and mechanism of helicases and nucleic acid translocases.",
+     "journal": "Annu Rev Biochem",
+     "pmid": "17506634",
+     "doi": null
+    },
+    {
+     "n": 67,
+     "authors": "Wu Y, Brosh RM, Jr",
+     "year": "2010",
+     "title": "Helicase-inactivating mutations as a basis for dominant negative phenotypes.",
+     "journal": "Cell Cycle",
+     "pmid": "20980836",
+     "doi": null
+    },
+    {
+     "n": 65,
+     "authors": "Rohrig S et al.",
+     "year": "2018",
+     "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A.",
+     "journal": "New Phytol",
+     "pmid": "29577315",
+     "doi": null
+    },
+    {
+     "n": 72,
+     "authors": "Groocock LM et al.",
+     "year": "2012",
+     "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast.",
+     "journal": "Mol Cell Biol",
+     "pmid": "22064477",
+     "doi": null
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 44,
+     "authors": "Xu X, Liu Y",
+     "year": "2009",
+     "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+     "journal": "EMBO J",
+     "pmid": "19177149",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 Replication-Coupled Repair Specialization",
+   "items": [
+    {
+     "n": 2,
+     "authors": "Bernstein KA, Gangloff S, Rothstein R",
+     "year": "2010",
+     "title": "The RecQ DNA helicases in DNA repair.",
+     "journal": "Annu Rev Genet",
+     "pmid": "21047263",
+     "doi": null
+    },
+    {
+     "n": 36,
+     "authors": "Croteau DL et al.",
+     "year": "2014",
+     "title": "Human RecQ helicases in DNA repair, recombination, and replication.",
+     "journal": "Annu Rev Biochem",
+     "pmid": "24606147",
+     "doi": null
+    },
+    {
+     "n": 63,
+     "authors": "Bochman ML et al.",
+     "year": "2014",
+     "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity.",
+     "journal": "Cell Rep",
+     "pmid": "24440721",
+     "doi": null
+    },
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 Regulatory Integration",
+   "items": [
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 60,
+     "authors": "Lu H, Davis AJ",
+     "year": "2021",
+     "title": "Human RecQ Helicases in DNA Double-Strand Break Repair.",
+     "journal": "Front Cell Dev Biol",
+     "pmid": "33718381",
+     "doi": null
+    },
+    {
+     "n": 206,
+     "authors": "Lu H et al.",
+     "year": "2016",
+     "title": "RECQL4 Promotes DNA End Resection in Repair of DNA Double-Strand Breaks.",
+     "journal": "Cell Rep",
+     "pmid": "27320928",
+     "doi": null
+    },
+    {
+     "n": 53,
+     "authors": "Huang Q et al.",
+     "year": "2022",
+     "title": "UBE2O and USP7 co-regulate RECQL4 ubiquitinylation and homologous recombination-mediated DNA repair.",
+     "journal": "FASEB J",
+     "pmid": "34921745",
+     "doi": null
+    },
+    {
+     "n": 46,
+     "authors": "Hussain M et al.",
+     "year": "2025",
+     "title": "RECQL4 requires PARP1 for recruitment to DNA damage, and PARG dePARylation facilitates its associated role in end joining.",
+     "journal": "Exp Mol Med",
+     "pmid": "39870799",
+     "doi": null
+    },
+    {
+     "n": 70,
+     "authors": "Shin S et al.",
+     "year": "2025",
+     "title": "Interaction of RECQL4 with poly(ADP-ribose) is critical for the DNA double-strand break response in human cells.",
+     "journal": "FEBS Open Bio",
+     "pmid": "39462683",
+     "doi": null
+    },
+    {
+     "n": 43,
+     "authors": "Sangrithi MN et al.",
+     "year": "2005",
+     "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome.",
+     "journal": "Cell",
+     "pmid": "15960976",
+     "doi": null
+    },
+    {
+     "n": 102,
+     "authors": "Arora A et al.",
+     "year": "2016",
+     "title": "RECQL4 helicase has oncogenic potential in sporadic breast cancers.",
+     "journal": "J Pathol",
+     "pmid": "26690729",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 Evolutionary Plasticity",
+   "items": [
+    {
+     "n": 26,
+     "authors": "Burby PE, Simmons LA",
+     "year": "2019",
+     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
+     "journal": "Mol Microbiol",
+     "pmid": "30379365",
+     "doi": null
+    },
+    {
+     "n": 28,
+     "authors": "Bell RT et al.",
+     "year": "2025",
+     "title": "YprA family helicases provide the missing link between diverse prokaryotic immune systems.",
+     "journal": "bioRxiv",
+     "pmid": "41000832",
+     "doi": "10.1101/2025.09.15.676423"
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 182,
+     "authors": "Xu Y et al.",
+     "year": "2009",
+     "title": "dRecQ4 is required for DNA synthesis and essential for cell proliferation in Drosophila.",
+     "journal": "PLoS One",
+     "pmid": "19572017",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 Outstanding Mechanistic Questions",
+   "items": [
+    {
+     "n": 68,
+     "authors": "Kaiser S, Sauer F, Kisker C",
+     "year": "2017",
+     "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
+     "journal": "Nat Commun",
+     "pmid": "28653661",
+     "doi": null
+    },
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 69,
+     "authors": "Rogers CM et al.",
+     "year": "2017",
+     "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28334827",
+     "doi": null
+    },
+    {
+     "n": 49,
+     "authors": "Rogers CM et al.",
+     "year": "2020",
+     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
+     "journal": "Prog Biophys Mol Biol",
+     "pmid": "32877700",
+     "doi": "10.1016/j.pbiomolbio.2020.08.005"
+    },
+    {
+     "n": 40,
+     "authors": "Im JS et al.",
+     "year": "2009",
+     "title": "Assembly of the Cdc45-Mcm2-7-GINS complex in human cells requires the Ctf4/And-1, RecQL4, and Mcm10 proteins.",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "19805216",
+     "doi": null
+    },
+    {
+     "n": 73,
+     "authors": "Castillo-Tandazo W et al.",
+     "year": "2019",
+     "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4.",
+     "journal": "PLoS Genet",
+     "pmid": "31276497",
+     "doi": null
+    },
+    {
+     "n": 82,
+     "authors": "Simmons RH et al.",
+     "year": "2026",
+     "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor.",
+     "journal": "bioRxiv",
+     "pmid": "41726939",
+     "doi": "10.64898/2026.02.13.705743"
+    },
+    {
+     "n": 214,
+     "authors": "Aguilera A, Garc\u00eda-Muse T",
+     "year": "2012",
+     "title": "R loops: from transcription byproducts to threats to genome stability.",
+     "journal": "Mol Cell",
+     "pmid": "22541554",
+     "doi": null
+    },
+    {
+     "n": 215,
+     "authors": "Santos-Pereira JM, Aguilera A",
+     "year": "2015",
+     "title": "R loops: new modulators of genome dynamics and function.",
+     "journal": "Nat Rev Genet",
+     "pmid": "26370899",
+     "doi": null
+    },
+    {
+     "n": 216,
+     "authors": "Chakraborty P, Grosse F",
+     "year": "2011",
+     "title": "Human DHX9 helicase preferentially unwinds RNA-containing displacement loops (R-loops) and G-quadruplexes.",
+     "journal": "DNA Repair (Amst)",
+     "pmid": "21561811",
+     "doi": null
+    },
+    {
+     "n": 217,
+     "authors": "Popuri V et al.",
+     "year": "2014",
+     "title": "Human RECQL1 participates in telomere maintenance.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "24623817",
+     "doi": null
+    },
+    {
+     "n": 218,
+     "authors": "Hatchi E et al.",
+     "year": "2015",
+     "title": "BRCA1 recruitment to transcriptional pause sites is required for R-loop-driven DNA damage repair.",
+     "journal": "Mol Cell",
+     "pmid": "25699710",
+     "doi": null
+    },
+    {
+     "n": 44,
+     "authors": "Xu X, Liu Y",
+     "year": "2009",
+     "title": "Dual DNA unwinding activities of the Rothmund-Thomson syndrome protein, RECQ4.",
+     "journal": "EMBO J",
+     "pmid": "19177149",
+     "doi": null
+    },
+    {
+     "n": 64,
+     "authors": "Sanders E et al.",
+     "year": "2020",
+     "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1.",
+     "journal": "G3 (Bethesda)",
+     "pmid": "33115720",
+     "doi": null
+    },
+    {
+     "n": 137,
+     "authors": "Rogers CM et al.",
+     "year": "2020",
+     "title": "The Genetic and Physical Interactomes of the Saccharomyces cerevisiae Hrq1 Helicase.",
+     "journal": "G3 (Bethesda)",
+     "pmid": "33115721",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Comparative Synthesis And Future Directions \u2014 Concluding Perspective",
+   "items": [
+    {
+     "n": 29,
+     "authors": "Roske JJ et al.",
+     "year": "2021",
+     "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
+     "journal": "Nucleic Acids Res",
+     "pmid": "33300032",
+     "doi": null
+    },
+    {
+     "n": 50,
+     "authors": "Lu H et al.",
+     "year": "2017",
+     "title": "Cell cycle-dependent phosphorylation regulates RECQL4 pathway choice and ubiquitination in DNA double-strand break repair.",
+     "journal": "Nat Commun",
+     "pmid": "29229926",
+     "doi": null
+    },
+    {
+     "n": 72,
+     "authors": "Groocock LM et al.",
+     "year": "2012",
+     "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast.",
+     "journal": "Mol Cell Biol",
+     "pmid": "22064477",
+     "doi": null
+    }
+   ]
+  }
+ ]
+}
