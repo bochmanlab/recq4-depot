@@ -1,0 +1,419 @@
+{
+ "uniprot": "P50830",
+ "slug": "mrfa-bsubtilis",
+ "gene": "mrfA",
+ "short": "MrfA",
+ "organism": "Bacillus subtilis",
+ "kingdom": "Bacteria",
+ "pubmed": "MrfA[tiab] AND (Bacillus OR helicase)",
+ "uniprot_data": {
+  "accession": "P50830",
+  "entry": "MRFA_BACSU",
+  "reviewed": true,
+  "name": "Mitomycin repair factor A",
+  "alt_names": [
+   "DNA 3'-5' helicase MrfA"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "mrfA",
+   "yprA",
+   "BSU22220"
+  ],
+  "organism": "Bacillus subtilis (strain 168)",
+  "taxid": 224308,
+  "length": 749,
+  "mass": 84590,
+  "sequence": "MKKKSLTELISDLKGNENVVNWHEIEPREAKTRPMPESIDERIKAALSKRGIDELYTHQYSAFQYVQKGESIVTVTPTASGKTLCYNLPVLQSIAQDETNRALYLFPTKALAQDQKSELNEIIDEMGIDIKSFTYDGDTSPAIRQKVRKAGHIVITNPDMLHSAILPHHTKWVSLFENLKYIVIDELHTYRGVFGSHVANVIRRLKRICRFYGSDPVFICTSATIANPKELGEQLTGKPMRLVDDNGAPSGRKHFVFYNPPIVNKPLNIRRSATAEVNELAKEFLKNKVQTIVFARSRVRVEIILSHIQELVKKEIGTKSIRGYRGGYLPKERREIERGLREGDILGVVSTNALELGVDIGQLQVCVMTGYPGSVASAWQQAGRAGRRHGESLIIMVANSTPIDQYIVRHPEYFFNRSPESARINPENLIILVDHLKCAAYELPFRADEEFGAMEVSDILEYLQEEAVLHRNGERYHWASESFPASNISLRSASQENVVIVDQSDIANVRIIGEMDRFSAMTLLHDEAIYLHEGVQYQVEKLDWDHKKAYVRKVDVEYYTDANLAVQLKVLEIDKTKEKSRTSLHYGDVTVNALPTIFKKIKMTTFENIGSGPIHLPEEELHTSAAWLEIKTADEDIGEKTLEQLLLGISNVLQHIVPVYIMCDRNDVHVVSQIKAAHTGLPTIFLYDHYPGGIGLAEEVFKRFSDINEAAKQLITHCPCHDGCPSCIGTEIEGIKAKERILQLLDQMS",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "Part of a nucleotide excision repair pathway specific for mitomycin C (MMC), separate from the UvrABC excision repair pathway (PubMed:30379365). Probably acts on DNA monoadducts or intra-strand cross-links induced by MMC (PubMed:30379365). Has 3'-5' DNA helicase activity (has no activity on RNA) and single-stranded (ss)DNA-dependent ATPase activity (PubMed:33300032)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer (PubMed:33300032). Interacts with MrfB (PubMed:30379365)"
+   ],
+   "DOMAIN": [
+    "ssDNA binds across the surface of the RecA1 and RecA2 domains (PubMed:33300032). Upon DNA-binding the OB and CON domains reposition and enclose ssDNA, may 'ratchet' along the DNA using ATPase-driven domain repositioning (PubMed:33300032)"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Increased sensitivity to mitomycin C (MMC) but not UV, 4-nitroquinoline 1-oxide or DNA cross-linking agent psoralen (trioxsalen) (PubMed:30379365). A double mrfA-mrfB deletion is as sensitive to MMC as each individual deletion (PubMed:30379365). Deletion of mrfAB and uvrABC makes cells hypersensitive to MMC (PubMed:30379365)"
+   ],
+   "MISCELLANEOUS": [
+    "MMC interacts with guanines to form monoadducts, intra-strand and inter-strand cross-links"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. HRQ1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 63,
+     "end": 243
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 276,
+     "end": 430
+    }
+   ],
+   "regions": [
+    {
+     "name": "N-terminal region (NTR)",
+     "start": 1,
+     "end": 39
+    },
+    {
+     "name": "RecA1",
+     "start": 40,
+     "end": 250
+    },
+    {
+     "name": "RecA2",
+     "start": 251,
+     "end": 423
+    },
+    {
+     "name": "Winged-helix (WH)",
+     "start": 424,
+     "end": 490
+    },
+    {
+     "name": "Oligonucleotide/oligosaccharide-binding (OB)",
+     "start": 491,
+     "end": 556
+    },
+    {
+     "name": "Connector (CON)",
+     "start": 557,
+     "end": 630
+    },
+    {
+     "name": "MrfA Zn(2+)-binding (MZB)",
+     "start": 631,
+     "end": 749
+    }
+   ],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 185,
+     "end": 188
+    }
+   ],
+   "binding": [
+    {
+     "start": 54,
+     "end": 54,
+     "ligand": "ATP"
+    },
+    {
+     "start": 56,
+     "end": 56,
+     "ligand": "ATP"
+    },
+    {
+     "start": 59,
+     "end": 59,
+     "ligand": "ATP"
+    },
+    {
+     "start": 79,
+     "end": 79,
+     "ligand": "ATP"
+    },
+    {
+     "start": 80,
+     "end": 80,
+     "ligand": "ATP"
+    },
+    {
+     "start": 82,
+     "end": 82,
+     "ligand": "ATP"
+    },
+    {
+     "start": 83,
+     "end": 83,
+     "ligand": "ATP"
+    },
+    {
+     "start": 357,
+     "end": 357,
+     "ligand": "ATP"
+    },
+    {
+     "start": 384,
+     "end": 384,
+     "ligand": "ATP"
+    },
+    {
+     "start": 718,
+     "end": 718,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 720,
+     "end": 720,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 724,
+     "end": 724,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 727,
+     "end": 727,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 82,
+     "change": "K>A",
+     "desc": "Does not restore growth on MMC."
+    },
+    {
+     "pos": 134,
+     "change": "T>V",
+     "desc": "Partially restores growth on MMC."
+    },
+    {
+     "pos": 185,
+     "change": "DE>AA",
+     "desc": "Does not restore growth on MMC."
+    },
+    {
+     "pos": 222,
+     "change": "S>A",
+     "desc": "Does not restore growth on MMC."
+    },
+    {
+     "pos": 322,
+     "change": "R>E",
+     "desc": "Nearly complete loss of helicase and ATPase activities, loss of ssDNA-binding. Restoration of all activities; when associated with R-533."
+    },
+    {
+     "pos": 483,
+     "change": "F>A",
+     "desc": "2-4 fold reduction in helicase, ATPase and DNA-binding."
+    },
+    {
+     "pos": 491,
+     "change": "R>A",
+     "desc": "Nearly complete loss of helicase and ATPase activities, loss of ssDNA-binding."
+    },
+    {
+     "pos": 533,
+     "change": "E>R",
+     "desc": "Nearly complete loss of helicase and ATPase activities, loss of ssDNA-binding. Restoration of all activities; when associated with E-322."
+    },
+    {
+     "pos": 659,
+     "change": ">",
+     "desc": "Does not restore growth on MMC."
+    },
+    {
+     "pos": 666,
+     "change": "N>A",
+     "desc": "Wild-type helicase activity."
+    },
+    {
+     "pos": 718,
+     "change": "CPCHDGCPSC>APAHDGAPSA",
+     "desc": "Does not restore growth on MMC."
+    },
+    {
+     "pos": 718,
+     "change": "CPC>APA",
+     "desc": "Does not restore growth on MMC."
+    }
+   ],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0003676",
+    "term": "F:nucleic acid binding"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   }
+  ],
+  "pdb": [
+   {
+    "id": "6ZNP",
+    "method": "X-ray",
+    "res": "3.16 A",
+    "chains": "A/B=1-749"
+   },
+   {
+    "id": "6ZNQ",
+    "method": "X-ray",
+    "res": "3.34 A",
+    "chains": "A/B=1-749"
+   },
+   {
+    "id": "6ZNS",
+    "method": "X-ray",
+    "res": "3.32 A",
+    "chains": "A=1-749"
+   }
+  ],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR055227",
+    "name": "HRQ1_WHD"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF22982",
+    "name": "WHD_HRQ1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_390104.1",
+   "WP_003246149.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-P50830-F1",
+  "globalMetricValue": 87.56,
+  "fractionPlddtVeryHigh": 0.503,
+  "fractionPlddtConfident": 0.447,
+  "fractionPlddtLow": 0.047,
+  "fractionPlddtVeryLow": 0.003,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P50830-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P50830-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-P50830-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 3,
+  "papers": [
+   {
+    "pmid": "38661211",
+    "title": "Structural and biochemical characterization of the mitomycin C repair exonuclease MrfB",
+    "authors": [
+     "Manthei KA",
+     "Munson LM",
+     "Nandakumar J",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Jun 24"
+   },
+   {
+    "pmid": "38405983",
+    "title": "Structural and biochemical characterization of the mitomycin C repair exonuclease MrfB",
+    "authors": [
+     "Manthei KA",
+     "Munson LM",
+     "Nandakumar J",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2024",
+    "date": "2024 Feb 17"
+   },
+   {
+    "pmid": "30379365",
+    "title": "A bacterial DNA repair pathway specific to a natural antibiotic",
+    "authors": [
+     "Burby PE",
+     "Simmons LA"
+    ],
+    "journal": "Mol Microbiol",
+    "year": "2019",
+    "date": "2019 Feb"
+   }
+  ],
+  "query": "MrfA[tiab] AND (Bacillus OR helicase)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

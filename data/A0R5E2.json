@@ -1,0 +1,269 @@
+{
+ "uniprot": "A0R5E2",
+ "slug": "sfth-msmegmatis",
+ "gene": "sftH",
+ "short": "SftH",
+ "organism": "Mycolicibacterium smegmatis",
+ "kingdom": "Bacteria",
+ "pubmed": "SftH[tiab] AND (Mycobacterium OR Mycolicibacterium OR smegmatis)",
+ "uniprot_data": {
+  "accession": "A0R5E2",
+  "entry": "SFTH_MYCS2",
+  "reviewed": true,
+  "name": "DNA 3'-5' helicase SftH",
+  "alt_names": [],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "sftH",
+   "MSMEG_6160",
+   "MSMEI_6002"
+  ],
+  "organism": "Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)",
+  "taxid": 246196,
+  "length": 776,
+  "mass": 82543,
+  "sequence": "MSDRGLEFGRELLNCAVEGTPGDDNPLRHVADLAPRTGKPVPWPAWAHPDVVRALHDHGITAPWSHQLSAAQLAHDGRHVVISTGTASGKSLAYQLPILSALADDPRARVLYLSPTKALGHDQLRAAHALTESVAALRDVAPAPYDGDSATEVRRFARERSRWIFSNPDMIHLSLLRNHSRWAVFLRNLRYIVVDECHYYRGIFGSNVAMVLRRLLRLCERYSANGATPTVIFASATTSSPAETAAELIGQTVVEVTEDGSPQGARTIALWEPALLPDLAGENGAPVRRSAGSEAGRVMADLVAEGARTLTFVRSRRGAELTALGARARLSETAPDLVEQVASYRAGYLAEDRRELEHALSDGRLRGLATTNALELGIDIAGLDAVVMAGFPGTVASFWQQAGRSGRRGQGALVVLIARDDPLDTYLVHHPAALLDKPIERVVIDPTNPHVLGPQLLCAAAELPLTEAEVRRWDAEAVAQRLVDDGLLRKRPAGYFPAPGVDPHPAVDIRGSTGGQIAILEADTGRMLGSAGAGQAASSVHPGAVYLHQGESYVVDSLDFEDGIAFVHAEDPGYTTFAREITDISVTGPGERVDHGPVTIGLVPVSVTNTVVGYLRRRMDGEVIDFVELDMPPRTLDTMAVMCTITPEALQDNGIEQLSVPGALHAAEHASIGLLPLVASCDRGDIGGVSTAVGPVDGLPSIFVYDGYPGGAGFADRGYRQLQTWWGATAAAIEACECPSGCPSCVQSPKCGNGNDPLDKAGAVKVLRLVLGALTK",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "An ATP-dependent 3'-5' DNA helicase, loads on a 3'-tailed substrate and unwinds DNA as it translocates in a 3'-5' direction (PubMed:22641846). The (d)ATPase activity is dependent on single-stranded (ss)DNA, only (d)ATP allows helicase activity; no other nucleotides are hydrolyzed (PubMed:22641846). Has no activity on 5'-tailed or blunt-ended DNA (PubMed:22641846)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "a divalent metal cation",
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer"
+   ],
+   "DOMAIN": [
+    "The C-terminus is required for production of properly folded protein; deletion of the last 75 residues makes an insoluble protein in E.coli"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. HRQ1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 71,
+     "end": 256
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 297,
+     "end": 450
+    }
+   ],
+   "regions": [],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 195,
+     "end": 198
+    }
+   ],
+   "binding": [
+    {
+     "start": 84,
+     "end": 91,
+     "ligand": "ATP"
+    },
+    {
+     "start": 736,
+     "end": 736,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 738,
+     "end": 738,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 742,
+     "end": 742,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 745,
+     "end": 745,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 90,
+     "change": "K>A",
+     "desc": "Loss of helicase and ATPase activity."
+    },
+    {
+     "pos": 195,
+     "change": "D>A",
+     "desc": "Loss of helicase and ATPase activity."
+    },
+    {
+     "pos": 196,
+     "change": "E>A",
+     "desc": "Loss of helicase and ATPase activity."
+    },
+    {
+     "pos": 681,
+     "change": "C>A",
+     "desc": "Has wild-type ATPase activity."
+    },
+    {
+     "pos": 736,
+     "change": "CEC>AEA",
+     "desc": "Protein is insoluble in E.coli, probably unable to fold correctly."
+    },
+    {
+     "pos": 742,
+     "change": "CPSC>APSA",
+     "desc": "Protein is insoluble in E.coli, probably unable to fold correctly."
+    },
+    {
+     "pos": 751,
+     "change": "C>A",
+     "desc": "Has wild-type ATPase activity."
+    }
+   ],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0015616",
+    "term": "F:DNA translocase activity"
+   },
+   {
+    "id": "GO:0003676",
+    "term": "F:nucleic acid binding"
+   },
+   {
+    "id": "GO:0036297",
+    "term": "P:interstrand cross-link repair"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR022307",
+    "name": "Helicase_put_actinobac"
+   },
+   {
+    "id": "IPR055227",
+    "name": "HRQ1_WHD"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF22982",
+    "name": "WHD_HRQ1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "WP_003897559.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-A0R5E2-F1",
+  "globalMetricValue": 90.06,
+  "fractionPlddtVeryHigh": 0.644,
+  "fractionPlddtConfident": 0.316,
+  "fractionPlddtLow": 0.037,
+  "fractionPlddtVeryLow": 0.003,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-A0R5E2-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-A0R5E2-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-A0R5E2-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2022-06-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 1,
+  "papers": [
+   {
+    "pmid": "22641846",
+    "title": "Mycobacterium smegmatis SftH exemplifies a distinctive clade of superfamily II DNA-dependent ATPases with 3' to 5' translocase and helicase activities",
+    "authors": [
+     "Yakovleva L",
+     "Shuman S"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2012",
+    "date": "2012 Aug"
+   }
+  ],
+  "query": "SftH[tiab] AND (Mycobacterium OR Mycolicibacterium OR smegmatis)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

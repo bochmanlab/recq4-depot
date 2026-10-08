@@ -1,0 +1,469 @@
+{
+ "uniprot": "Q33DM4",
+ "slug": "recq4-xenopus",
+ "gene": "XRecQ4",
+ "short": "XRecQ4",
+ "organism": "Xenopus laevis",
+ "kingdom": "Animals",
+ "pubmed": "(XRecQ4[tiab] OR RecQ4[tiab] OR RecQL4[tiab]) AND Xenopus",
+ "uniprot_data": {
+  "accession": "Q33DM4",
+  "entry": "Q33DM4_XENLA",
+  "reviewed": false,
+  "name": "ATP-dependent DNA helicase Q4",
+  "alt_names": [
+   "DNA 3'-5' helicase RecQ4",
+   "DNA helicase, RecQ-like type 4",
+   "RecQ protein-like 4"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "XRecQ4"
+  ],
+  "organism": "Xenopus laevis",
+  "taxid": 8355,
+  "length": 1503,
+  "mass": 168896,
+  "sequence": "MERYNEVKVLLKKWETAFLQEHKRKPNKTDVESASNETQELYKEFKSLKKEQLDISTDTVFTPKSGQVMETSPKPTHRADAAGDSEGSASWGIHLNRASVTPKLTSKERDSLKASAQFYGMKLKANLGGALREHPVSLKKSFTPRFRPLDSPDVKIKNNLASPKSLDTPSSPLALLQDPPSEPFDTLSHVSLKEPPHKPVMNPPTQGQPIKKQHQLQAMVGQRMASLNQEWLQRCELRNGVEAMEVTAAEQRTVNRQQCNTMREALGEGAIEENCKSVKGPPNNDELTHSTQHTVASPKQKVQAYTPVFSPHAAAPSLPLTFGRQDTRPENPKLKAEEISDFGRSSSVRSQGNDLVSPAIRREEIWDPEHQPLKRKSPLRKQICGESKMSSEAGQVAQLDSKGPMSEHSKRWQDTDESRAMKNRTGQMQESLQEVDMSQENIAAEQVSVILAKGKRKKRQRETSAEPDTVEVSPKVSKKRRKTNRSPDNSENSSSVRKRRKKGARCQMDDSDDPAMESPASEQVTKAVSEDLFGELEEEPVQRSSVKTVNTRMPQIKSENFVRINLKKKSHVKCVALNGHRLRKQMWKQKWQKKGEQFGGGGGGGKHFNRSGDTCFRCGGMGHWASQCPGSVPVVRQEVAETEEEEEVSLPTLEDVARMTNTQLRPNTNEGLSGWCQDPVVTVNVVRAVYEPPTPPPPMQPLYELGPDGRVKETPSEVYDNLSELGYRSFRSGQEQAVMRILSGLSSLVILSTGMGKSLCYQLPAYMYAKRSRCISLVISPLVSLMDDQVSGLPPKLKAVCIHSNMTRTQREAAIEKVKQGKVHVLLLSPEALVGGGFSGSSCLPPADQLPPVAFACIDEAHCVSEWSHNFRPCYLRLCKVLRERLGVNCLLGLTATATRATAEDVAHHLGVSPEGGIPVRMASVPPNLHLSVSMDRNRDQALVTLLKGERFGCLDSVIVYCTRREETQRISALLRTSLQGVTVSANSHLNSQEQEDTTVSDRKKAQALKKIRRPLKWIAESYHAGMSAAERRRVQNNFMCGQLRLVVATVAFGMGLDKSDVRGIIHYNMPKNFESYVQEIGRAGRDGKDAQCHLFLDPEGQDMDELRRHIYTDSVDYIAVKKLVRKVFPKCKCRDLHREQQALINAGEVDDSELLQFLEQGEEQDSMCDTPSSGRDPVCDTPSMGAERLCHRHERAVPIEETVQSLDIREEAIETMLCYLELNPSHWLEQLHPTLSHCRVVCYSGPQQLRLLARSCPPVAVCLARERLAGVDHTHVSSTEFNVVELADSMGWEVVPVKRALRDLQWRRQPDKGFKGTGRSGVLVEFSKLSFHFRSYGDLTDQELDQVCDFLHHKVTSRERTSLNQLKSCFHAFQSVAYRTSSACAEKMSAERSAQLKALLLDYFEKRDTELEAKVEDPDEELQQIKVQEAKDQVRSDVRHFLSIHEEERFSGRALARIFHGIGSPCYPAQVYGRDRRFWRKYIHLDFNEIMNLSKEEIIRLK",
+  "existence": "2: Evidence at transcript level",
+  "annotation_score": 4.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "CATALYTIC ACTIVITY": [
+    "ATP + H2O = ADP + phosphate + H(+)",
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction."
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm; Nucleus"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. RecQ subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "CCHC-type",
+     "start": 615,
+     "end": 629
+    },
+    {
+     "name": "Helicase ATP-binding",
+     "start": 738,
+     "end": 916
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 938,
+     "end": 1129
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 59,
+     "end": 94
+    },
+    {
+     "name": "Disordered",
+     "start": 142,
+     "end": 186
+    },
+    {
+     "name": "Disordered",
+     "start": 385,
+     "end": 439
+    },
+    {
+     "name": "Disordered",
+     "start": 451,
+     "end": 525
+    }
+   ],
+   "motifs": [],
+   "binding": [],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0000785",
+    "term": "C:chromatin"
+   },
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0003682",
+    "term": "F:chromatin binding"
+   },
+   {
+    "id": "GO:0009378",
+    "term": "F:four-way junction helicase activity"
+   },
+   {
+    "id": "GO:0003676",
+    "term": "F:nucleic acid binding"
+   },
+   {
+    "id": "GO:0008270",
+    "term": "F:zinc ion binding"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0000724",
+    "term": "P:double-strand break repair via homologous recombination"
+   },
+   {
+    "id": "GO:0035563",
+    "term": "P:positive regulation of chromatin binding"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR021110",
+    "name": "DNA_rep_checkpnt_protein"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR001878",
+    "name": "Znf_CCHC"
+   },
+   {
+    "id": "IPR036875",
+    "name": "Znf_CCHC_sf"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF11719",
+    "name": "Drc1-Sld2"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF00098",
+    "name": "zf-CCHC"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [],
+  "panther": [
+   {
+    "id": "PTHR13710:SF108",
+    "name": "ATP-DEPENDENT DNA HELICASE Q4"
+   },
+   {
+    "id": "PTHR13710",
+    "name": "DNA HELICASE RECQ FAMILY MEMBER"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR13710:SF108"
+ ],
+ "group": "RECQL4 group",
+ "literature": {
+  "count": 18,
+  "papers": [
+   {
+    "pmid": "41419455",
+    "title": "Novel mutations in the RECQL4 gene affect its helicase functions, interactions with the BLM helicase and chemotherapeutics-induced cell death",
+    "authors": [
+     "Kaczmarczyk A",
+     "Sokolowski M",
+     "Wojnicki K",
+     "et al."
+    ],
+    "journal": "Cell Death Discov",
+    "year": "2025",
+    "date": "2025 Dec 19"
+   },
+   {
+    "pmid": "40819286",
+    "title": "Unilateral loss of recql4 function in Xenopus laevis tadpoles leads to ipsilateral ablation of the forelimb, hypoplastic Meckel's cartilage, and vascular defects",
+    "authors": [
+     "Beck CW",
+     "Reily-Bell M",
+     "Bicknell LS"
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2025",
+    "date": "2025 Oct 8"
+   },
+   {
+    "pmid": "41023983",
+    "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses",
+    "authors": [
+     "Wojnicki K",
+     "Wojtas B",
+     "Ciechomska IA",
+     "et al."
+    ],
+    "journal": "BMC Cancer",
+    "year": "2025",
+    "date": "2025 Sep 29"
+   },
+   {
+    "pmid": "38565932",
+    "title": "RECQL4 is not critical for firing of human DNA replication origins",
+    "authors": [
+     "Padayachy L",
+     "Ntallis SG",
+     "Halazonetis TD"
+    ],
+    "journal": "Sci Rep",
+    "year": "2024",
+    "date": "2024 Apr 2"
+   },
+   {
+    "pmid": "37516798",
+    "title": "Rif1 restrains the rate of replication origin firing in Xenopus laevis",
+    "authors": [
+     "Haccard O",
+     "Ciardo D",
+     "Narrissamprakash H",
+     "et al."
+    ],
+    "journal": "Commun Biol",
+    "year": "2023",
+    "date": "2023 Jul 29"
+   },
+   {
+    "pmid": "33845136",
+    "title": "N-terminal region of RecQ4 inhibits non-homologous end joining and chromatin association of the Ku heterodimer in Xenopus egg extracts",
+    "authors": [
+     "Tsuyama T",
+     "Fujita K",
+     "Sasaki R",
+     "et al."
+    ],
+    "journal": "Gene",
+    "year": "2021",
+    "date": "2021 Jun 30"
+   },
+   {
+    "pmid": "30718377",
+    "title": "Chromosome alignment maintenance requires the MAP RECQL4, mutated in the Rothmund-Thomson syndrome",
+    "authors": [
+     "Yokoyama H",
+     "Moreno-Andres D",
+     "Astrinidis SA",
+     "et al."
+    ],
+    "journal": "Life Sci Alliance",
+    "year": "2019",
+    "date": "2019 Feb"
+   },
+   {
+    "pmid": "26888063",
+    "title": "Structural and biochemical characterization of an RNA/DNA binding motif in the N-terminal domain of RecQ4 helicases",
+    "authors": [
+     "Marino F",
+     "Mojumdar A",
+     "Zucchelli C",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2016",
+    "date": "2016 Feb 18"
+   },
+   {
+    "pmid": "25602506",
+    "title": "RecQ4 promotes the conversion of the pre-initiation complex at a site-specific origin for DNA unwinding in Xenopus egg extracts",
+    "authors": [
+     "Sanuki Y",
+     "Kubota Y",
+     "Kanemaki MT",
+     "et al."
+    ],
+    "journal": "Cell Cycle",
+    "year": "2015",
+    "date": "2015"
+   },
+   {
+    "pmid": "23907533",
+    "title": "Titration of four replication factors is essential for the Xenopus laevis midblastula transition",
+    "authors": [
+     "Collart C",
+     "Allen GE",
+     "Bradshaw CR",
+     "et al."
+    ],
+    "journal": "Science",
+    "year": "2013",
+    "date": "2013 Aug 23"
+   },
+   {
+    "pmid": "22730300",
+    "title": "The N-terminus of the human RecQL4 helicase is a homeodomain-like DNA interaction motif",
+    "authors": [
+     "Ohlenschl\u00e4ger O",
+     "Kuhnert A",
+     "Schneider A",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2012",
+    "date": "2012 Sep 1"
+   },
+   {
+    "pmid": "22380713",
+    "title": "Treslin, DUE-B, and GEMC1 cannot complement Sld3 mutants in fission yeast",
+    "authors": [
+     "Wang Z",
+     "Kim E",
+     "Leffak M",
+     "et al."
+    ],
+    "journal": "FEMS Yeast Res",
+    "year": "2012",
+    "date": "2012 Jun"
+   },
+   {
+    "pmid": "20075015",
+    "title": "Roles of Werner syndrome protein in protection of genome integrity",
+    "authors": [
+     "Rossi ML",
+     "Ghosh AK",
+     "Bohr VA"
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2010",
+    "date": "2010 Mar 2"
+   },
+   {
+    "pmid": "18755177",
+    "title": "Drosophila homologue of the Rothmund-Thomson syndrome gene: essential function in DNA replication during development",
+    "authors": [
+     "Wu J",
+     "Capp C",
+     "Feng L",
+     "et al."
+    ],
+    "journal": "Dev Biol",
+    "year": "2008",
+    "date": "2008 Nov 1"
+   },
+   {
+    "pmid": "17320201",
+    "title": "Possible involvement of RecQL4 in the repair of double-strand DNA breaks in Xenopus egg extracts",
+    "authors": [
+     "Kumata Y",
+     "Tada S",
+     "Yamanada Y",
+     "et al."
+    ],
+    "journal": "Biochim Biophys Acta",
+    "year": "2007",
+    "date": "2007 Apr"
+   },
+   {
+    "pmid": "16782873",
+    "title": "The N-terminal noncatalytic region of Xenopus RecQ4 is required for chromatin binding of DNA polymerase alpha in the initiation of DNA replication",
+    "authors": [
+     "Matsuno K",
+     "Kumano M",
+     "Kubota Y",
+     "et al."
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2006",
+    "date": "2006 Jul"
+   },
+   {
+    "pmid": "16271439",
+    "title": "Rothmund-Thomson syndrome and RECQL4 defect: splitting and lumping",
+    "authors": [
+     "Larizza L",
+     "Magnani I",
+     "Roversi G"
+    ],
+    "journal": "Cancer Lett",
+    "year": "2006",
+    "date": "2006 Jan 28"
+   },
+   {
+    "pmid": "15960976",
+    "title": "Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome",
+    "authors": [
+     "Sangrithi MN",
+     "Bernal JA",
+     "Madine M",
+     "et al."
+    ],
+    "journal": "Cell",
+    "year": "2005",
+    "date": "2005 Jun 17"
+   }
+  ],
+  "query": "(XRecQ4[tiab] OR RecQ4[tiab] OR RecQL4[tiab]) AND Xenopus"
+ },
+ "interactions_intact": {
+  "total": 1,
+  "partners": [
+   {
+    "uniprot": "Q6P5F9",
+    "name": "Xpo1",
+    "methods": [
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "26673895"
+    ],
+    "score": 0.35
+   }
+  ]
+ }
+}

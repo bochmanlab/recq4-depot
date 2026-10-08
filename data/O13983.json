@@ -1,0 +1,278 @@
+{
+ "uniprot": "O13983",
+ "slug": "hrq1-spombe",
+ "gene": "hrq1",
+ "short": "Hrq1",
+ "organism": "Schizosaccharomyces pombe",
+ "kingdom": "Fungi",
+ "pubmed": "hrq1[tiab] AND (pombe OR \"fission yeast\")",
+ "uniprot_data": {
+  "accession": "O13983",
+  "entry": "HRQ1_SCHPO",
+  "reviewed": true,
+  "name": "ATP-dependent helicase hrq1",
+  "alt_names": [
+   "DNA 3'-5' helicase hrq1",
+   "Homologous to recQ protein 1"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "hrq1"
+  ],
+  "organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843)",
+  "taxid": 284812,
+  "length": 1063,
+  "mass": 120970,
+  "sequence": "MSQTPIKKEESNDQDDKFEFKKYINEGKLPLKADNPKKKPQLGTIQANQPIPSIFDNLFNLFKVINTTYTFLYLRNSLTITFPLLNSSVKQSLKKELTIGDLSQLREICPQIIELNYKSLASLALEINKNVYTDLNPELYTGSTVSQSSEYVLVIELLETQERSSKRRRREGPTMKANIQRQKLDFNNLKKAIELRNQKFLQGIKEYIKKCQLTELDPTQQLLTQSRKNQPVPPDSPSIPNDSIENCNLNTKACSIEELLNEIASESSYEGQIVQEALHTYPAVEAQYGALSRPLSQELINALYTSRNIEKTYKHQADAINHLWNGFHVIVSTSTSSGKSLIYQIPILQSLLEDNQSTAFFVFPTKSLAQDQKKSLIDILSYMPTLKNIRVDTFDGDTPLESRESIIRSANIIFTNPDMLHQTILPNANRWYYFFKNLKLFVLDEAHVYNGIFGVHVAFVLRRMRRIAEYFGNSQYRFVSCSATIEDPLQHMKKIFGVDNIKLINYTSSPSGSKKFVMWNPPYVDPKHPDDGKKSAISEASKLLIKFAEKRVRTIVFCRVRKTCESLMRLVRQELKTKQKGDLLSKIQSYRAGYTVQERRKIESEMFNGKLYGIIATNALELGIDIGSLDAVITIGFPYSLSNLRQQFGRAGRRNKSSLAVYIVETFPVDQFYLKHPILIHTQPNAELTLDLTNEVLLASHLQCAAYELPINIRSDEKFFGNQIQDICEANLEMVEESYRPHPKYLPFPASQVRIRSVSEDMFTLVDVTNDKNVILELLEPFRVALTAYEGAVYVYQGKTFIIRLLNINKRIITAHQVDVEWSTLQRDFTDVDPVRSLMKKTMHGSTNIYFGAVKATLHVFGYFKVNKQKDILDVVDITDHPVEIDSRGFWIDVPWHIIEVLSLKKINGAASIHAAQHALLSLMPIFISNSGNDIRTECKAGEKEYKEAKSERRRPSRLIFYDNCGDSSGAGLCNKAYEHTDELITMAIERIESCDCKVREGCPGCITSSKFEGGVCSGEVLDKVGALILLKMLLCQHVNLDIYADGPEIDSYHALRTLIPSC",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA 3'-5' helicase involved in genome stability (PubMed:22064477). Functions in the nucleotide excision repair (NER) pathway and plays a critical role in DNA interstrand cross-link repair (PubMed:22064477). Unwinds relatively long duplex DNA up to 120-bp and requires a long 3'-tail of at least 70 nucleotides for efficient unwinding of duplex DNA (By similarity). Shows both processive helicase and DNA strand annealing activities (By similarity). Affects telomere length by a non-catalytic mechanism, probably through inhibiting telomerase by competing with it for ssDNA binding (By similarity)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)",
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Forms heptamer rings (By similarity). Interacts with rhp14 (PubMed:22064477)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Leads to hypersensitivity to DNA interstrand cross-linking (ICL) agents mitomycin C (MMC) and cisplatin, in response to both chronic and acute exposures"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. HRQ1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 320,
+     "end": 503
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 539,
+     "end": 717
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 224,
+     "end": 243
+    }
+   ],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 444,
+     "end": 447
+    }
+   ],
+   "binding": [
+    {
+     "start": 333,
+     "end": 340,
+     "ligand": "ATP"
+    },
+    {
+     "start": 995,
+     "end": 995,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 997,
+     "end": 997,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 1003,
+     "end": 1003,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 1006,
+     "end": 1006,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0035861",
+    "term": "C:site of double-strand break"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0000405",
+    "term": "F:bubble DNA binding"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   },
+   {
+    "id": "GO:1901255",
+    "term": "P:nucleotide-excision repair involved in interstrand cross-link repair"
+   },
+   {
+    "id": "GO:0070914",
+    "term": "P:UV-damage excision repair"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR014939",
+    "name": "CDT1_Gemini-bd-like"
+   },
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR055227",
+    "name": "HRQ1_WHD"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR036390",
+    "name": "WH_DNA-bd_sf"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF08839",
+    "name": "CDT1"
+   },
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF22982",
+    "name": "WHD_HRQ1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_594448.2"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-O13983-F1",
+  "globalMetricValue": 78.5,
+  "fractionPlddtVeryHigh": 0.28,
+  "fractionPlddtConfident": 0.521,
+  "fractionPlddtLow": 0.091,
+  "fractionPlddtVeryLow": 0.107,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-O13983-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-O13983-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-O13983-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 2,
+  "papers": [
+   {
+    "pmid": "23026052",
+    "title": "Saccharomyces cerevisiae Hrq1 requires a long 3'-tailed DNA substrate for helicase activity",
+    "authors": [
+     "Kwon SH",
+     "Choi DH",
+     "Lee R",
+     "et al."
+    ],
+    "journal": "Biochem Biophys Res Commun",
+    "year": "2012",
+    "date": "2012 Oct 26"
+   },
+   {
+    "pmid": "22064477",
+    "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast",
+    "authors": [
+     "Groocock LM",
+     "Prudden J",
+     "Perry JJ",
+     "et al."
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2012",
+    "date": "2012 Jan"
+   }
+  ],
+  "query": "hrq1[tiab] AND (pombe OR \"fission yeast\")"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

@@ -1,0 +1,964 @@
+{
+ "uniprot": "Q75NR7",
+ "slug": "recql4-mouse",
+ "gene": "Recql4",
+ "short": "Recql4",
+ "organism": "Mus musculus",
+ "kingdom": "Animals",
+ "pubmed": "Recql4[tiab] AND (mouse OR mice OR murine)",
+ "uniprot_data": {
+  "accession": "Q75NR7",
+  "entry": "RECQ4_MOUSE",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase Q4",
+  "alt_names": [
+   "DNA 3'-5' helicase RecQ4",
+   "DNA helicase, RecQ-like type 4",
+   "RecQ protein-like 4"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "Recql4",
+   "Recq4"
+  ],
+  "organism": "Mus musculus",
+  "taxid": 10090,
+  "length": 1216,
+  "mass": 135124,
+  "sequence": "MERLATVRARLQEWERAFARLHGRRPAKGDVEAAPEETRALYREYRNLKQAVRQADDRHRVLEQSLAEAAEEAQEPSCWGPHLSRAATQNTQSMPKQSLLSSVQDYGKRLKANLKNTTQTGPTQSRKLQLQKRSLSTVPAPRPPGSKTESPCPDEADDALPRVPEPRPRLGQLQQLRSSLSRRLTSLDPGWLERCHNRVSDLLEVPGACGLDLSAEESQPQMSGKVNIADPDIQSEVSVQSPEAIAQQPAQVLSQSPKSINSKGRKRKWNEKGEDFAQDQPSSGAGPLSEGARATVHGQDPPGEPTQVNVPQPCNSSNQARTEKAKGTTHLHASPRPASLDRGNYIRLNMKNKRFVRVGANRGRLLRKQVWKQKWKKKQAAFGGSGPRATDKDTCFRCGQFGHWASQCSQPGPTLTVQEEGDRDDKQPISTLEEVAQRTGTASCHHSGEETQPAAPELQVPHCPTPMSPLYPPGPLGQVAETPAEVFQALERLGYRAFRPGQERAIMRILSGISTLLVLPTGAGKSLCYQLPALLYAQRSPCLTLVVSPLLSLMDDQVSDLPSCLKAACLHSGMTKKQRESVLKKVRAAQVHVLIVSPEALVGCGARGPGSLPQAAQLPPIAFACIDEVHCLSQWSHNFRPCYLRVCKVLREHMGVRCFLGLTATATRSTARDVAQHLGIAGEFELSGSANIPANLHLSVSMDRDSDQALVTLLQGDRFRTLDSVIIYCTRERIQNGWLALLRTCLSMVGDSRPRGCGPEAIAEAYHAGMSSQERRRVQQAFMRGHLRMVVATVAFGMGLDRPDVRAVLHLGLPPSFESYVQAIGRAGRDGKPAHCHLFMHPQGEDLWELRRHAHADSTDFLAVKRLVQRVFPPCTCSQRPVSKSSPEEVKEHSGQQTYPVLGQACLGHERALPVQSTVQALDMTEEAIETLLCYLELHPRHWLELLPWTYAQCHLHCLGGSAQLQALAHRCPPLAACQAKWPPKDTSQGRSSLEFGVVELADSMGWKLASVRQALHQLKWDPEPKKGAAQGTGVLVKFSELAFHLHSRGDLTDEEKDQICDFLYNRVQAREHKALAHLHQMSKAFRSVAFPSCGPCLEQSNEEHSNQVKTLVSYYFEEEEEEEETMTDTQGPKPGQTQLQDWEDQIRRDVRQLLSLRPEERFSGRAVARIFHGIASPCYPAQVYGLDRRFWRKYLHLDFHALMHLATEELLLRGR",
+  "existence": "2: Evidence at transcript level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "An ATP-dependent DNA helicase which unwinds dsDNA with a 3'-overhang in a 3'-5' direction (By similarity). May play a role in development of the palate and the limbs. May modulate chromosome segregation"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Interacts with UBR1 and UBR2. Interacts with MCM10; this interaction regulates RECQL4 unwinding activity. Interacts with TOPBP1 (By similarity)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm; Nucleus"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Early embryonic lethality. Transgenic mice with exon 13-deleted RECQL4 are severely growth-retarded and show high (95%) perinatal lethality. They exhibit various skin, bone, intestine, tooth and thymus abnormalities and premature aging features, but have normal sensitivity to IR and UV irradiation. In contrast, transgenic mice expressing a truncated form of RECQL4 exhibit mild perinatal lethality, no growth defect, but show defects of the skin and skeleton, aneuploidy and increased cancer susceptibility"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. RecQ subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 506,
+     "end": 684
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 705,
+     "end": 872
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 72,
+     "end": 100
+    },
+    {
+     "name": "Disordered",
+     "start": 113,
+     "end": 171
+    },
+    {
+     "name": "Disordered",
+     "start": 235,
+     "end": 340
+    },
+    {
+     "name": "Disordered",
+     "start": 436,
+     "end": 458
+    }
+   ],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 627,
+     "end": 630
+    }
+   ],
+   "binding": [
+    {
+     "start": 519,
+     "end": 526,
+     "ligand": "ATP"
+    },
+    {
+     "start": 875,
+     "end": 875,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 877,
+     "end": 877,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 906,
+     "end": 906,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 909,
+     "end": 909,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005694",
+    "term": "C:chromosome"
+   },
+   {
+    "id": "GO:0000781",
+    "term": "C:chromosome, telomeric region"
+   },
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0005654",
+    "term": "C:nucleoplasm"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0000405",
+    "term": "F:bubble DNA binding"
+   },
+   {
+    "id": "GO:0032357",
+    "term": "F:oxidized purine DNA binding"
+   },
+   {
+    "id": "GO:0061821",
+    "term": "F:telomeric D-loop binding"
+   },
+   {
+    "id": "GO:0008270",
+    "term": "F:zinc ion binding"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0045875",
+    "term": "P:negative regulation of sister chromatid cohesion"
+   },
+   {
+    "id": "GO:0043473",
+    "term": "P:pigmentation"
+   },
+   {
+    "id": "GO:0008284",
+    "term": "P:positive regulation of cell population proliferation"
+   },
+   {
+    "id": "GO:0001501",
+    "term": "P:skeletal system development"
+   },
+   {
+    "id": "GO:0048705",
+    "term": "P:skeletal system morphogenesis"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   },
+   {
+    "id": "GO:0061820",
+    "term": "P:telomeric D-loop disassembly"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR004589",
+    "name": "DNA_helicase_ATP-dep_RecQ"
+   },
+   {
+    "id": "IPR021110",
+    "name": "DNA_rep_checkpnt_protein"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR001878",
+    "name": "Znf_CCHC"
+   },
+   {
+    "id": "IPR036875",
+    "name": "Znf_CCHC_sf"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF11719",
+    "name": "Drc1-Sld2"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF00098",
+    "name": "zf-CCHC"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_478121.2"
+  ],
+  "panther": [
+   {
+    "id": "PTHR13710:SF108",
+    "name": "ATP-DEPENDENT DNA HELICASE Q4"
+   },
+   {
+    "id": "PTHR13710",
+    "name": "DNA HELICASE RECQ FAMILY MEMBER"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR13710:SF108"
+ ],
+ "group": "RECQL4 group",
+ "alphafold": {
+  "entryId": "AF-Q75NR7-F1",
+  "globalMetricValue": 66.06,
+  "fractionPlddtVeryHigh": 0.265,
+  "fractionPlddtConfident": 0.3,
+  "fractionPlddtLow": 0.1,
+  "fractionPlddtVeryLow": 0.335,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q75NR7-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q75NR7-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q75NR7-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 52,
+  "papers": [
+   {
+    "pmid": "42806161",
+    "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
+    "authors": [
+     "Sonneville R",
+     "Evrin C",
+     "Wright J",
+     "et al."
+    ],
+    "journal": "EMBO J",
+    "year": "2026",
+    "date": "2026 Sep 28"
+   },
+   {
+    "pmid": "41964082",
+    "title": "The molecular landscape of the C1498 murine acute myeloid leukemia cell line",
+    "authors": [
+     "Ghetti M",
+     "De Santis I",
+     "Tolomeo D",
+     "et al."
+    ],
+    "journal": "Biomark Res",
+    "year": "2026",
+    "date": "2026 Apr 10"
+   },
+   {
+    "pmid": "41807760",
+    "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication",
+    "authors": [
+     "Buco PAV",
+     "Castillo-Tandazo W",
+     "Chalk AM",
+     "et al."
+    ],
+    "journal": "EMBO Rep",
+    "year": "2026",
+    "date": "2026 Apr"
+   },
+   {
+    "pmid": "41203034",
+    "title": "RECQL4 as a novel drug target against ovarian cancer",
+    "authors": [
+     "Qin Y",
+     "Li L",
+     "Yu J",
+     "et al."
+    ],
+    "journal": "Biochem Pharmacol",
+    "year": "2026",
+    "date": "2026 Jan"
+   },
+   {
+    "pmid": "41472745",
+    "title": "EGR3 as a dual tumor-immune regulator: a machine learning-driven prognostic target for cold breast cancer",
+    "authors": [
+     "Wu Q",
+     "Song D",
+     "Yue J",
+     "et al."
+    ],
+    "journal": "Front Immunol",
+    "year": "2025",
+    "date": "2025"
+   },
+   {
+    "pmid": "40554895",
+    "title": "Subcellular redistribution of Rhein from whole cellular to single mitochondria for enhancing anti-hepatoma efficacy",
+    "authors": [
+     "Wu LL",
+     "Di W",
+     "Shao L",
+     "et al."
+    ],
+    "journal": "Phytomedicine",
+    "year": "2025",
+    "date": "2025 Sep"
+   },
+   {
+    "pmid": "40777487",
+    "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication",
+    "authors": [
+     "Buco PAV",
+     "Tandazo-Castillo W",
+     "Chalk AM",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2025",
+    "date": "2025 Jul 21"
+   },
+   {
+    "pmid": "39378549",
+    "title": "Unraveling the mechanisms of RECQL4-mediated cervical cancer progression through the PI3K/AKT pathway",
+    "authors": [
+     "Huo W",
+     "Huang Y",
+     "Tian B",
+     "et al."
+    ],
+    "journal": "Transl Oncol",
+    "year": "2024",
+    "date": "2024 Dec"
+   },
+   {
+    "pmid": "39404003",
+    "title": "RecQ protein-like 4 drives cisplatin chemosensitivity of cervical cancer cells by modulating annexin A2",
+    "authors": [
+     "Wang R",
+     "Zhang Y"
+    ],
+    "journal": "Drug Dev Res",
+    "year": "2024",
+    "date": "2024 Nov"
+   },
+   {
+    "pmid": "39055085",
+    "title": "A family with nine siblings showing signs of Rothmund-Thomson syndrome with two being definitely diagnosed with the syndrome due to homozygous N-terminal mutation of RECQL4",
+    "authors": [
+     "Yadegari F",
+     "Abed AR",
+     "Abd Ali WY",
+     "et al."
+    ],
+    "journal": "Clin Case Rep",
+    "year": "2024",
+    "date": "2024 Aug"
+   },
+   {
+    "pmid": "38381090",
+    "title": "RECQL4 Inhibits Radiation-Induced Tumor Immune Awakening via Suppressing the cGAS-STING Pathway in Hepatocellular Carcinoma",
+    "authors": [
+     "Hong W",
+     "Zhang Y",
+     "Wang S",
+     "et al."
+    ],
+    "journal": "Adv Sci (Weinh)",
+    "year": "2024",
+    "date": "2024 Apr"
+   },
+   {
+    "pmid": "37516854",
+    "title": "TRIM58 functions as a tumor suppressor in colorectal cancer by promoting RECQL4 ubiquitination to inhibit the AKT signaling pathway",
+    "authors": [
+     "Sun N",
+     "Shen J",
+     "Shi Y",
+     "et al."
+    ],
+    "journal": "World J Surg Oncol",
+    "year": "2023",
+    "date": "2023 Jul 29"
+   },
+   {
+    "pmid": "36948261",
+    "title": "RecQ dysfunction contributes to social and depressive-like behavior and affects aldolase activity in mice",
+    "authors": [
+     "Hou Y",
+     "Park JH",
+     "Dan X",
+     "et al."
+    ],
+    "journal": "Neurobiol Dis",
+    "year": "2023",
+    "date": "2023 May"
+   },
+   {
+    "pmid": "35817949",
+    "title": "Whole-genome sequencing reveals de-novo mutations associated with nonsyndromic cleft lip/palate",
+    "authors": [
+     "Awotoye W",
+     "Mossey PA",
+     "Hetmanski JB",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2022",
+    "date": "2022 Jul 11"
+   },
+   {
+    "pmid": "34249098",
+    "title": "Comparative Genomics Identifies Putative Interspecies Mechanisms Underlying Crbn-Sall4-Linked Thalidomide Embryopathy",
+    "authors": [
+     "Kowalski TW",
+     "Caldas-Garcia GB",
+     "Gomes JDA",
+     "et al."
+    ],
+    "journal": "Front Genet",
+    "year": "2021",
+    "date": "2021"
+   },
+   {
+    "pmid": "34117297",
+    "title": "Comparison of the fertility of tumor suppressor gene-deficient C57BL/6 mouse strains reveals stable reproductive aging and novel pleiotropic gene",
+    "authors": [
+     "Kohzaki M",
+     "Ootsuyama A",
+     "Umata T",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2021",
+    "date": "2021 Jun 11"
+   },
+   {
+    "pmid": "33361189",
+    "title": "Rothmund-Thomson Syndrome-Like RECQL4 Truncating Mutations Cause a Haploinsufficient Low-Bone-Mass Phenotype in Mice",
+    "authors": [
+     "Castillo-Tandazo W",
+     "Frazier AE",
+     "Sims NA",
+     "et al."
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2021",
+    "date": "2021 Feb 23"
+   },
+   {
+    "pmid": "33628589",
+    "title": "RECQL4 regulates DNA damage response and redox homeostasis in esophageal cancer",
+    "authors": [
+     "Lyu G",
+     "Su P",
+     "Hao X",
+     "et al."
+    ],
+    "journal": "Cancer Biol Med",
+    "year": "2021",
+    "date": "2021 Feb 15"
+   },
+   {
+    "pmid": "31495919",
+    "title": "Human RECQL4 represses the RAD52-mediated single-strand annealing pathway after ionizing radiation or cisplatin treatment",
+    "authors": [
+     "Kohzaki M",
+     "Ootsuyama A",
+     "Sun L",
+     "et al."
+    ],
+    "journal": "Int J Cancer",
+    "year": "2020",
+    "date": "2020 Jun 1"
+   },
+   {
+    "pmid": "32523948",
+    "title": "RECQL5 at the Intersection of Replication and Transcription",
+    "authors": [
+     "Hamadeh Z",
+     "Lansdorp P"
+    ],
+    "journal": "Front Cell Dev Biol",
+    "year": "2020",
+    "date": "2020"
+   },
+   {
+    "pmid": "31303264",
+    "title": "Mutations in ANAPC1, Encoding a Scaffold Subunit of the Anaphase-Promoting Complex, Cause Rothmund-Thomson Syndrome Type 1",
+    "authors": [
+     "Ajeawung NF",
+     "Nguyen TTM",
+     "Lu L",
+     "et al."
+    ],
+    "journal": "Am J Hum Genet",
+    "year": "2019",
+    "date": "2019 Sep 5"
+   },
+   {
+    "pmid": "31276497",
+    "title": "ATP-dependent helicase activity is dispensable for the physiological functions of Recql4",
+    "authors": [
+     "Castillo-Tandazo W",
+     "Smeets MF",
+     "Murphy V",
+     "et al."
+    ],
+    "journal": "PLoS Genet",
+    "year": "2019",
+    "date": "2019 Jul"
+   },
+   {
+    "pmid": "28486640",
+    "title": "Generalized metabolic bone disease and fracture risk in Rothmund-Thomson syndrome",
+    "authors": [
+     "Cao F",
+     "Lu L",
+     "Abrams SA",
+     "et al."
+    ],
+    "journal": "Hum Mol Genet",
+    "year": "2017",
+    "date": "2017 Aug 15"
+   },
+   {
+    "pmid": "27764811",
+    "title": "Altered RECQL5 expression in urothelial bladder carcinoma increases cellular proliferation and makes RECQL5 helicase activity a novel target for chemotherapy",
+    "authors": [
+     "Patterson K",
+     "Arya L",
+     "Bottomley S",
+     "et al."
+    ],
+    "journal": "Oncotarget",
+    "year": "2016",
+    "date": "2016 Nov 15"
+   },
+   {
+    "pmid": "26958937",
+    "title": "Oroxylin A modulates mitochondrial function and apoptosis in human colon cancer cells by inducing mitochondrial translocation of wild-type p53",
+    "authors": [
+     "Qiao C",
+     "Lu N",
+     "Zhou Y",
+     "et al."
+    ],
+    "journal": "Oncotarget",
+    "year": "2016",
+    "date": "2016 Mar 29"
+   },
+   {
+    "pmid": "25555679",
+    "title": "RecQ helicases and PARP1 team up in maintaining genome integrity",
+    "authors": [
+     "Veith S",
+     "Mangerich A"
+    ],
+    "journal": "Ageing Res Rev",
+    "year": "2015",
+    "date": "2015 Sep"
+   },
+   {
+    "pmid": "25556649",
+    "title": "RECQL4 Regulates p53 Function In Vivo During Skeletogenesis",
+    "authors": [
+     "Lu L",
+     "Harutyunyan K",
+     "Jin W",
+     "et al."
+    ],
+    "journal": "J Bone Miner Res",
+    "year": "2015",
+    "date": "2015 Jun"
+   },
+   {
+    "pmid": "25859855",
+    "title": "The DNA helicase recql4 is required for normal osteoblast expansion and osteosarcoma formation",
+    "authors": [
+     "Ng AJ",
+     "Walia MK",
+     "Smeets MF",
+     "et al."
+    ],
+    "journal": "PLoS Genet",
+    "year": "2015",
+    "date": "2015 Apr"
+   },
+   {
+    "pmid": "24960165",
+    "title": "The Rothmund-Thomson syndrome helicase RECQL4 is essential for hematopoiesis",
+    "authors": [
+     "Smeets MF",
+     "DeLuca E",
+     "Wall M",
+     "et al."
+    ],
+    "journal": "J Clin Invest",
+    "year": "2014",
+    "date": "2014 Aug"
+   },
+   {
+    "pmid": "24832598",
+    "title": "Senescence induced by RECQL4 dysfunction contributes to Rothmund-Thomson syndrome features in mice",
+    "authors": [
+     "Lu H",
+     "Fang EF",
+     "Sykora P",
+     "et al."
+    ],
+    "journal": "Cell Death Dis",
+    "year": "2014",
+    "date": "2014 May 15"
+   },
+   {
+    "pmid": "24924172",
+    "title": "RECQ DNA helicases and osteosarcoma",
+    "authors": [
+     "Lu L",
+     "Jin W",
+     "Liu H",
+     "et al."
+    ],
+    "journal": "Adv Exp Med Biol",
+    "year": "2014",
+    "date": "2014"
+   },
+   {
+    "pmid": "24316858",
+    "title": "Expression of oxidative stress and antioxidant defense genes in the kidney of inbred mice after intestinal ischemia and reperfusion",
+    "authors": [
+     "Teruya R",
+     "Ikejiri AT",
+     "Somaio Neto F",
+     "et al."
+    ],
+    "journal": "Acta Cir Bras",
+    "year": "2013",
+    "date": "2013 Dec"
+   },
+   {
+    "pmid": "23627586",
+    "title": "Human RECQL5: guarding the crossroads of DNA replication and transcription and providing backup capability",
+    "authors": [
+     "Popuri V",
+     "Tadokoro T",
+     "Croteau DL",
+     "et al."
+    ],
+    "journal": "Crit Rev Biochem Mol Biol",
+    "year": "2013",
+    "date": "2013 May-Jun"
+   },
+   {
+    "pmid": "22940096",
+    "title": "RECQL4 in genomic instability and aging",
+    "authors": [
+     "Croteau DL",
+     "Singh DK",
+     "Hoh Ferrarelli L",
+     "et al."
+    ],
+    "journal": "Trends Genet",
+    "year": "2012",
+    "date": "2012 Dec"
+   },
+   {
+    "pmid": "23036272",
+    "title": "Genetically engineered mouse models and human osteosarcoma",
+    "authors": [
+     "Ng AJ",
+     "Mutsaers AJ",
+     "Baker EK",
+     "et al."
+    ],
+    "journal": "Clin Sarcoma Res",
+    "year": "2012",
+    "date": "2012 Oct 4"
+   },
+   {
+    "pmid": "22730300",
+    "title": "The N-terminus of the human RecQL4 helicase is a homeodomain-like DNA interaction motif",
+    "authors": [
+     "Ohlenschl\u00e4ger O",
+     "Kuhnert A",
+     "Schneider A",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2012",
+    "date": "2012 Sep 1"
+   },
+   {
+    "pmid": "22296597",
+    "title": "RECQL4 localizes to mitochondria and preserves mitochondrial DNA integrity",
+    "authors": [
+     "Croteau DL",
+     "Rossi ML",
+     "Canugovi C",
+     "et al."
+    ],
+    "journal": "Aging Cell",
+    "year": "2012",
+    "date": "2012 Jun"
+   },
+   {
+    "pmid": "21963973",
+    "title": "[Role of RecQ5 in syncytial blastoderm of the Drosophila embryo]",
+    "authors": [
+     "Sakurai H"
+    ],
+    "journal": "Yakugaku Zasshi",
+    "year": "2011",
+    "date": "2011"
+   },
+   {
+    "pmid": "19720120",
+    "title": "The intergenic region between the Mouse Recql4 and Lrrc14 genes functions as an evolutionary conserved bidirectional promoter",
+    "authors": [
+     "Uwanogho DA",
+     "Yasin SA",
+     "Starling B",
+     "et al."
+    ],
+    "journal": "Gene",
+    "year": "2010",
+    "date": "2010 Jan 1"
+   },
+   {
+    "pmid": "18755177",
+    "title": "Drosophila homologue of the Rothmund-Thomson syndrome gene: essential function in DNA replication during development",
+    "authors": [
+     "Wu J",
+     "Capp C",
+     "Feng L",
+     "et al."
+    ],
+    "journal": "Dev Biol",
+    "year": "2008",
+    "date": "2008 Nov 1"
+   }
+  ],
+  "query": "Recql4[tiab] AND (mouse OR mice OR murine)"
+ },
+ "interactions_intact": {
+  "total": 10,
+  "partners": [
+   {
+    "uniprot": "EBI-2555316",
+    "name": "ATAD3A",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q9NX63",
+    "name": "CHCHD3",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P63096",
+    "name": "GNAI1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P04899",
+    "name": "GNAI2",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P08754",
+    "name": "GNAI3",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P09651",
+    "name": "HNRNPA1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q32P51",
+    "name": "HNRNPA1L2",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q00839",
+    "name": "HNRNPU",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "O94761",
+    "name": "RECQL4",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P27105",
+    "name": "STOM",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   }
+  ]
+ }
+}

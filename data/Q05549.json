@@ -1,0 +1,4068 @@
+{
+ "uniprot": "Q05549",
+ "slug": "hrq1-scerevisiae",
+ "gene": "HRQ1",
+ "short": "Hrq1",
+ "organism": "Saccharomyces cerevisiae",
+ "kingdom": "Fungi",
+ "sgd": "S000002699",
+ "pubmed": "HRQ1[tiab] AND (yeast OR cerevisiae OR helicase)",
+ "uniprot_data": {
+  "accession": "Q05549",
+  "entry": "HRQ1_YEAST",
+  "reviewed": true,
+  "name": "ATP-dependent helicase HRQ1",
+  "alt_names": [
+   "DNA 3'-5' helicase HRQ1",
+   "Homologous to recQ protein 1"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "HRQ1",
+   "YDR291W"
+  ],
+  "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+  "taxid": 559292,
+  "length": 1077,
+  "mass": 123550,
+  "sequence": "MEEGPIKKKLKSAGQGSGKTDAFRNFEQFFFRLNTLYTFLICRKHVVPTFKTLCGPIETALKRTVTKEDLAMVMALMPRECVFKYIDENQIYTETKIFDFNNGGFQQKENDIFELKDVDDQNQTQKSTQLLIFEFIDGTMQRSWSASDRFSQIKIPTYTTEEMKKMISKREALFKSRLREFILEKEKANLDPFSELTNLAQKYIPRERDYEDPIEAMMKAKQESNEMSIPNYSNNSVITTIPQMIEKLKSTEFYASQIKHCFTIPSRTAKYKGLCFELAPEVYQGMEHENFYSHQADAINSLHQGENVIITTSTSSGKSLIYQLAAIDLLLKDPESTFMYIFPTKALAQDQKRAFKVILSKIPELKNAVVDTYDGDTEPEERAYIRKNARVIFTNPDMIHTSILPNHANWRHFLYHLKLVVVDELHIYKGLFGSHVALVMRRLLRLCHCFYENSGLQFISCSATLKSPVQHMKDMFGINEVTLIHEDGSPTGAKHLVVWNPPILPQHERKRENFIRESAKILVQLILNNVRTIAFCYVRRVCELLMKEVRNIFIETGREDLVTEVMSYRGGYSASDRRKIEREMFHGNLKAVISTNALELGIDIGGLDAVLMCGFPLSMANFHQQSGRAGRRNNDSLTLVVASDSPVDQHYVAHPESLLEVNNFESYQDLVLDFNNILILEGHIQCAAFELPINFERDKQYFTESHLRKICVERLHHNQDGYHASNRFLPWPSKCVSLRGGEEDQFAVVDITNGRNIIIEEIEASRTSFTLYDGGIFIHQGYPYLVKEFNPDERYAKVQRVDVDWVTNQRDFTDVDPQEIELIRSLRNSDVPVYFGKIKTTIIVFGFFKVDKYKRIIDAIETHNPPVIINSKGLWIDMPKYALEICQKKQLNVAGAIHGAQHAIMGMLPRFIVAGVDEIQTECKAPEKEFAERQTKRKRPARLIFYDSKGGKYGSGLCVKAFEHIDDIIESSLRRIEECPCSDGCPDCVAASFCKENSLVLSKPGAQVVLHCILGHSEDSFIDLIKDGPEPNMPEIKVETVIPVSEHVNFSDDFKIIDVRRATKDDTHTNEIIKKEI",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA 3'-5' helicase involved in genome stability (PubMed:23456718, PubMed:24440721, PubMed:24700328). Functions in the RAD4-dependent nucleotide excision repair (NER) pathway and plays a critical role in DNA interstrand cross-link repair (PubMed:24440721, PubMed:24682993). Unwinds relatively long duplex DNA up to 120-bp and requires a long 3'-tail of at least 70 nucleotides for efficient unwinding of duplex DNA (PubMed:23026052). Activity is significantly stimulated by a preexisting fork structure (PubMed:24682993). Shows both processive helicase and DNA strand annealing activities (PubMed:24682993). Affects telomere length by a non-catalytic mechanism, probably through inhibiting telomerase by competing with it for ssDNA binding (PubMed:24440721)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)",
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Forms heptamer rings (PubMed:24440721). Interacts with RAD4 (PubMed:24682993)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus"
+   ],
+   "INDUCTION": [
+    "By heat shock"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Leads to increased mitotic recombination and spontaneous mutation, as well as to sensitivity to 4-nitroquinoline 1-oxide and cisplatin (PubMed:23456718). Also causes hypersensitivity to DNA interstrand cross-links (ICLs) and telomere addition to DNA breaks (PubMed:24440721)"
+   ],
+   "MISCELLANEOUS": [
+    "Present with 259 molecules/cell in log phase SD medium"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. HRQ1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 299,
+     "end": 483
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 521,
+     "end": 678
+    }
+   ],
+   "regions": [],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 423,
+     "end": 426
+    }
+   ],
+   "binding": [
+    {
+     "start": 312,
+     "end": 319,
+     "ligand": "ATP"
+    },
+    {
+     "start": 979,
+     "end": 979,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 981,
+     "end": 981,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 985,
+     "end": 985,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 988,
+     "end": 988,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 318,
+     "change": "K>A",
+     "desc": "Impairs helicase and ATPase activities."
+    }
+   ],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0008047",
+    "term": "F:enzyme activator activity"
+   },
+   {
+    "id": "GO:0003697",
+    "term": "F:single-stranded DNA binding"
+   },
+   {
+    "id": "GO:0042162",
+    "term": "F:telomeric repeat DNA binding"
+   },
+   {
+    "id": "GO:0042275",
+    "term": "P:error-free postreplication DNA repair"
+   },
+   {
+    "id": "GO:0036297",
+    "term": "P:interstrand cross-link repair"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   },
+   {
+    "id": "GO:0032204",
+    "term": "P:regulation of telomere maintenance"
+   },
+   {
+    "id": "GO:0032202",
+    "term": "P:telomere assembly"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR055227",
+    "name": "HRQ1_WHD"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF22982",
+    "name": "WHD_HRQ1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_010577.3"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-Q05549-F1",
+  "globalMetricValue": 80.62,
+  "fractionPlddtVeryHigh": 0.345,
+  "fractionPlddtConfident": 0.491,
+  "fractionPlddtLow": 0.067,
+  "fractionPlddtVeryLow": 0.097,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q05549-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q05549-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q05549-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 29,
+  "papers": [
+   {
+    "pmid": "42755368",
+    "title": "DNA binding contributes to dominant-negative effects of a catalytically inactive RecQ4-family helicase",
+    "authors": [
+     "Simmons RH 3rd",
+     "McDevitt FE",
+     "Hurlock A",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2026",
+    "date": "2026 Sep 7"
+   },
+   {
+    "pmid": "42567513",
+    "title": "Mechanistic study of ATP-dependent regulation of the Hrq1 oligomeric state and its DNA unwinding activity in Saccharomyces cerevisiae",
+    "authors": [
+     "Zhu X",
+     "Dai Y",
+     "Xie Y",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2026",
+    "date": "2026 Sep"
+   },
+   {
+    "pmid": "41726939",
+    "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor",
+    "authors": [
+     "Simmons RH 3rd",
+     "McDevitt FE",
+     "Hurlock A",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Feb 14"
+   },
+   {
+    "pmid": "40994099",
+    "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele",
+    "authors": [
+     "Shumaker KA",
+     "Kumcu ME",
+     "McDevitt FE",
+     "et al."
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2025",
+    "date": "2025 Dec 10"
+   },
+   {
+    "pmid": "40631315",
+    "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele",
+    "authors": [
+     "Shumaker KA",
+     "Kumcu ME",
+     "McDevitt FE",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2025",
+    "date": "2025 Jul 4"
+   },
+   {
+    "pmid": "38613387",
+    "title": "Cdc13 exhibits dynamic DNA strand exchange in the presence of telomeric DNA",
+    "authors": [
+     "Nickens DG",
+     "Feng Z",
+     "Shen J",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Jun 24"
+   },
+   {
+    "pmid": "38105973",
+    "title": "Cdc13 exhibits dynamic DNA strand exchange in the presence of telomeric DNA",
+    "authors": [
+     "Nickens DG",
+     "Feng Z",
+     "Shen J",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2024",
+    "date": "2024 Feb 28"
+   },
+   {
+    "pmid": "37781931",
+    "title": "Replication-induced DNA secondary structures drive fork uncoupling and breakage",
+    "authors": [
+     "Williams SL",
+     "Casas-Delucchi CS",
+     "Raguseo F",
+     "et al."
+    ],
+    "journal": "EMBO J",
+    "year": "2023",
+    "date": "2023 Nov 15"
+   },
+   {
+    "pmid": "36126066",
+    "title": "Hrq1/RECQL4 regulation is critical for preventing aberrant recombination during DNA intrastrand crosslink repair and is upregulated in breast cancer",
+    "authors": [
+     "Luong TT",
+     "Li Z",
+     "Priedigkeit N",
+     "et al."
+    ],
+    "journal": "PLoS Genet",
+    "year": "2022",
+    "date": "2022 Sep"
+   },
+   {
+    "pmid": "35483549",
+    "title": "Genetic and biochemical interactions of yeast DNA helicases",
+    "authors": [
+     "Nickens DG",
+     "Bochman ML"
+    ],
+    "journal": "Methods",
+    "year": "2022",
+    "date": "2022 Aug"
+   },
+   {
+    "pmid": "35965006",
+    "title": "Bulk phase biochemistry of PIF1 and RecQ4 family helicases",
+    "authors": [
+     "Rajapaksha P",
+     "Simmons RH 3rd",
+     "Gray SJ",
+     "et al."
+    ],
+    "journal": "Methods Enzymol",
+    "year": "2022",
+    "date": "2022"
+   },
+   {
+    "pmid": "33961099",
+    "title": "A deep dive into the RecQ interactome: something old and something new",
+    "authors": [
+     "Simmons RH 3rd",
+     "Rogers CM",
+     "Bochman ML"
+    ],
+    "journal": "Curr Genet",
+    "year": "2021",
+    "date": "2021 Oct"
+   },
+   {
+    "pmid": "34776218",
+    "title": "Characterization of the telomerase modulating activities of yeast DNA helicases",
+    "authors": [
+     "Nickens DG",
+     "Bochman ML"
+    ],
+    "journal": "Methods Enzymol",
+    "year": "2021",
+    "date": "2021"
+   },
+   {
+    "pmid": "33115721",
+    "title": "The Genetic and Physical Interactomes of the Saccharomyces cerevisiae Hrq1 Helicase",
+    "authors": [
+     "Rogers CM",
+     "Sanders E",
+     "Nguyen PA",
+     "et al."
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2020",
+    "date": "2020 Dec 3"
+   },
+   {
+    "pmid": "33115720",
+    "title": "Comprehensive Synthetic Genetic Array Analysis of Alleles That Interact with Mutation of the Saccharomyces cerevisiae RecQ Helicases Hrq1 and Sgs1",
+    "authors": [
+     "Sanders E",
+     "Nguyen PA",
+     "Rogers CM",
+     "et al."
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2020",
+    "date": "2020 Dec 3"
+   },
+   {
+    "pmid": "32877700",
+    "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes",
+    "authors": [
+     "Rogers CM",
+     "Simmons Iii RH",
+     "Fluhler Thornburg GE",
+     "et al."
+    ],
+    "journal": "Prog Biophys Mol Biol",
+    "year": "2020",
+    "date": "2020 Dec"
+   },
+   {
+    "pmid": "32371399",
+    "title": "The yeast Hrq1 helicase stimulates Pso2 translesion nuclease activity and thereby promotes DNA interstrand crosslink repair",
+    "authors": [
+     "Rogers CM",
+     "Lee CY",
+     "Parkins S",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2020",
+    "date": "2020 Jul 3"
+   },
+   {
+    "pmid": "31142053",
+    "title": "The Biochemical Activities of the Saccharomyces cerevisiae Pif1 Helicase Are Regulated by Its N-Terminal Domain",
+    "authors": [
+     "Nickens DG",
+     "Sausen CW",
+     "Bochman ML"
+    ],
+    "journal": "Genes (Basel)",
+    "year": "2019",
+    "date": "2019 May 28"
+   },
+   {
+    "pmid": "30068549",
+    "title": "The Saccharomyces cerevisiae Hrq1 and Pif1 DNA helicases synergistically modulate telomerase activity in vitro",
+    "authors": [
+     "Nickens DG",
+     "Rogers CM",
+     "Bochman ML"
+    ],
+    "journal": "J Biol Chem",
+    "year": "2018",
+    "date": "2018 Sep 14"
+   },
+   {
+    "pmid": "29577315",
+    "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A",
+    "authors": [
+     "R\u00f6hrig S",
+     "Dorn A",
+     "Enderle J",
+     "et al."
+    ],
+    "journal": "New Phytol",
+    "year": "2018",
+    "date": "2018 Jun"
+   },
+   {
+    "pmid": "28334827",
+    "title": "Yeast Hrq1 shares structural and functional homology with the disease-linked human RecQ4 helicase",
+    "authors": [
+     "Rogers CM",
+     "Wang JC",
+     "Noguchi H",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2017",
+    "date": "2017 May 19"
+   },
+   {
+    "pmid": "28385527",
+    "title": "Saccharomyces cerevisiae Hrq1 helicase activity is affected by the sequence but not the length of single-stranded DNA",
+    "authors": [
+     "Rogers CM",
+     "Bochman ML"
+    ],
+    "journal": "Biochem Biophys Res Commun",
+    "year": "2017",
+    "date": "2017 May 13"
+   },
+   {
+    "pmid": "24700328",
+    "title": "Conditional genetic interactions of RTT107, SLX4, and HRQ1 reveal dynamic networks upon DNA damage in S. cerevisiae",
+    "authors": [
+     "Leung GP",
+     "Aristizabal MJ",
+     "Krogan NJ",
+     "et al."
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2014",
+    "date": "2014 Apr 2"
+   },
+   {
+    "pmid": "24682993",
+    "title": "Hrq1 facilitates nucleotide excision repair of DNA damage induced by 4-nitroquinoline-1-oxide and cisplatin in Saccharomyces cerevisiae",
+    "authors": [
+     "Choi DH",
+     "Min MH",
+     "Kim MJ",
+     "et al."
+    ],
+    "journal": "J Microbiol",
+    "year": "2014",
+    "date": "2014 Apr"
+   },
+   {
+    "pmid": "24440721",
+    "title": "Hrq1, a homolog of the human RecQ4 helicase, acts catalytically and structurally to promote genome integrity",
+    "authors": [
+     "Bochman ML",
+     "Paeschke K",
+     "Chan A",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2014",
+    "date": "2014 Jan 30"
+   },
+   {
+    "pmid": "23589890",
+    "title": "Physical and genetic-interaction density reveals functional organization and informs significance cutoffs in genome-wide screens",
+    "authors": [
+     "Dittmar JC",
+     "Pierce S",
+     "Rothstein R",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2013",
+    "date": "2013 Apr 30"
+   },
+   {
+    "pmid": "23456718",
+    "title": "Hrq1 functions independently of Sgs1 to preserve genome integrity in Saccharomyces cerevisiae",
+    "authors": [
+     "Choi DH",
+     "Lee R",
+     "Kwon SH",
+     "et al."
+    ],
+    "journal": "J Microbiol",
+    "year": "2013",
+    "date": "2013 Feb"
+   },
+   {
+    "pmid": "23026052",
+    "title": "Saccharomyces cerevisiae Hrq1 requires a long 3'-tailed DNA substrate for helicase activity",
+    "authors": [
+     "Kwon SH",
+     "Choi DH",
+     "Lee R",
+     "et al."
+    ],
+    "journal": "Biochem Biophys Res Commun",
+    "year": "2012",
+    "date": "2012 Oct 26"
+   },
+   {
+    "pmid": "22064477",
+    "title": "The RecQ4 orthologue Hrq1 is critical for DNA interstrand cross-link repair and genome stability in fission yeast",
+    "authors": [
+     "Groocock LM",
+     "Prudden J",
+     "Perry JJ",
+     "et al."
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2012",
+    "date": "2012 Jan"
+   }
+  ],
+  "query": "HRQ1[tiab] AND (yeast OR cerevisiae OR helicase)"
+ },
+ "interactions_intact": {
+  "total": 11,
+  "partners": [
+   {
+    "uniprot": "P47068",
+    "name": "BBC1",
+    "methods": [
+     "peptide array"
+    ],
+    "types": [
+     "direct interaction"
+    ],
+    "pmids": [
+     "19841731"
+    ],
+    "score": 0.44
+   },
+   {
+    "uniprot": "P25037",
+    "name": "UBP1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "16554755"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "P02829",
+    "name": "HSP82",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q02206",
+    "name": "RSC4",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "37968396"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P10591",
+    "name": "SSA1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P11484",
+    "name": "SSB1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P32589",
+    "name": "SSE1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P38788",
+    "name": "SSZ1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P25491",
+    "name": "YDJ1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P36010",
+    "name": "YNK1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "37968396"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P32892",
+    "name": "DRS1",
+    "methods": [
+     "inferred by author"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "16554755"
+    ],
+    "score": 0.22
+   }
+  ]
+ },
+ "sgd_data": {
+  "sgdid": "S000002699",
+  "physical": [
+   {
+    "name": "AIR2",
+    "systematic": "YDL175C",
+    "sgdid": "S000002334",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "APL5",
+    "systematic": "YPL195W",
+    "sgdid": "S000006116",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "BMS1",
+    "systematic": "YPL217C",
+    "sgdid": "S000006138",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "BUD21",
+    "systematic": "YOR078W",
+    "sgdid": "S000005604",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "CBF5",
+    "systematic": "YLR175W",
+    "sgdid": "S000004165",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "CCR4",
+    "systematic": "YAL021C",
+    "sgdid": "S000000019",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "CDC73",
+    "systematic": "YLR418C",
+    "sgdid": "S000004410",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "CIC1",
+    "systematic": "YHR052W",
+    "sgdid": "S000001094",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "CTR9",
+    "systematic": "YOL145C",
+    "sgdid": "S000005505",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DBP10",
+    "systematic": "YDL031W",
+    "sgdid": "S000002189",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DBP3",
+    "systematic": "YGL078C",
+    "sgdid": "S000003046",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DBP9",
+    "systematic": "YLR276C",
+    "sgdid": "S000004266",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DHR2",
+    "systematic": "YKL078W",
+    "sgdid": "S000001561",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DIP2",
+    "systematic": "YLR129W",
+    "sgdid": "S000004119",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DSN1",
+    "systematic": "YIR010W",
+    "sgdid": "S000001449",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ECM16",
+    "systematic": "YMR128W",
+    "sgdid": "S000004735",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ENP2",
+    "systematic": "YGR145W",
+    "sgdid": "S000003377",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ERB1",
+    "systematic": "YMR049C",
+    "sgdid": "S000004652",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ESF1",
+    "systematic": "YDR365C",
+    "sgdid": "S000002773",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "FPR3",
+    "systematic": "YML074C",
+    "sgdid": "S000004539",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "FPR4",
+    "systematic": "YLR449W",
+    "sgdid": "S000004441",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "FUN12",
+    "systematic": "YAL035W",
+    "sgdid": "S000000033",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "GAR1",
+    "systematic": "YHR089C",
+    "sgdid": "S000001131",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "GIN4",
+    "systematic": "YDR507C",
+    "sgdid": "S000002915",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "HHF1",
+    "systematic": "YBR009C",
+    "sgdid": "S000000213",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "HRQ1",
+    "systematic": "YDR291W",
+    "sgdid": "S000002699",
+    "experiments": [
+     "Co-fractionation"
+    ]
+   },
+   {
+    "name": "HTA1",
+    "systematic": "YDR225W",
+    "sgdid": "S000002633",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ISW1",
+    "systematic": "YBR245C",
+    "sgdid": "S000000449",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "JHD2",
+    "systematic": "YJR119C",
+    "sgdid": "S000003880",
+    "experiments": [
+     "Affinity Capture-Western"
+    ]
+   },
+   {
+    "name": "KRE33",
+    "systematic": "YNL132W",
+    "sgdid": "S000005076",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "KSP1",
+    "systematic": "YHR082C",
+    "sgdid": "S000001124",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "LEO1",
+    "systematic": "YOR123C",
+    "sgdid": "S000005649",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "LEU2",
+    "systematic": "YCL018W",
+    "sgdid": "S000000523",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MAK5",
+    "systematic": "YBR142W",
+    "sgdid": "S000000346",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MOT1",
+    "systematic": "YPL082C",
+    "sgdid": "S000006003",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MPP10",
+    "systematic": "YJR002W",
+    "sgdid": "S000003762",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MRD1",
+    "systematic": "YPR112C",
+    "sgdid": "S000006316",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NAB2",
+    "systematic": "YGL122C",
+    "sgdid": "S000003090",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "NHP2",
+    "systematic": "YDL208W",
+    "sgdid": "S000002367",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NIP1",
+    "systematic": "YMR309C",
+    "sgdid": "S000004926",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NOC2",
+    "systematic": "YOR206W",
+    "sgdid": "S000005732",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NOP56",
+    "systematic": "YLR197W",
+    "sgdid": "S000004187",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NOP8",
+    "systematic": "YOL144W",
+    "sgdid": "S000005504",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NSA2",
+    "systematic": "YER126C",
+    "sgdid": "S000000928",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NSR1",
+    "systematic": "YGR159C",
+    "sgdid": "S000003391",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "NUG1",
+    "systematic": "YER006W",
+    "sgdid": "S000000808",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "PDS5",
+    "systematic": "YMR076C",
+    "sgdid": "S000004681",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "PHO84",
+    "systematic": "YML123C",
+    "sgdid": "S000004592",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "PSO2",
+    "systematic": "YMR137C",
+    "sgdid": "S000004745",
+    "experiments": [
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "PUF3",
+    "systematic": "YLL013C",
+    "sgdid": "S000003936",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "PUS1",
+    "systematic": "YPL212C",
+    "sgdid": "S000006133",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RAD4",
+    "systematic": "YER162C",
+    "sgdid": "S000000964",
+    "experiments": [
+     "Two-hybrid"
+    ]
+   },
+   {
+    "name": "RET2",
+    "systematic": "YFR051C",
+    "sgdid": "S000001947",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RFC3",
+    "systematic": "YNL290W",
+    "sgdid": "S000005234",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RFC4",
+    "systematic": "YOL094C",
+    "sgdid": "S000005454",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RIO1",
+    "systematic": "YOR119C",
+    "sgdid": "S000005645",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RIX7",
+    "systematic": "YLL034C",
+    "sgdid": "S000003957",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RLP7",
+    "systematic": "YNL002C",
+    "sgdid": "S000004947",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ROK1",
+    "systematic": "YGL171W",
+    "sgdid": "S000003139",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPA49",
+    "systematic": "YNL248C",
+    "sgdid": "S000005192",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPB5",
+    "systematic": "YBR154C",
+    "sgdid": "S000000358",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPL12A",
+    "systematic": "YEL054C",
+    "sgdid": "S000000780",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPL1A",
+    "systematic": "YPL220W",
+    "sgdid": "S000006141",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPL23A",
+    "systematic": "YBL087C",
+    "sgdid": "S000000183",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPL43A",
+    "systematic": "YPR043W",
+    "sgdid": "S000006247",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPS19A",
+    "systematic": "YOL121C",
+    "sgdid": "S000005481",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPS25B",
+    "systematic": "YLR333C",
+    "sgdid": "S000004325",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPS6A",
+    "systematic": "YPL090C",
+    "sgdid": "S000006011",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RPS8A",
+    "systematic": "YBL072C",
+    "sgdid": "S000000168",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RRP12",
+    "systematic": "YPL012W",
+    "sgdid": "S000005933",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RRP8",
+    "systematic": "YDR083W",
+    "sgdid": "S000002490",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RRT14",
+    "systematic": "YIL127C",
+    "sgdid": "S000001389",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RSC4",
+    "systematic": "YKR008W",
+    "sgdid": "S000001716",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RTG3",
+    "systematic": "YBL103C",
+    "sgdid": "S000000199",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SCC2",
+    "systematic": "YDR180W",
+    "sgdid": "S000002588",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SCJ1",
+    "systematic": "YMR214W",
+    "sgdid": "S000004827",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SDA1",
+    "systematic": "YGR245C",
+    "sgdid": "S000003477",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SEC1",
+    "systematic": "YDR164C",
+    "sgdid": "S000002571",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SGD1",
+    "systematic": "YLR336C",
+    "sgdid": "S000004328",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SIZ1",
+    "systematic": "YDR409W",
+    "sgdid": "S000002817",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SRP14",
+    "systematic": "YDL092W",
+    "sgdid": "S000002250",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SRP21",
+    "systematic": "YKL122C",
+    "sgdid": "S000001605",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SSF1",
+    "systematic": "YHR066W",
+    "sgdid": "S000001108",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SUA7",
+    "systematic": "YPR086W",
+    "sgdid": "S000006290",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "TSR1",
+    "systematic": "YDL060W",
+    "sgdid": "S000002218",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "UBP1",
+    "systematic": "YDL122W",
+    "sgdid": "S000002280",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "URB1",
+    "systematic": "YKL014C",
+    "sgdid": "S000001497",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "UTP10",
+    "systematic": "YJL109C",
+    "sgdid": "S000003645",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "UTP22",
+    "systematic": "YGR090W",
+    "sgdid": "S000003322",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "UTP9",
+    "systematic": "YHR196W",
+    "sgdid": "S000001239",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "YNK1",
+    "systematic": "YKL067W",
+    "sgdid": "S000001550",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   }
+  ],
+  "genetic_partners": [
+   "AAC1",
+   "AAC3",
+   "AAD3",
+   "AAD4",
+   "AAG1",
+   "AAH1",
+   "ABD1",
+   "ABF1",
+   "ABZ2",
+   "ACB1",
+   "ACE2",
+   "ACF2",
+   "ACH1",
+   "ACL4",
+   "ACT1",
+   "ADD66",
+   "ADE17",
+   "ADE2",
+   "ADE4",
+   "ADH1",
+   "ADH2",
+   "ADH5",
+   "ADH6",
+   "ADH7",
+   "ADI1",
+   "ADY3",
+   "AEP2",
+   "AFG2",
+   "AFI1",
+   "AGA2",
+   "AGP1",
+   "AGP2",
+   "AHC2",
+   "AIF1",
+   "AIM11",
+   "AIM14",
+   "AIM17",
+   "AIM18",
+   "AIM21",
+   "AIM22",
+   "AIM25",
+   "AIM29",
+   "AIM36",
+   "AIM39",
+   "AIM4",
+   "AIM41",
+   "AIM6",
+   "AIP1",
+   "AIR1",
+   "AIT1",
+   "AKL1",
+   "ALA1",
+   "ALD2",
+   "ALD3",
+   "ALD6",
+   "ALG12",
+   "ALG14",
+   "ALG2",
+   "ALG6",
+   "ALK2",
+   "ALR1",
+   "ALT1",
+   "ALT2",
+   "AMA1",
+   "ANS1",
+   "ANY1",
+   "APC11",
+   "APC2",
+   "APC4",
+   "APC5",
+   "APC9",
+   "APD1",
+   "APE2",
+   "APJ1",
+   "APM4",
+   "APN1",
+   "APP1",
+   "APQ12",
+   "APS1",
+   "APS3",
+   "APT1",
+   "APT2",
+   "ARA2",
+   "ARC1",
+   "ARC15",
+   "ARC18",
+   "ARC40",
+   "ARE2",
+   "ARF1",
+   "ARF3",
+   "ARI1",
+   "ARK1",
+   "ARL1",
+   "ARO1",
+   "ARO2",
+   "ARO7",
+   "ARP2",
+   "ARP3",
+   "ARP4",
+   "ARP6",
+   "ARP7",
+   "ARP8",
+   "ARP9",
+   "ART5",
+   "ARX1",
+   "ASA1",
+   "ASC1",
+   "ASF1",
+   "ASI1",
+   "ASK1",
+   "ASK10",
+   "ASM4",
+   "ATF2",
+   "ATG1",
+   "ATG12",
+   "ATG13",
+   "ATG15",
+   "ATG16",
+   "ATG18",
+   "ATG22",
+   "ATG26",
+   "ATG3",
+   "ATG38",
+   "ATG45",
+   "ATG5",
+   "ATG8",
+   "ATG9",
+   "ATH1",
+   "ATP10",
+   "ATP18",
+   "ATP20",
+   "ATP23",
+   "AUA1",
+   "AUR1",
+   "AUS1",
+   "AVL9",
+   "AVO2",
+   "AVT3",
+   "AVT5",
+   "AXL1",
+   "BAP2",
+   "BAP3",
+   "BAS1",
+   "BAT2",
+   "BBP1",
+   "BCD1",
+   "BCH2",
+   "BCK2",
+   "BDF2",
+   "BEM1",
+   "BEM2",
+   "BEM4",
+   "BET3",
+   "BET5",
+   "BIG1",
+   "BIK1",
+   "BIO3",
+   "BLI1",
+   "BLM10",
+   "BMH1",
+   "BMH2",
+   "BMS1",
+   "BMT6",
+   "BNA1",
+   "BNA2",
+   "BNA6",
+   "BNR1",
+   "BRE1",
+   "BRE2",
+   "BRE4",
+   "BRE5",
+   "BRF1",
+   "BRL1",
+   "BRN1",
+   "BRR6",
+   "BRX1",
+   "BSC6",
+   "BSP1",
+   "BTS1",
+   "BUB1",
+   "BUB2",
+   "BUB3",
+   "BUD13",
+   "BUD17",
+   "BUD21",
+   "BUD27",
+   "BUD31",
+   "BUL1",
+   "BUL2",
+   "CAB1",
+   "CAB2",
+   "CAB3",
+   "CAB4",
+   "CAC2",
+   "CAD1",
+   "CAM1",
+   "CAP1",
+   "CAT2",
+   "CAT5",
+   "CAT8",
+   "CBC2",
+   "CBF2",
+   "CBP4",
+   "CCL1",
+   "CCS1",
+   "CCT4",
+   "CCT6",
+   "CCW12",
+   "CCZ1",
+   "CDC1",
+   "CDC10",
+   "CDC11",
+   "CDC12",
+   "CDC123",
+   "CDC13",
+   "CDC14",
+   "CDC15",
+   "CDC16",
+   "CDC20",
+   "CDC21",
+   "CDC23",
+   "CDC24",
+   "CDC25",
+   "CDC26",
+   "CDC27",
+   "CDC28",
+   "CDC3",
+   "CDC31",
+   "CDC33",
+   "CDC34",
+   "CDC36",
+   "CDC37",
+   "CDC4",
+   "CDC43",
+   "CDC45",
+   "CDC48",
+   "CDC5",
+   "CDC53",
+   "CDC6",
+   "CDC7",
+   "CDC73",
+   "CDC8",
+   "CDC9",
+   "CEF1",
+   "CEG1",
+   "CEP3",
+   "CET1",
+   "CFT2",
+   "CGI121",
+   "CHA4",
+   "CHL1",
+   "CHM7",
+   "CHO2",
+   "CHS5",
+   "CIA2",
+   "CIC1",
+   "CIM1",
+   "CIN10",
+   "CIS1",
+   "CIS3",
+   "CKS1",
+   "CLB1",
+   "CLB2",
+   "CLB3",
+   "CLB5",
+   "CLF1",
+   "CLG1",
+   "CLN1",
+   "CLN2",
+   "CLP1",
+   "CLU1",
+   "CMC1",
+   "CMD1",
+   "CMG1",
+   "CMK2",
+   "CMP2",
+   "CMR2",
+   "CMS1",
+   "CNN1",
+   "CNS1",
+   "COA1",
+   "COA4",
+   "COA6",
+   "COF1",
+   "COG2",
+   "COG5",
+   "COG6",
+   "COG7",
+   "COG8",
+   "COP1",
+   "COQ10",
+   "COQ11",
+   "COQ2",
+   "COX10",
+   "COX12",
+   "COX23",
+   "COX5A",
+   "COX5B",
+   "COX7",
+   "CPP1",
+   "CPR1",
+   "CPR8",
+   "CPS1",
+   "CPT1",
+   "CRG1",
+   "CRM1",
+   "CSE2",
+   "CSE4",
+   "CSF1",
+   "CSI1",
+   "CSM1",
+   "CSM2",
+   "CSM3",
+   "CSM4",
+   "CSN9",
+   "CST9",
+   "CTF13",
+   "CTF18",
+   "CTF19",
+   "CTF4",
+   "CTF8",
+   "CTI6",
+   "CTK1",
+   "CTK3",
+   "CTL1",
+   "CTP1",
+   "CUB1",
+   "CUE1",
+   "CUE3",
+   "CUE4",
+   "CUS1",
+   "CVM1",
+   "CVM2",
+   "CWC2",
+   "CWC21",
+   "CWC22",
+   "CWP1",
+   "CYB5",
+   "CYC2",
+   "CYC8",
+   "CYK3",
+   "CYR1",
+   "CYT1",
+   "DAD2",
+   "DAK1",
+   "DAL2",
+   "DAL80",
+   "DAL81",
+   "DAM1",
+   "DAP1",
+   "DAS1",
+   "DAT1",
+   "DBF2",
+   "DBF4",
+   "DBP5",
+   "DBP6",
+   "DBP7",
+   "DBP9",
+   "DCC1",
+   "DCN1",
+   "DCP2",
+   "DCR2",
+   "DDC1",
+   "DDL1",
+   "DDR48",
+   "DED1",
+   "DED81",
+   "DEG1",
+   "DEP1",
+   "DER1",
+   "DFG16",
+   "DFG5",
+   "DFM1",
+   "DFP1",
+   "DFP4",
+   "DFR1",
+   "DGA1",
+   "DGK1",
+   "DHR2",
+   "DIA1",
+   "DIA2",
+   "DIB1",
+   "DIG2",
+   "DIP5",
+   "DIS3",
+   "DIT2",
+   "DMO1",
+   "DNA2",
+   "DNF1",
+   "DNF3",
+   "DNL4",
+   "DOA1",
+   "DOG1",
+   "DOM34",
+   "DOP1",
+   "DOT5",
+   "DPB11",
+   "DPB2",
+   "DPB4",
+   "DPH1",
+   "DPH5",
+   "DPM1",
+   "DRS2",
+   "DSK2",
+   "DSN1",
+   "DST1",
+   "DTD1",
+   "DTR1",
+   "DYN3",
+   "EAF3",
+   "EAF7",
+   "EAP1",
+   "EAR1",
+   "EBP2",
+   "ECL1",
+   "ECM18",
+   "ECM21",
+   "ECM22",
+   "ECM29",
+   "ECM30",
+   "ECM32",
+   "ECM34",
+   "ECM5",
+   "ECM8",
+   "EDC1",
+   "EDS1",
+   "EFB1",
+   "EFM4",
+   "EFM6",
+   "EGD1",
+   "EHD3",
+   "EHT1",
+   "EIS1",
+   "ELG1",
+   "ELM1",
+   "ELO2",
+   "ELO3",
+   "ELP4",
+   "ELP6",
+   "EMC5",
+   "EMG1",
+   "EMI1",
+   "EMP46",
+   "ENP1",
+   "ENT1",
+   "ENT2",
+   "ENT3",
+   "ENT4",
+   "ENV11",
+   "ENV9",
+   "EOS1",
+   "EPO1",
+   "EPS1",
+   "EPT1",
+   "ERC1",
+   "ERD1",
+   "ERD2",
+   "ERG10",
+   "ERG11",
+   "ERG13",
+   "ERG2",
+   "ERG26",
+   "ERG27",
+   "ERG29",
+   "ERG3",
+   "ERG5",
+   "ERG6",
+   "ERG8",
+   "ERG9",
+   "ERJ5",
+   "ERP2",
+   "ERT1",
+   "ERV15",
+   "ERV2",
+   "ERV25",
+   "ERV41",
+   "ESA1",
+   "ESC1",
+   "ESP1",
+   "ESS1",
+   "EST3",
+   "ETR1",
+   "EUC1",
+   "EXO1",
+   "EXO70",
+   "EXO84",
+   "FAA1",
+   "FAD1",
+   "FAL1",
+   "FAR1",
+   "FAR10",
+   "FAR11",
+   "FAR3",
+   "FAR8",
+   "FBP1",
+   "FCP1",
+   "FDC1",
+   "FDO1",
+   "FET3",
+   "FET5",
+   "FHN1",
+   "FIN1",
+   "FIP1",
+   "FKH2",
+   "FKS1",
+   "FKS3",
+   "FLC3",
+   "FLO10",
+   "FLX1",
+   "FMP42",
+   "FMP45",
+   "FMP48",
+   "FMS1",
+   "FOB1",
+   "FPR1",
+   "FPR2",
+   "FPR3",
+   "FPY1",
+   "FRA1",
+   "FRE1",
+   "FRE4",
+   "FRE6",
+   "FRM2",
+   "FSF1",
+   "FTR1",
+   "FUM1",
+   "FUN30",
+   "FYV10",
+   "FYV12",
+   "FYV4",
+   "FYV8",
+   "FZF1",
+   "GAA1",
+   "GAB1",
+   "GAD1",
+   "GAL2",
+   "GAL7",
+   "GAP1",
+   "GAS1",
+   "GAS2",
+   "GAS3",
+   "GAT1",
+   "GAT2",
+   "GCD1",
+   "GCD10",
+   "GCD11",
+   "GCD7",
+   "GCN1",
+   "GCN20",
+   "GCS1",
+   "GCV1",
+   "GCV2",
+   "GDH2",
+   "GDH3",
+   "GDI1",
+   "GDS1",
+   "GDT1",
+   "GEA1",
+   "GET1",
+   "GET2",
+   "GET3",
+   "GFA1",
+   "GFD1",
+   "GFD2",
+   "GIC1",
+   "GID10",
+   "GID12",
+   "GID8",
+   "GIM3",
+   "GIM5",
+   "GIP3",
+   "GIP4",
+   "GIS1",
+   "GIS4",
+   "GLC7",
+   "GLC8",
+   "GLE1",
+   "GLO4",
+   "GLT1",
+   "GMC2",
+   "GMH1",
+   "GNA1",
+   "GNP1",
+   "GOS1",
+   "GPA1",
+   "GPB2",
+   "GPI10",
+   "GPI12",
+   "GPI13",
+   "GPI15",
+   "GPI17",
+   "GPI19",
+   "GPI2",
+   "GPM3",
+   "GPN2",
+   "GPP1",
+   "GPR1",
+   "GPT2",
+   "GRC3",
+   "GRR1",
+   "GRS1",
+   "GRX2",
+   "GRX3",
+   "GRX4",
+   "GSF2",
+   "GSH1",
+   "GSP1",
+   "GSR1",
+   "GTO1",
+   "GTO3",
+   "GTR1",
+   "GTT2",
+   "GUD1",
+   "GUK1",
+   "GUT2",
+   "GWT1",
+   "GYL1",
+   "GYP1",
+   "GYP5",
+   "GYP7",
+   "GZF3",
+   "HAL9",
+   "HAP2",
+   "HAP3",
+   "HAP4",
+   "HAP5",
+   "HAS1",
+   "HBS1",
+   "HBT1",
+   "HCR1",
+   "HDA3",
+   "HEH2",
+   "HEM13",
+   "HEM25",
+   "HER1",
+   "HES1",
+   "HFD1",
+   "HFM1",
+   "HGH1",
+   "HHF2",
+   "HHO1",
+   "HHT2",
+   "HIR1",
+   "HIR3",
+   "HKR1",
+   "HMG2",
+   "HMI1",
+   "HMO1",
+   "HMS2",
+   "HMT1",
+   "HOM2",
+   "HOM6",
+   "HOR7",
+   "HOS2",
+   "HOT1",
+   "HPC2",
+   "HRB1",
+   "HRD1",
+   "HRD3",
+   "HRK1",
+   "HRP1",
+   "HRR25",
+   "HRT3",
+   "HSC82",
+   "HSF1",
+   "HSP10",
+   "HSP30",
+   "HSP31",
+   "HST3",
+   "HTD2",
+   "HTS1",
+   "HTZ1",
+   "HUA1",
+   "HUR1",
+   "HXK1",
+   "HXK2",
+   "HXT10",
+   "HXT17",
+   "HXT2",
+   "HYM1",
+   "HYR1",
+   "IAH1",
+   "ICE2",
+   "ICL2",
+   "ICS2",
+   "ICS3",
+   "ICY1",
+   "IDH1",
+   "IDH2",
+   "IDP3",
+   "IES1",
+   "IES4",
+   "IES5",
+   "IGO1",
+   "IGO2",
+   "IKI3",
+   "ILM1",
+   "IMD3",
+   "IMD4",
+   "IME1",
+   "IME2",
+   "IMG2",
+   "IMO32",
+   "IMP2",
+   "IMP21",
+   "IMP4",
+   "INH1",
+   "INO2",
+   "INO4",
+   "INP1",
+   "INP2",
+   "INP54",
+   "IOC3",
+   "IOC4",
+   "IPA1",
+   "IPI1",
+   "IPL1",
+   "IPT1",
+   "IRA2",
+   "IRC21",
+   "IRC4",
+   "IRC7",
+   "IRR1",
+   "IRS4",
+   "ISC10",
+   "ISR1",
+   "IST2",
+   "IST3",
+   "ISU1",
+   "ISW1",
+   "ISW2",
+   "ITC1",
+   "ITR1",
+   "IXR1",
+   "IZH1",
+   "IZH3",
+   "JEM1",
+   "JLP2",
+   "JNM1",
+   "JSN1",
+   "KAP114",
+   "KAP122",
+   "KAP95",
+   "KAR2",
+   "KAR3",
+   "KAR5",
+   "KAR9",
+   "KCC4",
+   "KCH1",
+   "KDX1",
+   "KEL1",
+   "KEL2",
+   "KEL3",
+   "KGD1",
+   "KGD2",
+   "KHA1",
+   "KIN1",
+   "KIN28",
+   "KIN3",
+   "KIP1",
+   "KOG1",
+   "KRE28",
+   "KRE5",
+   "KRE9",
+   "KRR1",
+   "KTR3",
+   "KTR6",
+   "LAA1",
+   "LAF1",
+   "LAG1",
+   "LAG2",
+   "LAP2",
+   "LAS17",
+   "LAT1",
+   "LCB1",
+   "LCB2",
+   "LCB4",
+   "LCL1",
+   "LCL2",
+   "LCL3",
+   "LDB18",
+   "LDB19",
+   "LDH1",
+   "LDM1",
+   "LDO16",
+   "LDO45",
+   "LEA1",
+   "LEE1",
+   "LEO1",
+   "LEU9",
+   "LFT1",
+   "LGE1",
+   "LIP1",
+   "LIP5",
+   "LOH1",
+   "LOS1",
+   "LPD1",
+   "LPL1",
+   "LPP1",
+   "LRG1",
+   "LRP1",
+   "LSM1",
+   "LSP1",
+   "LST4",
+   "LST8",
+   "LTE1",
+   "LUC7",
+   "MAC1",
+   "MAF1",
+   "MAK21",
+   "MAK3",
+   "MAK5",
+   "MAL11",
+   "MAL33",
+   "MAP2",
+   "MAS1",
+   "MAS2",
+   "MAY24",
+   "MBA1",
+   "MBF1",
+   "MBP1",
+   "MBR1",
+   "MCD1",
+   "MCH5",
+   "MCM1",
+   "MCM10",
+   "MCM22",
+   "MCM4",
+   "MCM7",
+   "MCP1",
+   "MCR1",
+   "MCT1",
+   "MCX1",
+   "MCY1",
+   "MDH1",
+   "MDH3",
+   "MDL1",
+   "MDL2",
+   "MDM30",
+   "MDM31",
+   "MDM34",
+   "MDM35",
+   "MDS3",
+   "MED1",
+   "MED11",
+   "MED4",
+   "MED6",
+   "MED7",
+   "MED8",
+   "MEP2",
+   "MET18",
+   "MET30",
+   "MET6",
+   "MET8",
+   "MEX67",
+   "MF(ALPHA)1",
+   "MFA1",
+   "MFA2",
+   "MFG1",
+   "MFT1",
+   "MGA2",
+   "MGL2",
+   "MGR3",
+   "MGT1",
+   "MHO1",
+   "MIC19",
+   "MIC26",
+   "MIC60",
+   "MIF2",
+   "MIG1",
+   "MIH1",
+   "MIL1",
+   "MIR1",
+   "MIX23",
+   "MKK2",
+   "MKS1",
+   "MLG1",
+   "MLH1",
+   "MLP1",
+   "MLS1",
+   "MME1",
+   "MMR1",
+   "MMS1",
+   "MMS2",
+   "MMS22",
+   "MMS4",
+   "MMT1",
+   "MNN11",
+   "MNR2",
+   "MNT2",
+   "MOB1",
+   "MOB2",
+   "MOD5",
+   "MOG1",
+   "MOH1",
+   "MOT1",
+   "MOT3",
+   "MPC54",
+   "MPF1",
+   "MPH1",
+   "MPO1",
+   "MPS1",
+   "MPS2",
+   "MPS3",
+   "MRC1",
+   "MRE11",
+   "MRI1",
+   "MRK1",
+   "MRL1",
+   "MRM2",
+   "MRN1",
+   "MRP35",
+   "MRP49",
+   "MRPL1",
+   "MRPL36",
+   "MRPS17",
+   "MRS2",
+   "MRT4",
+   "MRX11",
+   "MRX12",
+   "MRX15",
+   "MRX19",
+   "MRX4",
+   "MSA1",
+   "MSB1",
+   "MSB2",
+   "MSB4",
+   "MSC1",
+   "MSC3",
+   "MSH2",
+   "MSH3",
+   "MSH4",
+   "MSH6",
+   "MSI1",
+   "MSL5",
+   "MSN2",
+   "MSN4",
+   "MSO1",
+   "MSP1",
+   "MSS11",
+   "MSS18",
+   "MTC3",
+   "MTC5",
+   "MTD1",
+   "MTQ1",
+   "MTR3",
+   "MTW1",
+   "MUB1",
+   "MUD1",
+   "MUD2",
+   "MUP1",
+   "MUP3",
+   "MUS81",
+   "MVB12",
+   "MYO2",
+   "MYO5",
+   "MZM1",
+   "NAB3",
+   "NAM7",
+   "NAM8",
+   "NAT5",
+   "NBA1",
+   "NBP1",
+   "NBP2",
+   "NBP35",
+   "NCE101",
+   "NCE102",
+   "NCL1",
+   "NCS6",
+   "NDC1",
+   "NDC80",
+   "NDE1",
+   "NDJ1",
+   "NEO1",
+   "NEW1",
+   "NFI1",
+   "NGK1",
+   "NGL2",
+   "NGL3",
+   "NGR1",
+   "NHP10",
+   "NHP2",
+   "NHP6A",
+   "NIP7",
+   "NIT1",
+   "NIT3",
+   "NKP2",
+   "NMA2",
+   "NMD2",
+   "NMD3",
+   "NMT1",
+   "NNF2",
+   "NNK1",
+   "NNR2",
+   "NOC3",
+   "NOG1",
+   "NOG2",
+   "NOP1",
+   "NOP12",
+   "NOP14",
+   "NOP2",
+   "NOP56",
+   "NOP6",
+   "NOP7",
+   "NPL4",
+   "NPR1",
+   "NPR3",
+   "NRE1",
+   "NRM1",
+   "NSE1",
+   "NSE4",
+   "NSE5",
+   "NSG1",
+   "NSG2",
+   "NSL1",
+   "NST1",
+   "NTE1",
+   "NTH1",
+   "NTR2",
+   "NUC1",
+   "NUF2",
+   "NUM1",
+   "NUP100",
+   "NUP133",
+   "NUP145",
+   "NUP170",
+   "NUP188",
+   "NUP2",
+   "NUP53",
+   "NUP57",
+   "NUP85",
+   "NUS1",
+   "NUT1",
+   "NUT2",
+   "NVJ1",
+   "NYV1",
+   "OAF3",
+   "OAR1",
+   "OCA1",
+   "OCA2",
+   "OCA5",
+   "OGG1",
+   "OKP1",
+   "OLA1",
+   "OLE1",
+   "OPI1",
+   "OPI10",
+   "OPI3",
+   "OPT2",
+   "ORA1",
+   "ORC1",
+   "ORC2",
+   "ORC4",
+   "ORC6",
+   "OST3",
+   "OST4",
+   "OSW2",
+   "OTU1",
+   "OTU2",
+   "OYE2",
+   "PAC1",
+   "PAC10",
+   "PAC11",
+   "PAD1",
+   "PAH1",
+   "PAI3",
+   "PAM16",
+   "PAM17",
+   "PAM18",
+   "PAN1",
+   "PAN2",
+   "PAN3",
+   "PAN6",
+   "PAP1",
+   "PAT1",
+   "PAU13",
+   "PAU17",
+   "PAU23",
+   "PAU24",
+   "PBA1",
+   "PBN1",
+   "PBP1",
+   "PBP2",
+   "PBP4",
+   "PBS2",
+   "PBY1",
+   "PCD1",
+   "PCK1",
+   "PCL7",
+   "PCL9",
+   "PCP1",
+   "PCT1",
+   "PDA1",
+   "PDB1",
+   "PDC2",
+   "PDE1",
+   "PDE2",
+   "PDL32",
+   "PDR12",
+   "PDR15",
+   "PDS5",
+   "PEF1",
+   "PET122",
+   "PET127",
+   "PET130",
+   "PET18",
+   "PET191",
+   "PET494",
+   "PET8",
+   "PEX1",
+   "PEX12",
+   "PEX13",
+   "PEX15",
+   "PEX19",
+   "PEX2",
+   "PEX28",
+   "PEX32",
+   "PEX35",
+   "PEX4",
+   "PEX8",
+   "PEX9",
+   "PFK2",
+   "PFK27",
+   "PFY1",
+   "PGA1",
+   "PGA3",
+   "PGM1",
+   "PGM2",
+   "PGS1",
+   "PHB2",
+   "PHD1",
+   "PHM7",
+   "PHO13",
+   "PHO2",
+   "PHO23",
+   "PHO4",
+   "PHO5",
+   "PHO80",
+   "PHO81",
+   "PHO86",
+   "PHO90",
+   "PHO91",
+   "PHS1",
+   "PIB2",
+   "PIF1",
+   "PIH1",
+   "PIN2",
+   "PIN4",
+   "PIR1",
+   "PIR3",
+   "PIR5",
+   "PKC1",
+   "PKP2",
+   "PKR1",
+   "PLB1",
+   "PLB2",
+   "PMA2",
+   "PMR1",
+   "PMU1",
+   "PNC1",
+   "PNP1",
+   "POA1",
+   "POB3",
+   "POC4",
+   "POG1",
+   "POL1",
+   "POL12",
+   "POL3",
+   "POL31",
+   "POL32",
+   "POL4",
+   "POM152",
+   "POM33",
+   "POM34",
+   "POP4",
+   "POP7",
+   "POX1",
+   "PPH21",
+   "PPH3",
+   "PPM1",
+   "PPM2",
+   "PPN1",
+   "PPQ1",
+   "PPR1",
+   "PRC1",
+   "PRE10",
+   "PRE2",
+   "PRE3",
+   "PRE6",
+   "PRE7",
+   "PRE9",
+   "PRI1",
+   "PRI2",
+   "PRK1",
+   "PRM10",
+   "PRM15",
+   "PRM4",
+   "PRM6",
+   "PRM7",
+   "PRM9",
+   "PRP11",
+   "PRP16",
+   "PRP18",
+   "PRP19",
+   "PRP2",
+   "PRP31",
+   "PRP43",
+   "PRP5",
+   "PRP6",
+   "PRP9",
+   "PRR2",
+   "PRT1",
+   "PRX1",
+   "PRY1",
+   "PSE1",
+   "PSF1",
+   "PSF2",
+   "PSG1",
+   "PSH1",
+   "PSK2",
+   "PSO2",
+   "PST2",
+   "PSY3",
+   "PTC1",
+   "PTC5",
+   "PTC7",
+   "PTH1",
+   "PTI1",
+   "PTK2",
+   "PTM1",
+   "PTP1",
+   "PTR2",
+   "PUF2",
+   "PUF6",
+   "PUL3",
+   "PUN1",
+   "PUP1",
+   "PUP2",
+   "PUP3",
+   "PUS2",
+   "PUS6",
+   "PUT1",
+   "PUT3",
+   "PYK2",
+   "QCR2",
+   "QCR6",
+   "QCR9",
+   "QRI1",
+   "QRI7",
+   "RAD1",
+   "RAD10",
+   "RAD14",
+   "RAD17",
+   "RAD18",
+   "RAD24",
+   "RAD26",
+   "RAD27",
+   "RAD3",
+   "RAD33",
+   "RAD4",
+   "RAD5",
+   "RAD51",
+   "RAD52",
+   "RAD54",
+   "RAD55",
+   "RAD57",
+   "RAD59",
+   "RAD6",
+   "RAD7",
+   "RAM1",
+   "RAM2",
+   "RAT1",
+   "RAV1",
+   "RAX1",
+   "RAX2",
+   "RBG2",
+   "RCF1",
+   "RCF2",
+   "RCH1",
+   "RCI37",
+   "RCK2",
+   "RCN2",
+   "RCO1",
+   "RDI1",
+   "RDL1",
+   "RDS3",
+   "REC102",
+   "REC114",
+   "REC8",
+   "REG2",
+   "REI1",
+   "RET2",
+   "RET3",
+   "REV1",
+   "REV3",
+   "REV7",
+   "REX4",
+   "RFC5",
+   "RGI2",
+   "RGM1",
+   "RGR1",
+   "RGS2",
+   "RHO1",
+   "RHO2",
+   "RHO3",
+   "RIB2",
+   "RIB7",
+   "RIE1",
+   "RIF2",
+   "RIM101",
+   "RIM13",
+   "RIM15",
+   "RIM20",
+   "RIM21",
+   "RIM9",
+   "RIT1",
+   "RLF2",
+   "RLI1",
+   "RLP7",
+   "RMD8",
+   "RME1",
+   "RMI1",
+   "RMP1",
+   "RMR1",
+   "RMT2",
+   "RNA1",
+   "RNA15",
+   "RNH1",
+   "RNH201",
+   "RNH203",
+   "RNP1",
+   "RNR3",
+   "RNT1",
+   "RNY1",
+   "ROM2",
+   "ROQ1",
+   "ROT1",
+   "ROX3",
+   "ROY1",
+   "RPA14",
+   "RPA34",
+   "RPA49",
+   "RPB3",
+   "RPB5",
+   "RPB9",
+   "RPC17",
+   "RPC25",
+   "RPC34",
+   "RPC40",
+   "RPF1",
+   "RPF2",
+   "RPG1",
+   "RPI1",
+   "RPL11B",
+   "RPL13A",
+   "RPL14A",
+   "RPL15A",
+   "RPL16A",
+   "RPL17B",
+   "RPL19A",
+   "RPL19B",
+   "RPL20B",
+   "RPL21B",
+   "RPL22A",
+   "RPL23A",
+   "RPL24A",
+   "RPL24B",
+   "RPL26B",
+   "RPL27B",
+   "RPL2A",
+   "RPL34B",
+   "RPL35B",
+   "RPL36A",
+   "RPL37A",
+   "RPL37B",
+   "RPL38",
+   "RPL43A",
+   "RPL43B",
+   "RPL4A",
+   "RPL6B",
+   "RPL8A",
+   "RPL8B",
+   "RPL9B",
+   "RPN1",
+   "RPN11",
+   "RPN13",
+   "RPN4",
+   "RPN5",
+   "RPN6",
+   "RPN7",
+   "RPO21",
+   "RPO41",
+   "RPP0",
+   "RPP1A",
+   "RPP1B",
+   "RPP2A",
+   "RPS10A",
+   "RPS10B",
+   "RPS11B",
+   "RPS14A",
+   "RPS14B",
+   "RPS18B",
+   "RPS1B",
+   "RPS21B",
+   "RPS22B",
+   "RPS23A",
+   "RPS25B",
+   "RPS27B",
+   "RPS29A",
+   "RPS29B",
+   "RPS30B",
+   "RPS4B",
+   "RPS6B",
+   "RPS7B",
+   "RPS8A",
+   "RPS9B",
+   "RPT1",
+   "RPT3",
+   "RPT4",
+   "RPT6",
+   "RRD1",
+   "RRD2",
+   "RRI1",
+   "RRM3",
+   "RRN10",
+   "RRN7",
+   "RRP1",
+   "RRP3",
+   "RRP4",
+   "RRP42",
+   "RRS1",
+   "RRT2",
+   "RRT6",
+   "RSC2",
+   "RSC4",
+   "RSC58",
+   "RSC8",
+   "RSC9",
+   "RSE1",
+   "RSF1",
+   "RSM28",
+   "RSN1",
+   "RSO55",
+   "RSP5",
+   "RTC2",
+   "RTF1",
+   "RTG1",
+   "RTG2",
+   "RTG3",
+   "RTS1",
+   "RTS3",
+   "RTT10",
+   "RTT101",
+   "RTT102",
+   "RTT107",
+   "RTT109",
+   "RUB1",
+   "RVB2",
+   "RVS161",
+   "RVS167",
+   "SAC1",
+   "SAC3",
+   "SAC7",
+   "SAD1",
+   "SAE2",
+   "SAK1",
+   "SAL1",
+   "SAM1",
+   "SAM2",
+   "SAM37",
+   "SAP155",
+   "SAP190",
+   "SAP30",
+   "SAS4",
+   "SAW1",
+   "SBP1",
+   "SCC2",
+   "SCC4",
+   "SCJ1",
+   "SCM4",
+   "SCS2",
+   "SCS7",
+   "SCT1",
+   "SCW10",
+   "SCY1",
+   "SDA1",
+   "SDC1",
+   "SDD3",
+   "SDH1",
+   "SDH2",
+   "SDH5",
+   "SDO1",
+   "SDP1",
+   "SDS22",
+   "SDS3",
+   "SEC1",
+   "SEC10",
+   "SEC11",
+   "SEC12",
+   "SEC16",
+   "SEC18",
+   "SEC22",
+   "SEC23",
+   "SEC24",
+   "SEC27",
+   "SEC28",
+   "SEC31",
+   "SEC39",
+   "SEC5",
+   "SEC59",
+   "SEC61",
+   "SEC63",
+   "SEC65",
+   "SEC66",
+   "SEC72",
+   "SEC8",
+   "SEC9",
+   "SED1",
+   "SED5",
+   "SEG1",
+   "SEI1",
+   "SEN1",
+   "SEN2",
+   "SER1",
+   "SER3",
+   "SET2",
+   "SET3",
+   "SET6",
+   "SFB2",
+   "SFH1",
+   "SFH5",
+   "SFI1",
+   "SFT1",
+   "SGF11",
+   "SGF73",
+   "SGS1",
+   "SGT1",
+   "SGV1",
+   "SHE1",
+   "SHE10",
+   "SHE4",
+   "SHE9",
+   "SHQ1",
+   "SHU1",
+   "SIC1",
+   "SIF2",
+   "SIL1",
+   "SIM1",
+   "SIN3",
+   "SIP18",
+   "SIP2",
+   "SIP4",
+   "SIP5",
+   "SIR1",
+   "SIS2",
+   "SIW14",
+   "SIZ1",
+   "SKG1",
+   "SKI6",
+   "SKI8",
+   "SKN7",
+   "SKS1",
+   "SLA1",
+   "SLD5",
+   "SLG1",
+   "SLI1",
+   "SLI15",
+   "SLM3",
+   "SLM4",
+   "SLN1",
+   "SLT2",
+   "SLU7",
+   "SLX1",
+   "SLX4",
+   "SLX5",
+   "SLX8",
+   "SLX9",
+   "SLY1",
+   "SMA1",
+   "SMA2",
+   "SMC2",
+   "SMC3",
+   "SMC4",
+   "SMC5",
+   "SMC6",
+   "SMD1",
+   "SMI1",
+   "SML1",
+   "SMP1",
+   "SMP3",
+   "SMT3",
+   "SMU2",
+   "SMY2",
+   "SNA2",
+   "SND1",
+   "SND2",
+   "SNF11",
+   "SNF4",
+   "SNF5",
+   "SNG1",
+   "SNI445",
+   "SNM1",
+   "SNO1",
+   "SNP1",
+   "SNQ2",
+   "SNT1",
+   "SNT2",
+   "SNU114",
+   "SNU23",
+   "SNU66",
+   "SNU71",
+   "SNX4",
+   "SNZ1",
+   "SOD2",
+   "SOF1",
+   "SOH1",
+   "SOK1",
+   "SOL1",
+   "SOL2",
+   "SPC105",
+   "SPC24",
+   "SPC29",
+   "SPC3",
+   "SPC34",
+   "SPC42",
+   "SPC97",
+   "SPE1",
+   "SPE2",
+   "SPE3",
+   "SPF1",
+   "SPG1",
+   "SPG4",
+   "SPG5",
+   "SPH1",
+   "SPL2",
+   "SPN1",
+   "SPO12",
+   "SPO13",
+   "SPO16",
+   "SPO20",
+   "SPO21",
+   "SPO74",
+   "SPO77",
+   "SPR3",
+   "SPR6",
+   "SPS4",
+   "SPT15",
+   "SPT16",
+   "SPT2",
+   "SPT21",
+   "SPT3",
+   "SPT5",
+   "SPT6",
+   "SPT8",
+   "SQT1",
+   "SRB2",
+   "SRB6",
+   "SRF1",
+   "SRL2",
+   "SRM1",
+   "SRO9",
+   "SRP54",
+   "SRS2",
+   "SRT1",
+   "SRV2",
+   "SRX1",
+   "SRY1",
+   "SSB1",
+   "SSC1",
+   "SSE1",
+   "SSF1",
+   "SSK2",
+   "SSK22",
+   "SSL1",
+   "SSL2",
+   "SSM4",
+   "SSO2",
+   "SSP1",
+   "SSP2",
+   "SST2",
+   "STB2",
+   "STB5",
+   "STE13",
+   "STE20",
+   "STE24",
+   "STE50",
+   "STF2",
+   "STH1",
+   "STN1",
+   "STP1",
+   "STP2",
+   "STS1",
+   "STT3",
+   "STT4",
+   "STU1",
+   "STU2",
+   "STV1",
+   "SUA7",
+   "SUB1",
+   "SUC2",
+   "SUI2",
+   "SUL2",
+   "SUN4",
+   "SUP35",
+   "SUP45",
+   "SUR1",
+   "SUR7",
+   "SVL3",
+   "SVS1",
+   "SWC5",
+   "SWD1",
+   "SWD2",
+   "SWD3",
+   "SWE1",
+   "SWF1",
+   "SWI4",
+   "SWI5",
+   "SWI6",
+   "SWM2",
+   "SWP82",
+   "SWS2",
+   "SWT1",
+   "SYC1",
+   "SYF1",
+   "SYM1",
+   "TAD3",
+   "TAF1",
+   "TAF10",
+   "TAF11",
+   "TAF12",
+   "TAF13",
+   "TAF2",
+   "TAF4",
+   "TAF5",
+   "TAF9",
+   "TAH1",
+   "TAH11",
+   "TAP42",
+   "TBF1",
+   "TBS1",
+   "TCD1",
+   "TCD2",
+   "TCO89",
+   "TDA1",
+   "TDA5",
+   "TEA1",
+   "TEF2",
+   "TEL1",
+   "TEL2",
+   "TEP1",
+   "TFB3",
+   "TFC3",
+   "TFC4",
+   "TFG2",
+   "TFS1",
+   "TGL1",
+   "TGL3",
+   "TGS1",
+   "THI2",
+   "THI21",
+   "THI22",
+   "THI4",
+   "THI6",
+   "THI72",
+   "THI80",
+   "THP2",
+   "THP3",
+   "THR1",
+   "THR4",
+   "TIF1",
+   "TIF2",
+   "TIF6",
+   "TIM13",
+   "TIM18",
+   "TIM22",
+   "TIM44",
+   "TIP41",
+   "TIR3",
+   "TKL1",
+   "TLG2",
+   "TMA16",
+   "TMA19",
+   "TMA23",
+   "TMA64",
+   "TMC1",
+   "TMN2",
+   "TMN3",
+   "TOH1",
+   "TOM7",
+   "TOM70",
+   "TOP1",
+   "TOP3",
+   "TOR1",
+   "TOR2",
+   "TOS1",
+   "TOS4",
+   "TOS8",
+   "TPI1",
+   "TPK1",
+   "TPM1",
+   "TPM2",
+   "TPP1",
+   "TPS1",
+   "TPT1",
+   "TRI1",
+   "TRK2",
+   "TRM1",
+   "TRM11",
+   "TRM12",
+   "TRM44",
+   "TRM7",
+   "TRM732",
+   "TRP1",
+   "TRS20",
+   "TRS33",
+   "TRS85",
+   "TSA1",
+   "TSC11",
+   "TSC13",
+   "TSC3",
+   "TSL1",
+   "TSR2",
+   "TSR3",
+   "TUB2",
+   "TUB3",
+   "TUB4",
+   "TUM1",
+   "TVP15",
+   "TVS1",
+   "TYW1",
+   "TYW3",
+   "UBA1",
+   "UBA3",
+   "UBA4",
+   "UBC11",
+   "UBC13",
+   "UBC4",
+   "UBC9",
+   "UBP1",
+   "UBP12",
+   "UBP14",
+   "UBP15",
+   "UBP3",
+   "UBP5",
+   "UBP6",
+   "UBP8",
+   "UBS1",
+   "UBX2",
+   "UBX4",
+   "UCC1",
+   "UFD1",
+   "UFD2",
+   "UFD4",
+   "UFE1",
+   "UGA1",
+   "ULA1",
+   "ULP1",
+   "ULS1",
+   "UPA2",
+   "UPF3",
+   "UPS1",
+   "URA1",
+   "URA5",
+   "URA6",
+   "URA7",
+   "URA8",
+   "URE2",
+   "URK1",
+   "USA1",
+   "USO1",
+   "USV1",
+   "UTH1",
+   "UTP13",
+   "UTP15",
+   "UTP23",
+   "UTP5",
+   "UTP6",
+   "UTP9",
+   "UTR1",
+   "VAC14",
+   "VAC17",
+   "VAM3",
+   "VAM6",
+   "VAM7",
+   "VAS1",
+   "VBA1",
+   "VBA3",
+   "VBA4",
+   "VCX1",
+   "VEL1",
+   "VFA1",
+   "VHR1",
+   "VHS2",
+   "VID22",
+   "VID24",
+   "VID28",
+   "VID30",
+   "VIK1",
+   "VIP1",
+   "VMA1",
+   "VMA21",
+   "VPR1",
+   "VPS21",
+   "VPS24",
+   "VPS27",
+   "VPS30",
+   "VPS38",
+   "VPS4",
+   "VPS41",
+   "VPS51",
+   "VPS55",
+   "VPS62",
+   "VPS70",
+   "VPS71",
+   "VPS72",
+   "VPS8",
+   "VPS9",
+   "VRL1",
+   "VRP1",
+   "VSB1",
+   "VTC5",
+   "VTH1",
+   "VTI1",
+   "VTS1",
+   "WAR1",
+   "WHI2",
+   "WHI4",
+   "WSC3",
+   "WSS1",
+   "WTM1",
+   "WWM1",
+   "XBP1",
+   "XKS1",
+   "XPT1",
+   "YAH1",
+   "YAP7",
+   "YAR1",
+   "YBL081W",
+   "YBR071W",
+   "YBR137W",
+   "YBR220C",
+   "YBR225W",
+   "YCF1",
+   "YCK2",
+   "YCL001W-A",
+   "YCR050C",
+   "YCS4",
+   "YDJ1",
+   "YDL012C",
+   "YDL124W",
+   "YDL144C",
+   "YDL199C",
+   "YDL211C",
+   "YDL218W",
+   "YDL241W",
+   "YDR061W",
+   "YDR124W",
+   "YDR514C",
+   "YDR541C",
+   "YEF3",
+   "YEH1",
+   "YEH2",
+   "YER079W",
+   "YER121W",
+   "YER152C",
+   "YER187W",
+   "YET2",
+   "YFH7",
+   "YFL012W",
+   "YFR006W",
+   "YFS1",
+   "YGK1",
+   "YGL039W",
+   "YGL081W",
+   "YGL114W",
+   "YGL176C",
+   "YGL235W",
+   "YGL262W",
+   "YGR017W",
+   "YGR026W",
+   "YGR067C",
+   "YGR111W",
+   "YGR122W",
+   "YGR237C",
+   "YGR266W",
+   "YHC1",
+   "YHI9",
+   "YHK8",
+   "YHL012W",
+   "YHM2",
+   "YHR020W",
+   "YHR022C",
+   "YHR112C",
+   "YIH1",
+   "YIL060W",
+   "YIL067C",
+   "YIM1",
+   "YIP1",
+   "YIP3",
+   "YIP4",
+   "YIR016W",
+   "YJL206C",
+   "YJL213W",
+   "YJR026W",
+   "YJR084W",
+   "YJR098C",
+   "YJR124C",
+   "YJR149W",
+   "YJR154W",
+   "YJU2",
+   "YJU3",
+   "YKE2",
+   "YKL069W",
+   "YKR041W",
+   "YKT6",
+   "YKU80",
+   "YLF2",
+   "YLR001C",
+   "YLR125W",
+   "YLR179C",
+   "YLR225C",
+   "YLR460C",
+   "YMD8",
+   "YME1",
+   "YME2",
+   "YML053C",
+   "YML096W",
+   "YML108W",
+   "YMR085W",
+   "YMR099C",
+   "YMR114C",
+   "YMR155W",
+   "YMR158C-A",
+   "YMR181C",
+   "YMR187C",
+   "YMR196W",
+   "YMR206W",
+   "YMR209C",
+   "YMR253C",
+   "YMR262W",
+   "YMR265C",
+   "YMR315W",
+   "YMR316C-A",
+   "YNL011C",
+   "YNL034W",
+   "YNL046W",
+   "YNL095C",
+   "YNL134C",
+   "YNL140C",
+   "YNL143C",
+   "YNL146W",
+   "YNR048W",
+   "YNR064C",
+   "YNR066C",
+   "YOL036W",
+   "YOL107W",
+   "YOR008C-A",
+   "YOR012W",
+   "YOR1",
+   "YOR131C",
+   "YOR238W",
+   "YOR342C",
+   "YOR365C",
+   "YOS9",
+   "YOX1",
+   "YPK2",
+   "YPL162C",
+   "YPL245W",
+   "YPL264C",
+   "YPQ1",
+   "YPR084W",
+   "YPR089W",
+   "YPR096C",
+   "YPR147C",
+   "YPR148C",
+   "YPS3",
+   "YPT32",
+   "YPT53",
+   "YSC83",
+   "YSY6",
+   "YTA7",
+   "YTM1",
+   "YUR1",
+   "YVC1",
+   "ZDS2",
+   "ZNG1",
+   "ZRC1",
+   "ZRT1",
+   "ZRT2",
+   "ZRT3"
+  ],
+  "genetic_count": 2090,
+  "interaction_rows": 2777,
+  "phenotypes": [
+   {
+    "phenotype": "viable",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Giaever G, et al. (2002)",
+    "pmid": 12140549,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "viable",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Shiratori A, et al. (1999)",
+    "pmid": 10077188,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "competitive fitness: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Breslow DK, et al. (2008)",
+    "pmid": 18622397,
+    "experiment": "competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "McLaughlin JE, et al. (2009)",
+    "pmid": 20007368,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "chemical compound accumulation: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Freimoser FM, et al. (2006)",
+    "pmid": 17107617,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "O'Connor ST, et al. (2012)",
+    "pmid": 23403841,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "O'Connor ST, et al. (2012)",
+    "pmid": 23403841,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "haploproficient",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Pir P, et al. (2012)",
+    "pmid": 22244311,
+    "experiment": "heterozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Tun NM, et al. (2013)",
+    "pmid": 23832094,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "haploinsufficient",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Novo M, et al. (2013)",
+    "pmid": 24040173,
+    "experiment": "heterozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gayt\u00e1n BD, et al. (2013)",
+    "pmid": 24260565,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "utilization of nitrogen source: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "VanderSluis B, et al. (2014)",
+    "pmid": 24721214,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "utilization of nitrogen source: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "VanderSluis B, et al. (2014)",
+    "pmid": 24721214,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Lee W, et al. (2005)",
+    "pmid": 16121259,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "utilization of carbon source: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "VanderSluis B, et al. (2014)",
+    "pmid": 24721214,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Fr\u00f6hlich F, et al. (2015)",
+    "pmid": 26357016,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: normal",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 32371399,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 32371399,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: abnormal",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 33115721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 33115721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "replicative lifespan: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Yu R, et al. (2021)",
+    "pmid": 33790287,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Luong TT, et al. (2022)",
+    "pmid": 36126066,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 32371399,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Rogers CM, et al. (2020)",
+    "pmid": 32371399,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: abnormal",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Bochman ML, et al. (2014)",
+    "pmid": 24440721,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Shumaker KA, et al. (2025)",
+    "pmid": 40994099,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "competitive fitness: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "hrq1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "hrq1-\u0394N"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Shumaker KA, et al. (2025)",
+    "pmid": 40994099,
+    "experiment": "classical genetics"
+   }
+  ]
+ }
+}

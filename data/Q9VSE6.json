@@ -1,0 +1,390 @@
+{
+ "uniprot": "Q9VSE6",
+ "slug": "recq4-drosophila",
+ "gene": "RecQ4",
+ "short": "DmRECQ4",
+ "organism": "Drosophila melanogaster",
+ "kingdom": "Animals",
+ "pubmed": "(RecQ4[tiab] OR DmRECQ4[tiab] OR CG7487[tiab]) AND Drosophila",
+ "uniprot_data": {
+  "accession": "Q9VSE6",
+  "entry": "Q9VSE6_DROME",
+  "reviewed": false,
+  "name": "ATP-dependent DNA helicase Q4",
+  "alt_names": [
+   "DNA 3'-5' helicase RecQ4",
+   "DNA helicase, RecQ-like type 4",
+   "RecQ protein-like 4"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "RecQ4",
+   "cg7487",
+   "Dmel\\CG7487",
+   "DmRECQ4",
+   "dRecQ4",
+   "RECQ4",
+   "RECQL4"
+  ],
+  "organism": "Drosophila melanogaster",
+  "taxid": 7227,
+  "length": 1579,
+  "mass": 175909,
+  "sequence": "MDDSVFKLKYQKYKLRVKVWEKDFKKKNGRVPSKYDIRDASQEIRDSYKMYYKLKTSFLEETLNDVLSEDGYDILEMSQASDFGVSMLDQDVSLNEGPQLPLDISALVGPQSSGNLEEIPQSVEGSFSNLIDLPNRQVLTNLVNRDENHVIRKFEAVEELPINQNAWGLNVSKKPPAPPQPVEASKSAPGHGKQPKAGASLKPSLSAKLFQSSRGFAKRNPRKPLSRCVSSSSSTTSLSSVPTDHHEELLDFETILIRKAQEYKEKQQAIANNPMLASEHSKESIKTLVDDGWLRRNTKENTLDEEVPFAEANNNSGTSKKTNFGLANLDLSKLKPTVKEEKVLQAKPDQMAIIQELQTDMNSSMNQKPDHLNHTPPASSQKSVAPKNKPPPSEQETDSDSDSVVAESEEEQEPQEYRQLSKRRKIVSTASGKVEVAAPVEIPNKVEPETETFAQENPDFSADEDQDATYVPENKKKDKAKRKQAAGKQKTTKPKAEPKPKTEKKAKVKAEKKPKAEKKPRNSKKAIAVEPAPDPEEDERQPLNPEDLKYVLALEAGDITSVPRINVQDLEEADATAQRYIRTFAAGPNPGLSEGSNIRVDEKRAAARKKLEERIAAGKLNENFVTINIQKKKFVRGKKSVNFSKYKKQQWRHKKRVAALSGPDMDMGGCDGGVLTCFQCGGVGHFAQQCKVKGDSLLPLSAQLEEDPSPFPTLAEAQEMASQGAVVAHSRNISRLPQAANAAILQGDELNESEEDDQESSGDEEVQQHPDPNWSSDEMDVDFEALDAAVEASLSQPVSQEKAASPIKTYVGHKIPEEFLKQAGLDTTASSSNRSQHGGVKPLYDLLPDGSVQDTTPEVLEALHMFGHTNFRKGQDRAIMRTLSGLSSLVTLSTGSGKSLCYQLPAYLYSRKVGAITLVISPLVSLMEDQVTGVPHFLRAHCLHTNQTAPQRMKIQQMIANGEIDILLVSPEAVVAGERATGFGAILRQLPPIAFACIDEAHCVSQWSHNFRPSYLMICKVLRKNLGVRTVLGLTATATLPTRVSIINHLGISDGERGIISDIPLPDNLVLSVSKDENRDAALLQLLNSERFEPCQSIIIYCTRRDECERIAGFIRTCVQDRREPTQDQTKKRKRVNWQAEPYHAGMPASRRRTVQKAFMSNELRIVVATIAFGMGINKPDIRAVIHYNMPRNFESYVQEIGRAGRDGLPSHCHLFLDAKGGDQSELRRHVYSNSIDRHVIRKLLQKIFVPCSCDKEASKRTALPIPLEGDGPRVHMCPGHEIGFSVEKTVEMLDIPAENISTLLCYMELDPRWCISVLSSAYVMAKVISYGGPKYLKHAAKECPPLAMAIALQIRDKTFKEDSNIIEFSVTDIAAGIGWNSGVVKYQLKDLEWVKVNGYPKRSPITVSFYDLGFRIKVPGDFTESEIDNALDTLYTRSVKQERTQLIQLQYVAHGLAAVAYSSCGQCCNADFPQDRGEQLKAIVRNYFANDYPQDLELEIEPSNVPDENIIDDVHALINMYPDNTFTGRNIARIFHGIMSPNYPAVIWGRCKFWRAHVKVDFNRILHLANMAIIKRRT",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "CATALYTIC ACTIVITY": [
+    "ATP + H2O = ADP + phosphate + H(+)",
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction."
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm; Nucleus"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. RecQ subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "CCHC-type",
+     "start": 677,
+     "end": 691
+    },
+    {
+     "name": "Helicase ATP-binding",
+     "start": 879,
+     "end": 1056
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 1082,
+     "end": 1249
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 170,
+     "end": 242
+    },
+    {
+     "name": "Disordered",
+     "start": 363,
+     "end": 544
+    },
+    {
+     "name": "Disordered",
+     "start": 750,
+     "end": 778
+    }
+   ],
+   "motifs": [],
+   "binding": [],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0000785",
+    "term": "C:chromatin"
+   },
+   {
+    "id": "GO:0005694",
+    "term": "C:chromosome"
+   },
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0008094",
+    "term": "F:ATP-dependent activity, acting on DNA"
+   },
+   {
+    "id": "GO:0036310",
+    "term": "F:ATP-dependent DNA/DNA annealing activity"
+   },
+   {
+    "id": "GO:0003678",
+    "term": "F:DNA helicase activity"
+   },
+   {
+    "id": "GO:0004386",
+    "term": "F:helicase activity"
+   },
+   {
+    "id": "GO:0003697",
+    "term": "F:single-stranded DNA binding"
+   },
+   {
+    "id": "GO:0008270",
+    "term": "F:zinc ion binding"
+   },
+   {
+    "id": "GO:0006284",
+    "term": "P:base-excision repair"
+   },
+   {
+    "id": "GO:0051301",
+    "term": "P:cell division"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0006302",
+    "term": "P:double-strand break repair"
+   },
+   {
+    "id": "GO:0007307",
+    "term": "P:eggshell chorion gene amplification"
+   },
+   {
+    "id": "GO:0002164",
+    "term": "P:larval development"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR004589",
+    "name": "DNA_helicase_ATP-dep_RecQ"
+   },
+   {
+    "id": "IPR021110",
+    "name": "DNA_rep_checkpnt_protein"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR001878",
+    "name": "Znf_CCHC"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF11719",
+    "name": "Drc1-Sld2"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_652607.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR13710:SF108",
+    "name": "ATP-DEPENDENT DNA HELICASE Q4"
+   },
+   {
+    "id": "PTHR13710",
+    "name": "DNA HELICASE RECQ FAMILY MEMBER"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR13710:SF108"
+ ],
+ "group": "RECQL4 group",
+ "alphafold": {
+  "entryId": "AF-Q9VSE6-F1",
+  "globalMetricValue": 61.44,
+  "fractionPlddtVeryHigh": 0.163,
+  "fractionPlddtConfident": 0.308,
+  "fractionPlddtLow": 0.091,
+  "fractionPlddtVeryLow": 0.437,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9VSE6-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9VSE6-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9VSE6-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 6,
+  "papers": [
+   {
+    "pmid": "23166690",
+    "title": "Drosophila RecQ4 is directly involved in both DNA replication and the response to UV damage in S2 cells",
+    "authors": [
+     "Crevel G",
+     "Vo N",
+     "Crevel I",
+     "et al."
+    ],
+    "journal": "PLoS One",
+    "year": "2012",
+    "date": "2012"
+   },
+   {
+    "pmid": "20075015",
+    "title": "Roles of Werner syndrome protein in protection of genome integrity",
+    "authors": [
+     "Rossi ML",
+     "Ghosh AK",
+     "Bohr VA"
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2010",
+    "date": "2010 Mar 2"
+   },
+   {
+    "pmid": "19759018",
+    "title": "Drosophila RecQ4 has a 3'-5' DNA helicase activity that is essential for viability",
+    "authors": [
+     "Capp C",
+     "Wu J",
+     "Hsieh TS"
+    ],
+    "journal": "J Biol Chem",
+    "year": "2009",
+    "date": "2009 Nov 6"
+   },
+   {
+    "pmid": "19572017",
+    "title": "dRecQ4 is required for DNA synthesis and essential for cell proliferation in Drosophila",
+    "authors": [
+     "Xu Y",
+     "Lei Z",
+     "Huang H",
+     "et al."
+    ],
+    "journal": "PLoS One",
+    "year": "2009",
+    "date": "2009 Jul 2"
+   },
+   {
+    "pmid": "18755177",
+    "title": "Drosophila homologue of the Rothmund-Thomson syndrome gene: essential function in DNA replication during development",
+    "authors": [
+     "Wu J",
+     "Capp C",
+     "Feng L",
+     "et al."
+    ],
+    "journal": "Dev Biol",
+    "year": "2008",
+    "date": "2008 Nov 1"
+   },
+   {
+    "pmid": "10471747",
+    "title": "Drosophila and human RecQ5 exist in different isoforms generated by alternative splicing",
+    "authors": [
+     "Sekelsky JJ",
+     "Brodsky MH",
+     "Rubin GM",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "1999",
+    "date": "1999 Sep 15"
+   }
+  ],
+  "query": "(RecQ4[tiab] OR DmRECQ4[tiab] OR CG7487[tiab]) AND Drosophila"
+ },
+ "interactions_intact": {
+  "total": 5,
+  "partners": [
+   {
+    "uniprot": "P34082",
+    "name": "Fas2",
+    "methods": [
+     "anti tag coip",
+     "ipac",
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "21447707",
+     "25294943"
+    ],
+    "score": 0.6
+   },
+   {
+    "uniprot": "Q9VDY1",
+    "name": "Ino80",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "25294943"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P23380",
+    "name": "Vha16-1",
+    "methods": [
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "25294943"
+    ],
+    "score": 0.35
+   }
+  ]
+ }
+}

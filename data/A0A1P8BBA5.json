@@ -1,0 +1,217 @@
+{
+ "uniprot": "A0A1P8BBA5",
+ "slug": "hrq1-athaliana",
+ "gene": "HRQ1",
+ "short": "HRQ1",
+ "organism": "Arabidopsis thaliana",
+ "kingdom": "Plants",
+ "pubmed": "(HRQ1[tiab] OR At5g08110[tiab]) AND Arabidopsis",
+ "uniprot_data": {
+  "accession": "A0A1P8BBA5",
+  "entry": "A0A1P8BBA5_ARATH",
+  "reviewed": false,
+  "name": "DNA 3'-5' helicase",
+  "alt_names": [],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "HRQ1",
+   "At5g08110"
+  ],
+  "organism": "Arabidopsis thaliana",
+  "taxid": 3702,
+  "length": 1175,
+  "mass": 130445,
+  "sequence": "MENERRSGGGDSVPISVRSINGESTTVQVSSDGTIRDLKKALKSCFPPASSSSNFHLYIKGEKLKLDTRVAAITINDGDILGLFPFKKKELRQTPKPDLSKPSSLSSRTSTMKDENAKRAEDHCVGEKRKRDEEACPYGFFNDDLESECKDAFKGQNTEKLAEVLKSRNCLTSPGSTKCLMSWDSSSSLCSCPDWVKLSMETFAFLNIFSYVLQSHGEKLYLTRLKESLSRLAMSGVRVRIQDVKNLSVICPKVVKVITDDYEAVNYENAIVIADYLEMDEKSGRKKIPLAKLFSAMKKREASFKSDFWESIRSLLNKNTGESGIAISLEGLLKFASEGRADGGNEARQAGKGTCPTSGSRKFQTLCHATNSLLPSEMVEHLRNGIGSKGQVVHVEVIKARKSAYVEMSDKLSETTKSALKRIGLNTLYSHQAEAISAALAGKNVAVATMTSSGKSLCYNVPVFEELCKDTNSCALYLFPTKALAQDQLRALSDLIKGFEASINMGVYDGDTPYKDRTRLRSNARLLITNPDMLHISILRRHKEQFSRILSNLRYIVIDEAHIYKGPFGCHMALILRRLRRLCSHVYGVNPSFIFCTATSANPREHCMELANLSELELVTIDGSPSSEKLFVLWNPSAPPTSKSEKSSKVVSSSEAAADKPSGAAVDTLSGPASEVSHLFAEMVQHGLRCIAFCPSRKLCELVLCLTREILAETAPHLVEAITSYRGGYIAEDRRKIESDLFGGKLCGIAATNALELGIDVGHIDVTLHLGFPGSIASLWQQAGRSGRRQKPSLAVYVAFLGPLDQYYMSFPDKLFGSPIECCHIDSQNKHVLMQHLACAALEHPLSLQYDQQHFGSGLSDPLAELRNKGFLSFDPSRDSSSRIWNYIGREKNPARIVSIRAIETVRYRVMEKKSKDVLDEIEESKAFFHVYEGAIYMNQGRNYLVTSLDIKEKVALCELVNVDYYTRTRDYTDIKVTGGDTAYPVKAPKKPTPQTHACRVTTKWFGFLRIRRRNNEVIDDVELSLPSYTYQSQAVWIQVPMSVKLAVETANLPFRAGLHAACHALVNVVPTRVTCNYSDIAPECPNPQEQRYFPARILVYDRHPGGTGISAKICPLFFELLKDARDLLRSCEKCPPETGCPKCAQTFGCRGYNELLHKKAAIMIMQGVLDAKED",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 3.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "CATALYTIC ACTIVITY": [
+    "ATP + H2O = ADP + phosphate + H(+)",
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction."
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. HRQ1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Ubiquitin-like",
+     "start": 13,
+     "end": 83
+    },
+    {
+     "name": "Helicase ATP-binding",
+     "start": 436,
+     "end": 618
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 675,
+     "end": 838
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 1,
+     "end": 21
+    },
+    {
+     "name": "Disordered",
+     "start": 92,
+     "end": 124
+    },
+    {
+     "name": "Disordered",
+     "start": 637,
+     "end": 656
+    }
+   ],
+   "motifs": [],
+   "binding": [],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0003676",
+    "term": "F:nucleic acid binding"
+   },
+   {
+    "id": "GO:0036297",
+    "term": "P:interstrand cross-link repair"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR055227",
+    "name": "HRQ1_WHD"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR000626",
+    "name": "Ubiquitin-like_dom"
+   },
+   {
+    "id": "IPR029071",
+    "name": "Ubiquitin-like_domsf"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF22982",
+    "name": "WHD_HRQ1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_001330595.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-A0A1P8BBA5-F1",
+  "globalMetricValue": 79.62,
+  "fractionPlddtVeryHigh": 0.386,
+  "fractionPlddtConfident": 0.43,
+  "fractionPlddtLow": 0.072,
+  "fractionPlddtVeryLow": 0.111,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-A0A1P8BBA5-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-A0A1P8BBA5-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-A0A1P8BBA5-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 1,
+  "papers": [
+   {
+    "pmid": "29577315",
+    "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A",
+    "authors": [
+     "R\u00f6hrig S",
+     "Dorn A",
+     "Enderle J",
+     "et al."
+    ],
+    "journal": "New Phytol",
+    "year": "2018",
+    "date": "2018 Jun"
+   }
+  ],
+  "query": "(HRQ1[tiab] OR At5g08110[tiab]) AND Arabidopsis"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

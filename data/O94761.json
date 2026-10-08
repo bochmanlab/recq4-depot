@@ -1,0 +1,2357 @@
+{
+ "uniprot": "O94761",
+ "slug": "recql4-human",
+ "gene": "RECQL4",
+ "short": "RECQL4",
+ "organism": "Homo sapiens",
+ "kingdom": "Animals",
+ "clinvar_gene": "RECQL4",
+ "pubmed": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]",
+ "uniprot_data": {
+  "accession": "O94761",
+  "entry": "RECQ4_HUMAN",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase Q4",
+  "alt_names": [
+   "DNA 3'-5' helicase RecQ4",
+   "DNA helicase, RecQ-like type 4",
+   "RTS",
+   "RecQ protein-like 4"
+  ],
+  "ec": [
+   "5.6.2.4"
+  ],
+  "genes": [
+   "RECQL4",
+   "RECQ4"
+  ],
+  "organism": "Homo sapiens",
+  "taxid": 9606,
+  "length": 1208,
+  "mass": 133067,
+  "sequence": "MERLRDVRERLQAWERAFRRQRGRRPSQDDVEAAPEETRALYREYRTLKRTTGQAGGGLRSSESLPAAAEEAPEPRCWGPHLNRAATKSPQSTPGRSRQGSVPDYGQRLKANLKGTLQAGPALGRRPWPLGRASSKASTPKPPGTGPVPSFAEKVSDEPPQLPEPQPRPGRLQHLQASLSQRLGSLDPGWLQRCHSEVPDFLGAPKACRPDLGSEESQLLIPGESAVLGPGAGSQGPEASAFQEVSIRVGSPQPSSSGGEKRRWNEEPWESPAQVQQESSQAGPPSEGAGAVAVEEDPPGEPVQAQPPQPCSSPSNPRYHGLSPSSQARAGKAEGTAPLHIFPRLARHDRGNYVRLNMKQKHYVRGRALRSRLLRKQAWKQKWRKKGECFGGGGATVTTKESCFLNEQFDHWAAQCPRPASEEDTDAVGPEPLVPSPQPVPEVPSLDPTVLPLYSLGPSGQLAETPAEVFQALEQLGHQAFRPGQERAVMRILSGISTLLVLPTGAGKSLCYQLPALLYSRRSPCLTLVVSPLLSLMDDQVSGLPPCLKAACIHSGMTRKQRESVLQKIRAAQVHVLMLTPEALVGAGGLPPAAQLPPVAFACIDEAHCLSQWSHNFRPCYLRVCKVLRERMGVHCFLGLTATATRRTASDVAQHLAVAEEPDLHGPAPVPTNLHLSVSMDRDTDQALLTLLQGKRFQNLDSIIIYCNRREDTERIAALLRTCLHAAWVPGSGGRAPKTTAEAYHAGMCSRERRRVQRAFMQGQLRVVVATVAFGMGLDRPDVRAVLHLGLPPSFESYVQAVGRAGRDGQPAHCHLFLQPQGEDLRELRRHVHADSTDFLAVKRLVQRVFPACTCTCTRPPSEQEGAVGGERPVPKYPPQEAEQLSHQAAPGPRRVCMGHERALPIQLTVQALDMPEEAIETLLCYLELHPHHWLELLATTYTHCRLNCPGGPAQLQALAHRCPPLAVCLAQQLPEDPGQGSSSVEFDMVKLVDSMGWELASVRRALCQLQWDHEPRTGVRRGTGVLVEFSELAFHLRSPGDLTAEEKDQICDFLYGRVQARERQALARLRRTFQAFHSVAFPSCGPCLEQQDEERSTRLKDLLGRYFEEEEGQEPGGMEDAQGPEPGQARLQDWEDQVRCDIRQFLSLRPEEKFSSRAVARIFHGIGSPCYPAQVYGQDRRFWRKYLHLSFHALVGLATEELLQVAR",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "An ATP-dependent DNA helicase which unwinds dsDNA with a 3'-overhang in a 3'-5' direction (PubMed:28653661). Does not unwind more than 18 bp of dsDNA (PubMed:28653661). May modulate chromosome segregation. The N-terminal domain (residues 1-54) binds DNA Y-shaped DNA better than ss- or dsDNA (PubMed:22730300). The core helicase domain binds ssDNA (PubMed:22730300, PubMed:28653661)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBUNIT": [
+    "Interacts with UBR1 and UBR2 (PubMed:15317757). Interacts with MCM10; this interaction regulates RECQL4 unwinding activity (PubMed:19696745). Interacts (via residues 1-54) with TOPBP1 (PubMed:22730300)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm; Nucleus"
+   ],
+   "TISSUE SPECIFICITY": [
+    "Ubiquitously expressed, with highest levels in thymus and testis"
+   ],
+   "INDUCTION": [
+    "Up-regulated in actively dividing cells"
+   ],
+   "DISEASE": [
+    {
+     "name": "RAPADILINO syndrome",
+     "acronym": "RAPADILINOS",
+     "desc": "Disease characterized by radial and patellar aplasia or hypoplasia.",
+     "mim": "266280",
+     "note": "The disease is caused by variants affecting the gene represented in this entry"
+    },
+    {
+     "name": "Baller-Gerold syndrome",
+     "acronym": "BGS",
+     "desc": "An autosomal recessive syndrome characterized by short stature, craniosynostosis, absent or hypoplastic radii, short and curved ulna, fused carpal bones and absent carpals, metacarpals and phalanges. Some patients manifest poikiloderma. Cases reported as Baller-Gerold syndrome have phenotypic overlap with several other disorders, including Saethre-Chotzen syndrome.",
+     "mim": "218600",
+     "note": "The disease is caused by variants affecting the gene represented in this entry"
+    },
+    {
+     "name": "Rothmund-Thomson syndrome 2",
+     "acronym": "RTS2",
+     "desc": "A form of Rothmund-Thomson syndrome, a disorder characterized by sparse hair, eyebrows and eyelashes, juvenile cataracts, and poikiloderma, a genodermatosis presenting with mottled pigmentation, telangiectasia and epidermal atrophy. Additional features are short stature, dysplastic nails, and skeletal and dental abnormalities. RTS2 is an autosomal recessive form frequently accompanied by an increased risk of osteosarcoma in childhood and skin cancer later in life.",
+     "mim": "268400",
+     "note": "The disease is caused by variants affecting the gene represented in this entry"
+    }
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. RecQ subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 489,
+     "end": 662
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 683,
+     "end": 850
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 17,
+     "end": 180
+    },
+    {
+     "name": "Disordered",
+     "start": 201,
+     "end": 333
+    },
+    {
+     "name": "Disordered",
+     "start": 860,
+     "end": 888
+    },
+    {
+     "name": "Disordered",
+     "start": 1111,
+     "end": 1130
+    },
+    {
+     "name": "Increases helicase activity about 5-fold (in a fragment starting at residue 427)",
+     "start": 1117,
+     "end": 1208
+    }
+   ],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 605,
+     "end": 608
+    }
+   ],
+   "binding": [
+    {
+     "start": 502,
+     "end": 509,
+     "ligand": "ATP"
+    },
+    {
+     "start": 853,
+     "end": 853,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 855,
+     "end": 855,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 897,
+     "end": 897,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 900,
+     "end": 900,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 508,
+     "change": "K>A",
+     "desc": "No helicase activity (in a fragment of residues 427-1208)."
+    },
+    {
+     "pos": 605,
+     "change": "D>A",
+     "desc": "No helicase activity (in a fragment of residues 427-1208)."
+    },
+    {
+     "pos": 618,
+     "change": "R>L",
+     "desc": "Loss of helicase activity, 20% ATPase activity (in a fragment of residues 427-1208)."
+    },
+    {
+     "pos": 944,
+     "change": ">",
+     "desc": "About 50% reduction in helicase velocity (in a fragment of residues 427-1208)."
+    },
+    {
+     "pos": 1117,
+     "change": ">",
+     "desc": "Decreases helicase activity 5-fold, decreased ssDNA-binding (in a fragment of residues 427-1208)."
+    }
+   ],
+   "variants": [
+    {
+     "pos": 54,
+     "orig": "Q",
+     "alt": "R",
+     "desc": "in dbSNP:rs35198096"
+    },
+    {
+     "pos": 71,
+     "orig": "E",
+     "alt": "G",
+     "desc": "in dbSNP:rs34642881"
+    },
+    {
+     "pos": 92,
+     "orig": "S",
+     "alt": "P",
+     "desc": "in dbSNP:rs2721190"
+    },
+    {
+     "pos": 103,
+     "orig": "P",
+     "alt": "L",
+     "desc": "in dbSNP:rs199543866"
+    },
+    {
+     "pos": 189,
+     "orig": "G",
+     "alt": "S",
+     "desc": "in dbSNP:rs34371341"
+    },
+    {
+     "pos": 267,
+     "orig": "E",
+     "alt": "D",
+     "desc": "in dbSNP:rs4244612"
+    },
+    {
+     "pos": 273,
+     "orig": "A",
+     "alt": "T",
+     "desc": "in dbSNP:rs34103564"
+    },
+    {
+     "pos": 301,
+     "orig": "E",
+     "alt": "K",
+     "desc": "in dbSNP:rs34633809"
+    },
+    {
+     "pos": 355,
+     "orig": "R",
+     "alt": "Q",
+     "desc": "in dbSNP:rs374743591"
+    },
+    {
+     "pos": 441,
+     "orig": "P",
+     "alt": "S",
+     "desc": "in dbSNP:rs557142414"
+    },
+    {
+     "pos": 522,
+     "orig": "R",
+     "alt": "C",
+     "desc": "in dbSNP:rs35407712"
+    },
+    {
+     "pos": 522,
+     "orig": "R",
+     "alt": "H",
+     "desc": "in dbSNP:rs35842750"
+    },
+    {
+     "pos": 523,
+     "orig": "S",
+     "alt": "T",
+     "desc": "in dbSNP:rs754735053"
+    },
+    {
+     "pos": 591,
+     "orig": "P",
+     "alt": "L",
+     "desc": "in dbSNP:rs2721191"
+    },
+    {
+     "pos": 640,
+     "orig": "LTA",
+     "alt": "P",
+     "desc": "in RTS2; dbSNP:rs786200890"
+    },
+    {
+     "pos": 757,
+     "orig": "",
+     "alt": "",
+     "desc": "in RTS2; dbSNP:rs137853229"
+    },
+    {
+     "pos": 793,
+     "orig": "P",
+     "alt": "L",
+     "desc": "in dbSNP:rs1034558903"
+    },
+    {
+     "pos": 793,
+     "orig": "P",
+     "alt": "S",
+     "desc": "in dbSNP:rs35098923"
+    },
+    {
+     "pos": 799,
+     "orig": "V",
+     "alt": "M",
+     "desc": "in dbSNP:rs34293591"
+    },
+    {
+     "pos": 857,
+     "orig": "",
+     "alt": "",
+     "desc": ""
+    },
+    {
+     "pos": 964,
+     "orig": "P",
+     "alt": "T",
+     "desc": "in dbSNP:rs33972310"
+    },
+    {
+     "pos": 976,
+     "orig": "E",
+     "alt": "K",
+     "desc": "in dbSNP:rs35070885"
+    },
+    {
+     "pos": 1004,
+     "orig": "R",
+     "alt": "W",
+     "desc": "in dbSNP:rs36023964"
+    },
+    {
+     "pos": 1005,
+     "orig": "R",
+     "alt": "Q",
+     "desc": "in dbSNP:rs4251691"
+    },
+    {
+     "pos": 1021,
+     "orig": "R",
+     "alt": "Q",
+     "desc": "in dbSNP:rs34666647"
+    },
+    {
+     "pos": 1021,
+     "orig": "R",
+     "alt": "W",
+     "desc": "in BGS; dbSNP:rs137853232"
+    },
+    {
+     "pos": 1045,
+     "orig": "A",
+     "alt": "T",
+     "desc": "in dbSNP:rs35348691"
+    },
+    {
+     "pos": 1105,
+     "orig": "G",
+     "alt": "D",
+     "desc": "in dbSNP:rs36078464"
+    },
+    {
+     "pos": 1105,
+     "orig": "G",
+     "alt": "S",
+     "desc": "in dbSNP:rs34915097"
+    },
+    {
+     "pos": 1106,
+     "orig": "R",
+     "alt": "H",
+     "desc": "in dbSNP:rs34236392"
+    },
+    {
+     "pos": 1113,
+     "orig": "G",
+     "alt": "R",
+     "desc": "in dbSNP:rs35101495"
+    },
+    {
+     "pos": 1148,
+     "orig": "S",
+     "alt": "F",
+     "desc": "in dbSNP:rs35346077"
+    },
+    {
+     "pos": 1170,
+     "orig": "P",
+     "alt": "L",
+     "desc": "in dbSNP:rs772265082"
+    }
+   ]
+  },
+  "go": [
+   {
+    "id": "GO:0005694",
+    "term": "C:chromosome"
+   },
+   {
+    "id": "GO:0000781",
+    "term": "C:chromosome, telomeric region"
+   },
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0016020",
+    "term": "C:membrane"
+   },
+   {
+    "id": "GO:0005654",
+    "term": "C:nucleoplasm"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0000405",
+    "term": "F:bubble DNA binding"
+   },
+   {
+    "id": "GO:1990814",
+    "term": "F:DNA/DNA annealing activity"
+   },
+   {
+    "id": "GO:0004386",
+    "term": "F:helicase activity"
+   },
+   {
+    "id": "GO:0032357",
+    "term": "F:oxidized purine DNA binding"
+   },
+   {
+    "id": "GO:0061821",
+    "term": "F:telomeric D-loop binding"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   },
+   {
+    "id": "GO:0061820",
+    "term": "P:telomeric D-loop disassembly"
+   }
+  ],
+  "pdb": [
+   {
+    "id": "2KMU",
+    "method": "NMR",
+    "res": "-",
+    "chains": "A=1-54"
+   },
+   {
+    "id": "5LST",
+    "method": "X-ray",
+    "res": "2.75 A",
+    "chains": "A=427-1116"
+   }
+  ],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR004589",
+    "name": "DNA_helicase_ATP-dep_RecQ"
+   },
+   {
+    "id": "IPR021110",
+    "name": "DNA_rep_checkpnt_protein"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF11719",
+    "name": "Drc1-Sld2"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   }
+  ],
+  "omim": [
+   "218600",
+   "266280",
+   "268400",
+   "603780"
+  ],
+  "orphanet": [
+   {
+    "id": "1225",
+    "name": null
+   },
+   {
+    "id": "3021",
+    "name": null
+   },
+   {
+    "id": "221016",
+    "name": null
+   }
+  ],
+  "refseq": [
+   "NP_004251.4"
+  ],
+  "panther": [
+   {
+    "id": "PTHR13710:SF108",
+    "name": "ATP-DEPENDENT DNA HELICASE Q4"
+   },
+   {
+    "id": "PTHR13710",
+    "name": "DNA HELICASE RECQ FAMILY MEMBER"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR13710:SF108"
+ ],
+ "group": "RECQL4 group",
+ "alphafold": {
+  "entryId": "AF-O94761-F1",
+  "globalMetricValue": 67.38,
+  "fractionPlddtVeryHigh": 0.316,
+  "fractionPlddtConfident": 0.273,
+  "fractionPlddtLow": 0.056,
+  "fractionPlddtVeryLow": 0.354,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-O94761-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-O94761-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-O94761-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 479,
+  "papers": [
+   {
+    "pmid": "42806161",
+    "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
+    "authors": [
+     "Sonneville R",
+     "Evrin C",
+     "Wright J",
+     "et al."
+    ],
+    "journal": "EMBO J",
+    "year": "2026",
+    "date": "2026 Sep 28"
+   },
+   {
+    "pmid": "42755368",
+    "title": "DNA binding contributes to dominant-negative effects of a catalytically inactive RecQ4-family helicase",
+    "authors": [
+     "Simmons RH 3rd",
+     "McDevitt FE",
+     "Hurlock A",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2026",
+    "date": "2026 Sep 7"
+   },
+   {
+    "pmid": "42697600",
+    "title": "MCM10 and RECQL4 have cooperative and redundant roles in activating the CMG helicase during the replication initiation",
+    "authors": [
+     "Bektash A",
+     "Zhu X",
+     "Hatoyama Y",
+     "et al."
+    ],
+    "journal": "Genes Dev",
+    "year": "2026",
+    "date": "2026 Sep 4"
+   },
+   {
+    "pmid": "42567513",
+    "title": "Mechanistic study of ATP-dependent regulation of the Hrq1 oligomeric state and its DNA unwinding activity in Saccharomyces cerevisiae",
+    "authors": [
+     "Zhu X",
+     "Dai Y",
+     "Xie Y",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2026",
+    "date": "2026 Sep"
+   },
+   {
+    "pmid": "42649497",
+    "title": "Retraction Note: TRIM58 functions as a tumor suppressor in colorectal cancer by promoting RECQL4 ubiquitination to inhibit the AKT signaling pathway",
+    "authors": [
+     "Sun N",
+     "Shen J",
+     "Shi Y",
+     "et al."
+    ],
+    "journal": "World J Surg Oncol",
+    "year": "2026",
+    "date": "2026 Aug 26"
+   },
+   {
+    "pmid": "42608969",
+    "title": "Identification of a Pathogenic RECQL4 1.6-kb Deletion-Insertion in a Neonate with Atypical Skeletal Phenotype of Baller-Gerold Syndrome Using Rapid Whole-Genome Sequencing",
+    "authors": [
+     "Jang MA",
+     "Jang JH",
+     "Kim JK",
+     "et al."
+    ],
+    "journal": "Ann Lab Med",
+    "year": "2026",
+    "date": "2026 Aug 18"
+   },
+   {
+    "pmid": "42606642",
+    "title": "Distinct Mitochondrial Central Dogma Gene Expression in the Buffalo Brain: A Comparative Transcriptomic Study with Metabolically Active Organs",
+    "authors": [
+     "Sadeesh EM",
+     "Lahamge MS",
+     "Ampadi AN",
+     "et al."
+    ],
+    "journal": "Mol Neurobiol",
+    "year": "2026",
+    "date": "2026 Aug 17"
+   },
+   {
+    "pmid": "41491601",
+    "title": "Crossover control: A key to unlocking genetic diversity in plant breeding",
+    "authors": [
+     "Park J",
+     "Kbiri N",
+     "Choi K"
+    ],
+    "journal": "J Integr Plant Biol",
+    "year": "2026",
+    "date": "2026 Aug"
+   },
+   {
+    "pmid": "42524299",
+    "title": "Integrative Network-Based Transcriptomic Analysis Identifies Niclosamide as a Candidate Repositioned Drug for Breast Cancer",
+    "authors": [
+     "Aydin B",
+     "Okutan BN",
+     "Sara FE",
+     "et al."
+    ],
+    "journal": "Breast Cancer (Dove Med Press)",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "42310460",
+    "title": "Structure of the pre-initiation complex explains CMGE biogenesis",
+    "authors": [
+     "P\u00fchringer T",
+     "Canal B",
+     "Palm G",
+     "et al."
+    ],
+    "journal": "Nature",
+    "year": "2026",
+    "date": "2026 Jul"
+   },
+   {
+    "pmid": "42363758",
+    "title": "RECQ4 arginine methylation suppresses single-stranded DNA gap accumulation at replication forks",
+    "authors": [
+     "Ma N",
+     "Xu X",
+     "Espinoza M",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2026",
+    "date": "2026 Jun 22"
+   },
+   {
+    "pmid": "41776022",
+    "title": "Computational Insights into SIRT1: Elucidating Mutational Impact on SIRT1-RECQL4 Structural Dynamics",
+    "authors": [
+     "Anand S",
+     "Patel TN"
+    ],
+    "journal": "Cell Biochem Biophys",
+    "year": "2026",
+    "date": "2026 Jun"
+   },
+   {
+    "pmid": "42210937",
+    "title": "Case Report: A case of Rothmund-Thomson syndrome-like phenotype with an ANAPC1 variant of uncertain significance and observed hair improvement",
+    "authors": [
+     "Huang C",
+     "Liu Q",
+     "Yang D"
+    ],
+    "journal": "Front Med (Lausanne)",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "41798738",
+    "title": "Unmanipulated bone marrow infusion without conditioning can rescue RECQL4 (-/-) severe combined immunodeficiency",
+    "authors": [
+     "Grier AE",
+     "Bosticardo M",
+     "Pala F",
+     "et al."
+    ],
+    "journal": "J Hum Immun",
+    "year": "2026",
+    "date": "2026 May 4"
+   },
+   {
+    "pmid": "42599232",
+    "title": "[WRN and Other RecQ Helicases in Life Cycles of Viruses]",
+    "authors": [
+     "Shchigal OE",
+     "Korolev SP",
+     "Anisenko AN",
+     "et al."
+    ],
+    "journal": "Mol Biol (Mosk)",
+    "year": "2026",
+    "date": "2026 May-Jun"
+   },
+   {
+    "pmid": "42155297",
+    "title": "A novel mitochondrial-related signature to decode tumor immunity and predict survival in chromophobe renal cell carcinoma",
+    "authors": [
+     "Huang S",
+     "Dai C",
+     "Li X",
+     "et al."
+    ],
+    "journal": "Immunobiology",
+    "year": "2026",
+    "date": "2026 May"
+   },
+   {
+    "pmid": "41964082",
+    "title": "The molecular landscape of the C1498 murine acute myeloid leukemia cell line",
+    "authors": [
+     "Ghetti M",
+     "De Santis I",
+     "Tolomeo D",
+     "et al."
+    ],
+    "journal": "Biomark Res",
+    "year": "2026",
+    "date": "2026 Apr 10"
+   },
+   {
+    "pmid": "41807760",
+    "title": "Minute amounts of helicase-deficient truncated RECQL4 are sufficient for DNA replication",
+    "authors": [
+     "Buco PAV",
+     "Castillo-Tandazo W",
+     "Chalk AM",
+     "et al."
+    ],
+    "journal": "EMBO Rep",
+    "year": "2026",
+    "date": "2026 Apr"
+   },
+   {
+    "pmid": "41726939",
+    "title": "DNA binding converts an inactive RecQ4-family helicase into a dominant-negative DNA repair factor",
+    "authors": [
+     "Simmons RH 3rd",
+     "McDevitt FE",
+     "Hurlock A",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Feb 14"
+   },
+   {
+    "pmid": "41737240",
+    "title": "Case Report: Rothmund-Thomson syndrome type 2 in Ecuador: clinical and molecular insights into a recurrent RECQL4 variant",
+    "authors": [
+     "Armas Samaniego MI",
+     "Briones Vasquez M",
+     "Mari\u00f1o Zambrano M",
+     "et al."
+    ],
+    "journal": "Front Pediatr",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "41628607",
+    "title": "Clinical, Radiological and Molecular Genetic Findings in Six New Cases with Rothmund-Thomson Syndrome: Evidence for a Founder RECQL4 Variant",
+    "authors": [
+     "Gen\u00e7 A",
+     "\u015eahiner N",
+     "Ceylan AC",
+     "et al."
+    ],
+    "journal": "Klin Padiatr",
+    "year": "2026",
+    "date": "2026 Feb 2"
+   },
+   {
+    "pmid": "41624216",
+    "title": "Concomitant Chromosomal and Molecular Aberrations in Trisomy 8 Mosaicism and Associated Compound Phenotypes: Report of Three Cases and Review of Literature",
+    "authors": [
+     "Abdelhamed Z",
+     "Dykas D",
+     "DiAdamo A",
+     "et al."
+    ],
+    "journal": "Case Rep Genet",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "41669101",
+    "title": "Targeted gene sequencing and bioinformatics analysis of a patient with gallbladder adenosquamous carcinoma: a case report",
+    "authors": [
+     "Gu Y",
+     "Chen Z",
+     "Fang Q",
+     "et al."
+    ],
+    "journal": "Front Oncol",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "41878019",
+    "title": "Upregulated BLM and RECQL4 in Osteosarcoma: Association with Poor Prognosis, Immune Cell Infiltration, and Inhibitory Effects of Sphingosine Kinase 1 Inhibitor II/Pilaralisib",
+    "authors": [
+     "Chen J",
+     "Situ Y",
+     "Cai J",
+     "et al."
+    ],
+    "journal": "Immunotargets Ther",
+    "year": "2026",
+    "date": "2026"
+   },
+   {
+    "pmid": "40663630",
+    "title": "Long-term Survivors of Anaplastic Thyroid Cancer: A Genomic Predictive Model",
+    "authors": [
+     "Greenspun BC",
+     "Metzger DA",
+     "Lee S",
+     "et al."
+    ],
+    "journal": "J Clin Endocrinol Metab",
+    "year": "2026",
+    "date": "2026 Jan 21"
+   },
+   {
+    "pmid": "41513625",
+    "title": "RECQL4 promotes the malignant progression of lung adenocarcinoma through the YBX1/G3BP1-mediated NF-\u03baB signaling pathway",
+    "authors": [
+     "Li R",
+     "Yu W",
+     "Wang D",
+     "et al."
+    ],
+    "journal": "Cell Death Discov",
+    "year": "2026",
+    "date": "2026 Jan 9"
+   },
+   {
+    "pmid": "41203034",
+    "title": "RECQL4 as a novel drug target against ovarian cancer",
+    "authors": [
+     "Qin Y",
+     "Li L",
+     "Yu J",
+     "et al."
+    ],
+    "journal": "Biochem Pharmacol",
+    "year": "2026",
+    "date": "2026 Jan"
+   },
+   {
+    "pmid": "41436687",
+    "title": "Construction of a hepatocellular carcinoma prognostic model based on the long non-coding RNA RHPN1-AS1",
+    "authors": [
+     "Li X",
+     "Li Y",
+     "Luan X",
+     "et al."
+    ],
+    "journal": "Discov Oncol",
+    "year": "2025",
+    "date": "2025 Dec 23"
+   },
+   {
+    "pmid": "41419455",
+    "title": "Novel mutations in the RECQL4 gene affect its helicase functions, interactions with the BLM helicase and chemotherapeutics-induced cell death",
+    "authors": [
+     "Kaczmarczyk A",
+     "Sokolowski M",
+     "Wojnicki K",
+     "et al."
+    ],
+    "journal": "Cell Death Discov",
+    "year": "2025",
+    "date": "2025 Dec 19"
+   },
+   {
+    "pmid": "41472745",
+    "title": "EGR3 as a dual tumor-immune regulator: a machine learning-driven prognostic target for cold breast cancer",
+    "authors": [
+     "Wu Q",
+     "Song D",
+     "Yue J",
+     "et al."
+    ],
+    "journal": "Front Immunol",
+    "year": "2025",
+    "date": "2025"
+   },
+   {
+    "pmid": "40994099",
+    "title": "A screen for synthetic genetic interactions with the Saccharomyces cerevisiae hrq1\u0394N allele",
+    "authors": [
+     "Shumaker KA",
+     "Kumcu ME",
+     "McDevitt FE",
+     "et al."
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2025",
+    "date": "2025 Dec 10"
+   },
+   {
+    "pmid": "41317405",
+    "title": "RECQL4 alterations in gliomas and nerve sheath tumors: Expression patterns and therapeutic implications",
+    "authors": [
+     "Belakhoua S",
+     "Lopez G",
+     "Dubey S",
+     "et al."
+    ],
+    "journal": "J Neuropathol Exp Neurol",
+    "year": "2025",
+    "date": "2025 Dec 1"
+   },
+   {
+    "pmid": "41233405",
+    "title": "SF3B6 promotes the oncogenic phenotypes of MDA-MB-231 cells by extensively interacting with and regulating transcripts expression and alternative splicing",
+    "authors": [
+     "Yuan C",
+     "Gao Y",
+     "Huang Y",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2025",
+    "date": "2025 Nov 13"
+   },
+   {
+    "pmid": "41333505",
+    "title": "Anesthetic Management of a Child With Rothmund-Thomson Syndrome for Major Orthopedic Surgery",
+    "authors": [
+     "Cabete S",
+     "Neves SS",
+     "Duarte S"
+    ],
+    "journal": "Cureus",
+    "year": "2025",
+    "date": "2025 Nov"
+   },
+   {
+    "pmid": "41169384",
+    "title": "Plasma exosomal lncRNA-related signatures define molecular subtypes and predict survival and treatment response in hepatocellular carcinoma",
+    "authors": [
+     "Zhong F",
+     "Yao F",
+     "Wang XL",
+     "et al."
+    ],
+    "journal": "Front Immunol",
+    "year": "2025",
+    "date": "2025"
+   },
+   {
+    "pmid": "40819286",
+    "title": "Unilateral loss of recql4 function in Xenopus laevis tadpoles leads to ipsilateral ablation of the forelimb, hypoplastic Meckel's cartilage, and vascular defects",
+    "authors": [
+     "Beck CW",
+     "Reily-Bell M",
+     "Bicknell LS"
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2025",
+    "date": "2025 Oct 8"
+   },
+   {
+    "pmid": "40485636",
+    "title": "Rothmund-Thomson Syndrome Type 2 in an African American/Puerto Rican Child Demonstrates Diagnostic Challenges in Diverse Population",
+    "authors": [
+     "Teferedegn E",
+     "Izumi K",
+     "Ahrens-Nicklas R",
+     "et al."
+    ],
+    "journal": "Am J Med Genet A",
+    "year": "2025",
+    "date": "2025 Oct"
+   },
+   {
+    "pmid": "41023983",
+    "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses",
+    "authors": [
+     "Wojnicki K",
+     "Wojtas B",
+     "Ciechomska IA",
+     "et al."
+    ],
+    "journal": "BMC Cancer",
+    "year": "2025",
+    "date": "2025 Sep 29"
+   },
+   {
+    "pmid": "40963872",
+    "title": "Case Report: Genomic insights and personalized treatment in dual primary esophageal squamous cell carcinoma and gastric adenocarcinoma",
+    "authors": [
+     "Miao C",
+     "Guo Y",
+     "Yang H",
+     "et al."
+    ],
+    "journal": "Front Oncol",
+    "year": "2025",
+    "date": "2025"
+   },
+   {
+    "pmid": "40600615",
+    "title": "Regression of Monosomy 7 Clone in Patient With RECQL4-Associated Syndrome",
+    "authors": [
+     "Nunes SC",
+     "Reed HD",
+     "Pellin D",
+     "et al."
+    ],
+    "journal": "Am J Hematol",
+    "year": "2025",
+    "date": "2025 Sep"
+   }
+  ],
+  "query": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]"
+ },
+ "interactions_intact": {
+  "total": 101,
+  "partners": [
+   {
+    "uniprot": "P22087",
+    "name": "FBL",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442",
+     "33961781"
+    ],
+    "score": 0.53
+   },
+   {
+    "uniprot": "Q9UBX5",
+    "name": "FBLN5",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781",
+     "40205054"
+    ],
+    "score": 0.53
+   },
+   {
+    "uniprot": "Q9BRK4",
+    "name": "LZTS2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442",
+     "33961781"
+    ],
+    "score": 0.53
+   },
+   {
+    "uniprot": "Q9Y4Z2",
+    "name": "NEUROG3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442",
+     "33961781"
+    ],
+    "score": 0.53
+   },
+   {
+    "uniprot": "Q9UL42",
+    "name": "PNMA2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781",
+     "40205054"
+    ],
+    "score": 0.53
+   },
+   {
+    "uniprot": "P54274",
+    "name": "TERF1",
+    "methods": [
+     "bifc",
+     "pull down"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "21044950"
+    ],
+    "score": 0.51
+   },
+   {
+    "uniprot": "Q00005",
+    "name": "PPP2R2B",
+    "methods": [
+     "anti tag coip",
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19156129"
+    ],
+    "score": 0.46
+   },
+   {
+    "uniprot": "Q15149",
+    "name": "PLEC",
+    "methods": [
+     "crosslink"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "30021884"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q06609-1",
+    "name": "RAD51",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "18562274"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q75NR7",
+    "name": "Recql4",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "20360068"
+    ],
+    "score": 0.4
+   },
+   {
+    "uniprot": "Q96AP0",
+    "name": "ACD",
+    "methods": [
+     "bifc"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "21044950"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9NUX5",
+    "name": "POT1",
+    "methods": [
+     "bifc"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "21044950"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "O95084",
+    "name": "PRSS23",
+    "methods": [
+     "two hybrid pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "16169070"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9NYB0",
+    "name": "TERF2IP",
+    "methods": [
+     "bifc"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "21044950"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "O94805",
+    "name": "ACTL6B",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9BVQ7",
+    "name": "AFG2B",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q400G9",
+    "name": "AMZ1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q02410",
+    "name": "APBA1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P42331-2",
+    "name": "ARHGAP25",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P42331",
+    "name": "ARHGAP25",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O95352",
+    "name": "ATG7",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O60909",
+    "name": "B4GALT2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O95816",
+    "name": "BAG2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q6NZI2",
+    "name": "CAVIN1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "40205054"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q13042-2",
+    "name": "CDC16",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q13042",
+    "name": "CDC16",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9Y6H1",
+    "name": "CHCHD2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q13619",
+    "name": "CUL4A",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "30945288"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9UBP4",
+    "name": "DKK3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P98172",
+    "name": "EFNB1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P00748",
+    "name": "F12",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96KS9",
+    "name": "FAM167A",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q5TGI0",
+    "name": "FAXC",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q13643",
+    "name": "FHL3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q12950",
+    "name": "FOXD4",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P02792",
+    "name": "FTL",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "40205054"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q02539",
+    "name": "H1-1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "40205054"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P22459",
+    "name": "KCNA4",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q8N5Z5-2",
+    "name": "KCTD17",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q8N5Z5",
+    "name": "KCTD17",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q8N239",
+    "name": "KLHL34",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q5T700",
+    "name": "LDLRAD1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96JB6",
+    "name": "LOXL4",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96LR2",
+    "name": "LURAP1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P43362",
+    "name": "MAGEA9",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q16539-3",
+    "name": "MAPK14",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q16539",
+    "name": "MAPK14",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P59595",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P15130",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q0ZME3",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q6Q1R8",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "K9N4V7",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P33469",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P0DTC9",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9NZ94-2",
+    "name": "NLGN3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9NZ94",
+    "name": "NLGN3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q04721",
+    "name": "NOTCH2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "40205054"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q3KNT7",
+    "name": "NSUN5P1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9Y5Y2",
+    "name": "NUBP2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q02509",
+    "name": "OC90",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P0DTD1-PRO_0000449620",
+    "name": "P0DTD1-PRO_0000449620",
+    "methods": [
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34159380"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O15460-2",
+    "name": "P4HA2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "A2A3N6",
+    "name": "PIPSL",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q6ZR37",
+    "name": "PLEKHG7",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9P1A2",
+    "name": "PPP4R1L",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P22612",
+    "name": "PRKACG",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9UGI9",
+    "name": "PRKAG3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q15185",
+    "name": "PTGES3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O14593",
+    "name": "RFXANK",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P13489",
+    "name": "RNH1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9UNX3",
+    "name": "RPL26L1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "40205054"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P29034",
+    "name": "S100A2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q9H4L4",
+    "name": "SENP3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q15393",
+    "name": "SF3B3",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q86WV1-2",
+    "name": "SKAP1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q86WV1",
+    "name": "SKAP1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q8NCK7",
+    "name": "SLC16A11",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28666119"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q5JUK2",
+    "name": "SOHLH1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96A61",
+    "name": "TRIM52",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P07437",
+    "name": "TUBB",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q16831",
+    "name": "UPP1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q5GFL6",
+    "name": "VWA2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96DN2",
+    "name": "VWCE",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "28514442"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q0IIN9",
+    "name": "ZNF252P-AS1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q96H86",
+    "name": "ZNF764",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "O60232",
+    "name": "ZNRD2",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "33961781"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P38398",
+    "name": "BRCA1",
+    "methods": [
+     "proximity-dependent biotin identification"
+    ],
+    "types": [
+     "proximity"
+    ],
+    "pmids": [
+     "29656893"
+    ],
+    "score": 0.27
+   },
+   {
+    "uniprot": "P06748",
+    "name": "NPM1",
+    "methods": [
+     "proximity-dependent biotin identification"
+    ],
+    "types": [
+     "proximity"
+    ],
+    "pmids": [
+     "39251607"
+    ],
+    "score": 0.27
+   },
+   {
+    "uniprot": "Q9NQZ2",
+    "name": "UTP3",
+    "methods": [
+     "proximity-dependent biotin identification"
+    ],
+    "types": [
+     "proximity"
+    ],
+    "pmids": [
+     "39251607"
+    ],
+    "score": 0.27
+   }
+  ]
+ },
+ "clinvar": {
+  "total": 5656,
+  "pathogenic": 375,
+  "likely_pathogenic": 130,
+  "vus": 3007,
+  "likely_benign": 1891,
+  "benign": 120
+ }
+}
