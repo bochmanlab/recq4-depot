@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About &amp; sources — RecQ4 Family Depot</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.ico">
+</head><body>
+<div class="proto">Prototype &mdash; 11 proteins so far. Content is assembled automatically from public databases and has not been fully curated.</div>
+<header class="site"><div class="wrap row">
+<a class="brand" href="index.html">RecQ4 <span>Family Depot</span></a>
+<nav aria-label="Primary"><ul><li><a href="index.html">Proteins</a></li><li><a href="family.html">Family overview</a></li><li><a href="about.html" aria-current=page>About &amp; sources</a></li><li><a href="https://bochmanlab.github.io">Bochman Lab &nearr;</a></li></ul></nav>
+</div></header>
+<section class="hero"><div class="wrap"><h1>About &amp; sources</h1>
+<p class="lede">What this site is, where its data come from, and what it does not do yet.</p></div></section>
+<main class="wrap prose" style="max-width:780px">
+<h2 style="margin-top:.5em">Scope</h2>
+<p>A prototype resource for RecQ4-family helicases from all organisms, started by the <a href="https://bochmanlab.github.io">Bochman Lab</a>. It currently lists 11 proteins: RECQL4 (<i>Homo sapiens</i>), Recql4 (<i>Mus musculus</i>), recql4 (<i>Danio rerio</i>), XRecQ4 (<i>Xenopus laevis</i>), DmRECQ4 (<i>Drosophila melanogaster</i>), Hrq1 (<i>Saccharomyces cerevisiae</i>), Hrq1 (<i>Schizosaccharomyces pombe</i>), HRQ1 (<i>Arabidopsis thaliana</i>), MrfA (<i>Bacillus subtilis</i>), SftH (<i>Mycolicibacterium smegmatis</i>), MJ1574 (<i>Methanocaldococcus jannaschii</i>).</p>
+<h2 id="inclusion">What counts as RecQ4-family</h2>
+<p>Gene names are inconsistent across species, so the site uses a database-defined rule instead of names:</p>
+<ul><li><b>RECQL4 group:</b> UniProt cross-references the protein to PANTHER subfamily PTHR13710:SF108 (ATP-dependent DNA helicase Q4).</li>
+<li><b>HRQ1 group:</b> UniProt cross-references the protein to PANTHER family PTHR47957 (ATP-dependent helicase HRQ1). This group includes yeast Hrq1, <i>Arabidopsis</i> HRQ1, and bacterial MrfA.</li></ul>
+<p>The rule is already doing useful work. <i>Arabidopsis</i> genes named <i>RECQL4A</i> and <i>RECQL4B</i> sit in the broader RecQ family (PTHR13710) but in different subfamilies (SF148 and SF156), so they are left out, and none of the <i>C. elegans</i> RecQ genes I checked (wrn-1, him-6, rcq-5 and one other) are in the RECQL4 subfamily either.</p>
+<p>Limits: the rule inherits PANTHER's classification, including its mistakes. It only sees proteins PANTHER has already assigned. The two groups are shown separately because this site makes no claim about how they relate to each other. Hits not yet added include <i>E. coli</i> DruE (a 1,836-aa phage-defense protein), chicken and other vertebrate Q4 proteins, and many insects. A phylogeny-based definition would still be a better long-term answer.</p>
+<h2>Where the data come from</h2>
+<div class=""><table><thead><tr><th>Data</th><th>Source</th><th>Notes</th></tr></thead><tbody><tr><td>Sequence, domains, function, variants, mutagenesis</td><td><a href='https://www.uniprot.org/'>UniProt</a></td><td>Swiss-Prot entries are curated; TrEMBL entries are automatic and marked &ldquo;unreviewed&rdquo;</td></tr><tr><td>Family membership</td><td><a href='https://www.pantherdb.org/'>PANTHER</a> via UniProt</td><td>See rule above</td></tr><tr><td>Predicted structure</td><td><a href='https://alphafold.ebi.ac.uk/'>AlphaFold DB</a></td><td>Model files copied into this site; some entries have none</td></tr><tr><td>Experimental structures</td><td>PDB via UniProt cross-references</td><td></td></tr><tr><td>Interactions</td><td><a href='https://www.ebi.ac.uk/intact/'>IntAct</a>; <a href='https://www.yeastgenome.org/'>SGD</a> for <i>S. cerevisiae</i></td><td>Counts include high-throughput screens</td></tr><tr><td>Yeast alleles and phenotypes</td><td>SGD</td><td><i>S. cerevisiae</i> only</td></tr><tr><td>Clinical variants</td><td><a href='https://www.ncbi.nlm.nih.gov/clinvar/'>ClinVar</a></td><td>Human only; counts by classification, no individual variant tables yet</td></tr><tr><td>Literature</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/'>PubMed</a></td><td>Automatic keyword search per protein</td></tr></tbody></table></div>
+<h2>How it stays current</h2>
+<p>A script (<code>scripts/fetch_data.py</code>) re-downloads everything from the sources above and a second script (<code>scripts/build_site.py</code>) regenerates the pages. A scheduled GitHub Action runs both weekly. Data were last refreshed October 8, 2026.</p>
+<h2>Limitations</h2>
+<ul><li>This is aggregation, not expert curation. Annotations are only as good as the upstream databases, and unreviewed entries are the weakest.</li>
+<li>The automatic literature searches are imprecise; some off-topic papers appear and relevant ones can be missed.</li>
+<li>Only yeast has allele/phenotype detail so far, and only human has clinical variants.</li>
+<li>There is no alignment, tree, or ortholog table yet.</li></ul>
+<h2>Contact</h2><p>Corrections and suggestions: <a href="mailto:bochman@iu.edu">bochman@iu.edu</a>.</p></main>
+<footer><div class="wrap">Data last refreshed October 8, 2026. Sources: UniProt, AlphaFold DB, PDB, IntAct, SGD, ClinVar, PubMed &mdash; see <a href="about.html">About &amp; sources</a>. A project of the <a href="https://bochmanlab.github.io">Bochman Lab</a>, Indiana University Bloomington.</div></footer>
+
+</body></html>
