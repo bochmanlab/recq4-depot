@@ -1,0 +1,33 @@
+name: Refresh data and rebuild site
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # Mondays, 12:00 UTC
+  workflow_dispatch: {}
+  push:
+    paths:
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Fetch data from public sources
+        run: python3 scripts/fetch_data.py
+      - name: Rebuild pages
+        run: python3 scripts/build_site.py
+      - name: Commit if anything changed
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "recq4-depot-bot"
+          git config user.email "actions@github.com"
+          git commit -m "Refresh data from public sources"
+          git push
