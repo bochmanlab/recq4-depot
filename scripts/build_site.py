@@ -11,6 +11,8 @@ from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
+_cp = os.path.join(DATA, "curated_refs.json")
+CURATED = json.load(open(_cp)) if os.path.exists(_cp) else {}
 LAB_URL = "https://bochmanlab.github.io"
 GROUP_LABEL = {"PTHR13710:SF108": "ATP-dependent DNA helicase Q4", "PTHR47957": "ATP-dependent helicase HRQ1"}
 E = lambda s: html.escape(str(s if s is not None else ""), quote=True)
@@ -124,6 +126,28 @@ def fasta(u):
     seq = u["sequence"]
     head = f">sp|{u['accession']}|{u['entry']} {u['name']} OS={u['organism']} OX={u['taxid']}"
     return head + "\n" + "\n".join(seq[i:i + 60] for i in range(0, len(seq), 60))
+
+
+def curated_html(groups):
+    """Render curated reference groups (topic -> items). Items without a PMID link out via DOI or show plain text."""
+    h = ""
+    seen = set()
+    for g in groups:
+        items = [e for e in g["items"] if e["n"] not in seen]
+        if not items: continue
+        h += f'<h3>{E(g["topic"])}</h3><ul class="lit">'
+        for e in items:
+            seen.add(e["n"])
+            if e.get("pmid"):
+                t = f'<a href="https://pubmed.ncbi.nlm.nih.gov/{e["pmid"]}/">{E(e["title"])}</a>'
+                m = f'{E(e["authors"])} &middot; <i>{E(e["journal"] or "")}</i> {E(e["year"] or "")} &middot; PMID {e["pmid"]}'
+            elif e.get("doi"):
+                t = f'<a href="https://doi.org/{E(e["doi"])}">{E(e["title"])}</a>'; m = f'{E(e["authors"])} &middot; {E(e["year"] or "")} &middot; DOI {E(e["doi"])}'
+            else:
+                t = E(e["title"]); m = f'{E(e["authors"])} &middot; {E(e["year"] or "")} &middot; not indexed in PubMed or not matched'
+            h += f'<li><div class="t">{t}</div><div class="m">{m}</div></li>'
+        h += "</ul>"
+    return h
 
 
 def protein_page(r, meta):
@@ -269,12 +293,18 @@ def protein_page(r, meta):
             if ts: gh += f"<div><h3>{lab}</h3><ul>" + "".join(f"<li>{E(t)}</li>" for t in ts) + "</ul></div>"
         sec("go", "Gene Ontology", gh + "</div>")
 
+    # curated key papers
+    cur = CURATED.get("proteins", {}).get(r["slug"])
+    if cur:
+        n_cur = len({e["n"] for g in cur for e in g["items"]})
+        sec("keypapers", "Key papers", f'<p>{n_cur} papers curated by the lab, grouped by the topic under which each is discussed. A paper can be relevant beyond its group. The automatic PubMed search under Literature is separate.</p>' + curated_html(cur))
+
     # literature
     lit = r["literature"]
     pq = urllib.parse.quote(lit["query"])
     lh = (f'<p><b>{lit["count"]}</b> PubMed records match the saved search <code>{E(lit["query"])}</code>; the {len(lit["papers"])} most recent are shown. '
           f'<a href="https://pubmed.ncbi.nlm.nih.gov/?term={pq}">Open in PubMed</a>.</p>'
-          '<div class="note warn">Prototype caveat: this list comes from an automatic keyword search and can include off-topic papers or miss relevant ones. A curated list is planned.</div><ul class="lit">')
+          '<div class="note warn">Prototype caveat: this list comes from an automatic keyword search and can include off-topic papers or miss relevant ones.</div><ul class="lit">')
     for p in lit["papers"]:
         lh += (f'<li><div class="t"><a href="https://pubmed.ncbi.nlm.nih.gov/{p["pmid"]}/">{E(p["title"])}</a></div>'
                f'<div class="m">{E(", ".join(p["authors"]))} &middot; <i>{E(p["journal"])}</i> {E(p["year"])} &middot; PMID {p["pmid"]}</div></li>')
