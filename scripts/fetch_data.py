@@ -54,13 +54,16 @@ PROTEINS = [
     {"uniprot": "A0R5E2", "slug": "sfth-msmegmatis", "gene": "sftH", "short": "SftH",
      "organism": "Mycolicibacterium smegmatis", "kingdom": "Bacteria",
      "pubmed": 'SftH[tiab] AND (Mycobacterium OR Mycolicibacterium OR smegmatis)'},
+    {"uniprot": "P0DW38", "slug": "drue-ecoli", "gene": "druE", "short": "DruE",
+     "organism": "Escherichia coli", "kingdom": "Bacteria",
+     "pubmed": '(DruE[tiab] OR Druantia[tiab]) AND (phage OR "defense system" OR "anti-phage")'},
     {"uniprot": "Q58969", "slug": "mj1574-mjannaschii", "gene": "MJ1574", "short": "MJ1574",
      "organism": "Methanocaldococcus jannaschii", "kingdom": "Archaea",
      "pubmed": '(MJ1574[tiab] OR MJ1572[tiab]) AND (Methanocaldococcus OR Methanococcus)'},
 ]
 
 # Candidates found by the same rule but not included yet (documented on the About page):
-#   E. coli DruE (P0DW38) -- 1,836 aa phage-defense protein; Gallus gallus A0A8V0XX13; many mammals/insects.
+#   Gallus gallus A0A8V0XX13; many mammals/insects. (E. coli DruE, P0DW38, was added as the phage-defense exemplar.)
 # Deliberately excluded by the rule: Arabidopsis RECQL4A/RECQL4B (PANTHER PTHR13710:SF148/SF156, not SF108)
 # and C. elegans RecQ genes (other PTHR13710 subfamilies), despite "RecQ4" in some gene names.
 
