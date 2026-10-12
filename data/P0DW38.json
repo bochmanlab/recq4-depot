@@ -1,0 +1,323 @@
+{
+ "uniprot": "P0DW38",
+ "slug": "drue-ecoli",
+ "gene": "druE",
+ "short": "DruE",
+ "organism": "Escherichia coli",
+ "kingdom": "Bacteria",
+ "pubmed": "(DruE[tiab] OR Druantia[tiab]) AND (phage OR \"defense system\" OR \"anti-phage\")",
+ "uniprot_data": {
+  "accession": "P0DW38",
+  "entry": "DRUE_ECOU4",
+  "reviewed": true,
+  "name": "Druantia protein DruE",
+  "alt_names": [
+   "Probable ATP-dependent helicase DruE"
+  ],
+  "ec": [],
+  "genes": [
+   "druE"
+  ],
+  "organism": "Escherichia coli (strain UMEA 4076-1)",
+  "taxid": 1281278,
+  "length": 1836,
+  "mass": 206036,
+  "sequence": "MINKNKVTERSGIHDTVKSLSENLRKYIEAQYHIRDEGLIAERRALLQQNETIAQAPYIEATPIYEPGAPYSELPIPEAASNVLTQLSELGIGLYQRPYKHQSQALESFLGEDASDLVIATGTGSGKTESFLMPIIGKLAIESSERPKSASLPGCRAILLYPMNALVNDQLARIRRLFGDSEASKILRSGRCAPVRFGAYTGRTPYPGRRSSRRDELFIKPLFDEFYNKLANNAPVRAELNRIGRWPSKDLDAFYGQSASQAKTYVSGKKTGKQFVLNNWGERLITQPEDRELMTRHEMQNRCPELLITNYSMLEYMLMRPIERNIFEQTKEWLKADEMNELILVLDEAHMYRGAGGAEVALLIRRLCARLDIPRERMRCILTSASLGSIEDGERFAQDLTGLSPTSSRKFRIIEGTRESRPESQIVTSKEANALAEFDLNSFQCVAEDLESAYAAIESLAERMGWQKPMIKDHSTLRNWLFDNLTGFGPIETLIEIVSGKAVKLNILSENLFPDSPQQIAERATDALLALGCYAQRASDGRVLIPTRMHLFYRGLPGLYACIDPDCNQRLGNHSGPTILGRLYTKPLDQCKCASKGRVYELFTHRDCGAAFIRGYVSSEMDFVWHQPNGPLSEDEDIDLVPIDILVEETPHVHSDYQDRWLHIATGRLSKQCQDEDSGYRKVFIPDRVKSGSEITFDECPVCMRKTRSAQNEPSKIMDHVTKGEAPFTTLVRTQISHQPASRPIDGKHPNGGKKVLIFSDGRQKAARLARDIPRDIELDLFRQSIALACSKLKDINREPKPTSVLYLAFLSVLSEHDLLIFDGEDSRKVVMARDEFYRDYNSDLAQAFDDNFSPQESPSRYKIALLKLLCSNYYSLSGTTVGFVEPSQLKSKKMWEDVQSKKLNIESKDVHALAVAWIDTLLTEFAFDESIDSTLRIKAAGFYKPTWGSQGRFGKALRKTLIQHPAMGELYVEVLEEIFRTHLTLGKDGVYFLAPNALRLKIDLLHVWKQCNDCTALMPFALEHSTCLACGSNSVKTVEPSESSYINARKGFWRSPVEEVLVSNSRLLNLSVEEHTAQLSHRDRASVHATTELYELRFQDVLINDNDKPIDVLSCTTTMEVGVDIGSLVAVALRNVPPQRENYQQRAGRAGRRGASVSTVVTYSQNGPHDSYYFLNPERIVAGSPRTPEVKVNNPKIARRHVHSFLVQTFFHELMEQGIYNPTEKTAILEKALGTTRDFFHGAKDTGLNLDSFNNWVKNRILSTNGDLRTSVAAWLPPVLETGGLSASDWFAKVAEEFLNTLHGLAEIVPQIAALVDEENEDDEQTSGGMKFAQEELLEFLFYHGLLPSYAFPTSLCSFLVEKIVKNIRGSFEVRTVQQPQQSISQALSEYAPGRLIVIDRKTYRSGGVFSNALKGELNRARKLFNNPKKFIHCDKCSFVRDPHNNQNSENTCPICGGILKVEIMIQPEVFGPENAKELNEDDREQEITYVTAAQYPQPVDPEDFKFNNGGAHIVFTHAIDQKLVTVNRGKNEGGSSGFSVCCECGAASVYDSYSPAKGAHERPYKYIATKETPRLCSGEYKRVFLGHDFRTDLLLLRITVGSPLVTDTSNAIVLRMYEDALYTIAEALRLAASRHKQLDLDPAEFGSGFRILPTIEEDTQALDLFLYDTLSGGAGYAEVAAANLDDILTATLALLEGCECDTSCTDCLNHFHNQHIQSRLDRKLGASLLRYALYGMVPRCASPDIQVEKLSQLRASLELDGFQCLIKGTQEAPMIVSLNDRSVAVGSYPGLIDRPDFQHDVYKSKNTNAHIAFNEYLLRSNLPQAHQNIRKLLR",
+  "existence": "3: Inferred from homology",
+  "annotation_score": 3.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "Component of antiviral defense system Druantia type I, composed of DruA, DruB, DruC, DruD and DruE. Expression of Druantia in E.coli (strain MG1655) confers resistance to phage lambda, SECphi18, SECphi27 and T4 (PubMed:29371424). This protein is probably a helicase (Probable)"
+   ],
+   "COFACTOR": [
+    "Zn(2+)"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "When this gene is missing the Druantia system does not confer resistance to SECphi27 in E.coli"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "Helicase ATP-binding",
+     "start": 108,
+     "end": 405
+    },
+    {
+     "name": "Helicase C-terminal",
+     "start": 1014,
+     "end": 1199
+    }
+   ],
+   "regions": [],
+   "motifs": [
+    {
+     "name": "DEAH box",
+     "start": 347,
+     "end": 350
+    }
+   ],
+   "binding": [
+    {
+     "start": 121,
+     "end": 128,
+     "ligand": "ATP"
+    },
+    {
+     "start": 1700,
+     "end": 1700,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 1702,
+     "end": 1702,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 1706,
+     "end": 1706,
+     "ligand": "Zn(2+)"
+    },
+    {
+     "start": 1709,
+     "end": 1709,
+     "ligand": "Zn(2+)"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0043138",
+    "term": "F:3'-5' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0003676",
+    "term": "F:nucleic acid binding"
+   },
+   {
+    "id": "GO:0036297",
+    "term": "P:interstrand cross-link repair"
+   },
+   {
+    "id": "GO:0006289",
+    "term": "P:nucleotide-excision repair"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR011545",
+    "name": "DEAD/DEAH_box_helicase_dom"
+   },
+   {
+    "id": "IPR060416",
+    "name": "DruE_b-brl"
+   },
+   {
+    "id": "IPR014001",
+    "name": "Helicase_ATP-bd"
+   },
+   {
+    "id": "IPR001650",
+    "name": "Helicase_C-like"
+   },
+   {
+    "id": "IPR018973",
+    "name": "MZB"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF00270",
+    "name": "DEAD"
+   },
+   {
+    "id": "PF00271",
+    "name": "Helicase_C"
+   },
+   {
+    "id": "PF09369",
+    "name": "MZB"
+   },
+   {
+    "id": "PF27116",
+    "name": "YjiV_N"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "WP_001519247.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47957",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   },
+   {
+    "id": "PTHR47957:SF3",
+    "name": "ATP-DEPENDENT HELICASE HRQ1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47957"
+ ],
+ "group": "HRQ1 group",
+ "alphafold": {
+  "entryId": "AF-P0DW38-F1",
+  "globalMetricValue": 85.44,
+  "fractionPlddtVeryHigh": 0.44,
+  "fractionPlddtConfident": 0.472,
+  "fractionPlddtLow": 0.07,
+  "fractionPlddtVeryLow": 0.019,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P0DW38-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P0DW38-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-P0DW38-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 9,
+  "papers": [
+   {
+    "pmid": "42771523",
+    "title": "A compact Druantia defense clears phage infections via single-stranded DNA recognition and directional duplex unwinding",
+    "authors": [
+     "Himpich S",
+     "Gaudin T",
+     "Grass LM",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2026",
+    "date": "2026 Sep 22"
+   },
+   {
+    "pmid": "42328862",
+    "title": "The co-localizing Zorya II, Druantia III, and ARMADA II defense systems on O-island 172 confer synergistic anti-phage defense in enterohemorrhagic Escherichia coli",
+    "authors": [
+     "Li H",
+     "Loi VV",
+     "Borelli C",
+     "et al."
+    ],
+    "journal": "mBio",
+    "year": "2026",
+    "date": "2026 Aug 12"
+   },
+   {
+    "pmid": "42381735",
+    "title": "Type III Druantia two-component antiphage defense depends on the DruH-DruE interaction for inhibiting viral DNA circularization and replication",
+    "authors": [
+     "Li Y",
+     "He ZG"
+    ],
+    "journal": "Cell Insight",
+    "year": "2026",
+    "date": "2026 Aug"
+   },
+   {
+    "pmid": "42276072",
+    "title": "YprA-family helicases provide the missing link between diverse prokaryotic immune systems",
+    "authors": [
+     "Bell RT",
+     "Gaudin T",
+     "Wu Y",
+     "et al."
+    ],
+    "journal": "Cell Host Microbe",
+    "year": "2026",
+    "date": "2026 Jul 8"
+   },
+   {
+    "pmid": "42182148",
+    "title": "Antiphage defence systems Druantia III and Zorya II synergise via shared DNA intermediates in a phage-specific manner",
+    "authors": [
+     "Wu Y",
+     "Zhang Z",
+     "Garushyants SK",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 May 13"
+   },
+   {
+    "pmid": "41000832",
+    "title": "YprA family helicases provide the missing link between diverse prokaryotic immune systems",
+    "authors": [
+     "Bell RT",
+     "Gaudin T",
+     "Wu Y",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2025",
+    "date": "2025 Sep 15"
+   },
+   {
+    "pmid": "40639337",
+    "title": "Bacteriophage genomes encode both broad and specific counter-defense repertoires to overcome bacterial defense systems",
+    "authors": [
+     "Costa AR",
+     "van den Berg DF",
+     "Esser JQ",
+     "et al."
+    ],
+    "journal": "Cell Host Microbe",
+    "year": "2025",
+    "date": "2025 Jul 9"
+   },
+   {
+    "pmid": "38402614",
+    "title": "Bacterial defense systems exhibit synergistic anti-phage activity",
+    "authors": [
+     "Wu Y",
+     "Garushyants SK",
+     "van den Hurk A",
+     "et al."
+    ],
+    "journal": "Cell Host Microbe",
+    "year": "2024",
+    "date": "2024 Apr 10"
+   },
+   {
+    "pmid": "37306585",
+    "title": "Landscape of New Nuclease-Containing Antiphage Systems in Escherichia coli and the Counterdefense Roles of Bacteriophage T4 Genome Modifications",
+    "authors": [
+     "Wang S",
+     "Sun E",
+     "Liu Y",
+     "et al."
+    ],
+    "journal": "J Virol",
+    "year": "2023",
+    "date": "2023 Jun 29"
+   }
+  ],
+  "query": "(DruE[tiab] OR Druantia[tiab]) AND (phage OR \"defense system\" OR \"anti-phage\")"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

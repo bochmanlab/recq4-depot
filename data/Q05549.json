@@ -248,7 +248,7 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 29,
+  "count": 30,
   "papers": [
    {
     "pmid": "42755368",
@@ -275,6 +275,19 @@
     "journal": "J Biol Chem",
     "year": "2026",
     "date": "2026 Sep"
+   },
+   {
+    "pmid": "42851257",
+    "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes",
+    "authors": [
+     "Regmi S",
+     "Alsulaiti N",
+     "Darling D",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Aug 14"
    },
    {
     "pmid": "41726939",

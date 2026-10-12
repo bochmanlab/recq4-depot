@@ -569,7 +569,7 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 479,
+  "count": 480,
   "papers": [
    {
     "pmid": "42806161",
@@ -661,6 +661,19 @@
     "journal": "Mol Neurobiol",
     "year": "2026",
     "date": "2026 Aug 17"
+   },
+   {
+    "pmid": "42851257",
+    "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes",
+    "authors": [
+     "Regmi S",
+     "Alsulaiti N",
+     "Darling D",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Aug 14"
    },
    {
     "pmid": "41491601",
@@ -1071,19 +1084,6 @@
     "journal": "Front Oncol",
     "year": "2025",
     "date": "2025"
-   },
-   {
-    "pmid": "40600615",
-    "title": "Regression of Monosomy 7 Clone in Patient With RECQL4-Associated Syndrome",
-    "authors": [
-     "Nunes SC",
-     "Reed HD",
-     "Pellin D",
-     "et al."
-    ],
-    "journal": "Am J Hematol",
-    "year": "2025",
-    "date": "2025 Sep"
    }
   ],
   "query": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]"
@@ -2348,7 +2348,7 @@
  },
  "clinvar": {
   "total": 5656,
-  "pathogenic": 375,
+  "pathogenic": 376,
   "likely_pathogenic": 130,
   "vus": 3007,
   "likely_benign": 1891,
