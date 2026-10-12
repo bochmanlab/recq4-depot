@@ -128,14 +128,14 @@ def fasta(u):
     return head + "\n" + "\n".join(seq[i:i + 60] for i in range(0, len(seq), 60))
 
 
-def curated_html(groups):
+def curated_html(groups, headings=True):
     """Render curated reference groups (topic -> items). Items without a PMID link out via DOI or show plain text."""
     h = ""
     seen = set()
     for g in groups:
         items = [e for e in g["items"] if e["n"] not in seen]
         if not items: continue
-        h += f'<h3>{E(g["topic"])}</h3><ul class="lit">'
+        h += (f'<h3>{E(g["topic"])}</h3>' if headings else '') + '<ul class="lit">'
         for e in items:
             seen.add(e["n"])
             if e.get("pmid"):
@@ -389,10 +389,17 @@ def family(recs, meta):
         rows.append([f'<a href="proteins/{r["slug"]}.html"><b>{E(r["short"])}</b></a>', org_html(u["organism"]), E(r["kingdom"]), E(r["group"].replace(" group", "")),
                      "reviewed" if u["reviewed"] else "unreviewed", f"{u['length']:,}", f"{atp['start']}&ndash;{atp['end']}" if atp else "&mdash;",
                      f"{ct['start']}&ndash;{ct['end']}" if ct else "&mdash;", f"{af.get('globalMetricValue',0):.0f}" if af else "&mdash;", str(n_int), str(r["literature"]["count"])])
+    fam_cur = CURATED.get("family", [])
+    fam_papers = ""
+    if fam_cur:
+        n_fam = len({e["n"] for g in fam_cur for e in g["items"]})
+        fam_papers = (f'<h2 id="keypapers">Key papers on the family</h2><p>{n_fam} papers curated by the lab for family-level background, grouped by topic. Papers specific to one protein are on that protein&rsquo;s page.</p>'
+                      + "".join(f'<details style="margin:.4rem 0"><summary style="cursor:pointer;font:600 1rem -apple-system,Segoe UI,sans-serif">{E(g["topic"])} <span style="font-weight:400;color:var(--ink-soft)">({len(g["items"])})</span></summary>{curated_html([g], headings=False)}</details>' for g in fam_cur))
     body = f"""<section class="hero"><div class="wrap"><h1>Family overview</h1>
 <p class="lede">All entries on one scale, split into the two PANTHER groups that define membership. The helicase domains are shared across members; their position and the regions flanking them differ.</p></div></section>
 <main class="wrap"><div class="note"><b>Inclusion rule.</b> A protein is listed when UniProt cross-references it to PANTHER family PTHR13710:SF108 (ATP-dependent DNA helicase Q4, the RECQL4 group) or PTHR47957 (ATP-dependent helicase HRQ1, the HRQ1 group). The rule is applied by a script, so every entry shows which family it matched. See <a href="about.html#inclusion">About</a> for what the rule misses.</div>
 {sections}{LEGEND}
+{fam_papers}
 <h2>Side-by-side</h2>{tbl(["Protein","Organism","Kingdom","Group","UniProt status","Length (aa)","ATP-binding domain","C-terminal domain","AlphaFold pLDDT","Physical / curated interactors","PubMed records"], rows, "scroll")}
 <p style="font-size:.85rem;color:var(--ink-soft)">Interactor counts come from different sources (SGD for yeast, IntAct for the others) and include high-throughput data, so they are not directly comparable. Unreviewed entries are annotated automatically. Planned next: a sequence alignment and tree across all members.</p></main>"""
     return shell("Family overview — RecQ4 Family Depot", body, "family", 0, meta=meta)

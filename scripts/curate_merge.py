@@ -31,10 +31,17 @@ def main(rp,cp,op):
     refs=json.load(open(rp)); cm=json.load(open(cp)); out={'proteins':{},'family':[]}
     for slug,topics in cm['proteins'].items():
         out['proteins'][slug]=[g for g in ({'topic':t,'items':[e for e in (entry(n,refs) for n in nums) if e and keep(slug,e)]} for t,nums in topics.items()) if g['items']]
-    seen=set()
+    import re
+    fam_rx=re.compile(r'RecQ|RECQ|helicase|Rothmund|Hrq1|Sld2|DUF|YprA|SF1|SF2|translocase|BLM|WRN|Werner|Bloom|DONSON|Pif1|replicat',re.I)
+    pretty={'Introduction':'Background','Historical Discovery And Evolution Of The Recq4-Family':'Discovery and evolution',
+            'Domain Architecture And Structural Organization':'Domain architecture and structure','Biochemical Activities And Mechanistic Logic':'Biochemical activities',
+            'YprA helicases in prokaryotic immune systems':'Bacterial YprA helicases and immune systems','Prokaryotic Recq4-Family Helicases':'Bacterial YprA helicases and immune systems',
+            'Overview':'Bacterial YprA helicases and immune systems','Comparative Synthesis And Future Directions':'Comparative synthesis'}
+    fam={}
     for t,nums in cm['family'].items():
-        items=[e for e in (entry(n,refs) for n in nums) if e]
-        out['family'].append({'topic':t,'items':items})
+        items=[e for e in (entry(n,refs) for n in nums) if e and fam_rx.search(e['title'])]
+        fam.setdefault(pretty.get(t.split(' — ')[0],t.split(' — ')[0]),[]).extend(items)
+    out['family']=[{'topic':k,'items':v} for k,v in fam.items() if v]
     json.dump(out,open(op,'w'),indent=1)
     tot=sum(len(g['items']) for v in out['proteins'].values() for g in v)
     unres=sum(1 for v in out['proteins'].values() for g in v for e in g['items'] if not e['pmid'])
