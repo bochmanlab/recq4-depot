@@ -1489,7 +1489,7 @@
  },
  "family": [
   {
-   "topic": "Introduction",
+   "topic": "Background",
    "items": [
     {
      "n": 1,
@@ -1627,25 +1627,6 @@
      "doi": null
     },
     {
-     "n": 16,
-     "authors": "Van Maldergem L et al.",
-     "year": "1993",
-     "title": "Baller-Gerold Syndrome, Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Amemiya A (ed), GeneReviews((R)), Seattle (WA).",
-     "journal": null,
-     "pmid": null,
-     "doi": null,
-     "raw": "Van Maldergem L, Piard J, Larizza L, Wang LL. 1993. Baller-Gerold Syndrome, Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Amemiya A (ed), GeneReviews((R)), Seattle (WA)."
-    },
-    {
-     "n": 17,
-     "authors": "Vargas FR, de Almeida JC, Llerena Junior JC, Reis DF",
-     "year": "1992",
-     "title": "RAPADILINO syndrome.",
-     "journal": "Am J Med Genet",
-     "pmid": "1481838",
-     "doi": null
-    },
-    {
      "n": 18,
      "authors": "Swan MK et al.",
      "year": "2014",
@@ -1691,15 +1672,6 @@
      "doi": null
     },
     {
-     "n": 23,
-     "authors": "Lee W, St Onge RP et al.",
-     "year": "2005",
-     "title": "Genome-wide requirements for resistance to functionally distinct DNA-damaging agents.",
-     "journal": "PLoS Genet",
-     "pmid": "16121259",
-     "doi": null
-    },
-    {
      "n": 24,
      "authors": "Shiratori A et al.",
      "year": "1999",
@@ -1715,15 +1687,6 @@
      "title": "Mycobacterium smegmatis SftH exemplifies a distinctive clade of superfamily II DNA-dependent ATPases with 3' to 5' translocase and helicase activities.",
      "journal": "Nucleic Acids Res",
      "pmid": "22641846",
-     "doi": null
-    },
-    {
-     "n": 26,
-     "authors": "Burby PE, Simmons LA",
-     "year": "2019",
-     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
-     "journal": "Mol Microbiol",
-     "pmid": "30379365",
      "doi": null
     },
     {
@@ -1752,24 +1715,6 @@
      "title": "A skipping rope translocation mechanism in a widespread family of DNA repair helicases.",
      "journal": "Nucleic Acids Res",
      "pmid": "33300032",
-     "doi": null
-    },
-    {
-     "n": 30,
-     "authors": "Cejka P et al.",
-     "year": "2010",
-     "title": "DNA end resection by Dna2-Sgs1-RPA and its stimulation by Top3-Rmi1 and Mre11-Rad50-Xrs2.",
-     "journal": "Nature",
-     "pmid": "20811461",
-     "doi": null
-    },
-    {
-     "n": 31,
-     "authors": "Cejka P et al.",
-     "year": "2010",
-     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
-     "journal": "Nat Struct Mol Biol",
-     "pmid": "20935631",
      "doi": null
     },
     {
@@ -1926,15 +1871,6 @@
      "doi": null
     },
     {
-     "n": 49,
-     "authors": "Rogers CM et al.",
-     "year": "2020",
-     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
-     "journal": "Prog Biophys Mol Biol",
-     "pmid": "32877700",
-     "doi": "10.1016/j.pbiomolbio.2020.08.005"
-    },
-    {
      "n": 50,
      "authors": "Lu H et al.",
      "year": "2017",
@@ -1982,7 +1918,7 @@
    ]
   },
   {
-   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 From E. coli RecQ to RecQ Diversity",
+   "topic": "Discovery and evolution",
    "items": [
     {
      "n": 5,
@@ -2037,12 +1973,7 @@
      "journal": "Proc Natl Acad Sci U S A",
      "pmid": "2164680",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 The Emergence of RECQL4",
-   "items": [
+    },
     {
      "n": 15,
      "authors": "Larizza L, Roversi G, Volpi L",
@@ -2078,12 +2009,7 @@
      "journal": "Nucleic Acids Res",
      "pmid": "21109535",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 The Discovery of Hrq1 and Phylogenetic Separation",
-   "items": [
+    },
     {
      "n": 22,
      "authors": "Barea F, Tessaro S, Bonatto D",
@@ -2110,12 +2036,7 @@
      "journal": "G3 (Bethesda)",
      "pmid": "33115720",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 Expansion into Plants and Early Eukaryotes",
-   "items": [
+    },
     {
      "n": 22,
      "authors": "Barea F, Tessaro S, Bonatto D",
@@ -2133,12 +2054,7 @@
      "journal": "New Phytol",
      "pmid": "29577315",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Historical Discovery And Evolution Of The Recq4-Family \u2014 Bacterial DUF1998 Helicases and Modular Evolution",
-   "items": [
+    },
     {
      "n": 29,
      "authors": "Roske JJ et al.",
@@ -2151,7 +2067,7 @@
    ]
   },
   {
-   "topic": "Domain Architecture And Structural Organization \u2014 RecA motor mechanics and conformational cycling",
+   "topic": "Domain architecture and structure",
    "items": [
     {
      "n": 66,
@@ -2242,12 +2158,7 @@
      "journal": "FEBS Open Bio",
      "pmid": "39462683",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Domain Architecture And Structural Organization \u2014 Consequences of lacking RQC and HRDC domains",
-   "items": [
+    },
     {
      "n": 18,
      "authors": "Swan MK et al.",
@@ -2294,15 +2205,6 @@
      "doi": null
     },
     {
-     "n": 31,
-     "authors": "Cejka P et al.",
-     "year": "2010",
-     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
-     "journal": "Nat Struct Mol Biol",
-     "pmid": "20935631",
-     "doi": null
-    },
-    {
      "n": 69,
      "authors": "Rogers CM et al.",
      "year": "2017",
@@ -2346,12 +2248,7 @@
      "journal": "Nat Commun",
      "pmid": "28653661",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Domain Architecture And Structural Organization \u2014 DUF1998 canopy architecture in bacterial RecQ4-family helicases",
-   "items": [
+    },
     {
      "n": 29,
      "authors": "Roske JJ et al.",
@@ -2360,12 +2257,7 @@
      "journal": "Nucleic Acids Res",
      "pmid": "33300032",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Domain Architecture And Structural Organization \u2014 Structural implications of the Sld2-like N-terminal fusion",
-   "items": [
+    },
     {
      "n": 61,
      "authors": "Kamimura Y et al.",
@@ -2509,12 +2401,7 @@
      "journal": "EMBO J",
      "pmid": "37458194",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Domain Architecture And Structural Organization \u2014 Full-length RECQL4 structural model",
-   "items": [
+    },
     {
      "n": 68,
      "authors": "Kaiser S, Sauer F, Kisker C",
@@ -2590,7 +2477,7 @@
    ]
   },
   {
-   "topic": "Biochemical Activities And Mechanistic Logic \u2014 ATPase kinetics and DNA coupling",
+   "topic": "Biochemical activities",
    "items": [
     {
      "n": 68,
@@ -2735,12 +2622,7 @@
      "journal": "Nature",
      "pmid": "14685245",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Biochemical Activities And Mechanistic Logic \u2014 Substrate specificity",
-   "items": [
+    },
     {
      "n": 63,
      "authors": "Bochman ML et al.",
@@ -2766,15 +2648,6 @@
      "title": "The structural and functional characterization of human RecQ4 reveals insights into its helicase mechanism.",
      "journal": "Nat Commun",
      "pmid": "28653661",
-     "doi": null
-    },
-    {
-     "n": 31,
-     "authors": "Cejka P et al.",
-     "year": "2010",
-     "title": "Rmi1 stimulates decatenation of double Holliday junctions during dissolution by Sgs1-Top3.",
-     "journal": "Nat Struct Mol Biol",
-     "pmid": "20935631",
      "doi": null
     },
     {
@@ -2805,15 +2678,6 @@
      "doi": null
     },
     {
-     "n": 26,
-     "authors": "Burby PE, Simmons LA",
-     "year": "2019",
-     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
-     "journal": "Mol Microbiol",
-     "pmid": "30379365",
-     "doi": null
-    },
-    {
      "n": 29,
      "authors": "Roske JJ et al.",
      "year": "2021",
@@ -2838,24 +2702,6 @@
      "title": "The RecQ-like helicase HRQ1 is involved in DNA crosslink repair in Arabidopsis in a common pathway with the Fanconi anemia-associated nuclease FAN1 and the postreplicative repair ATPase RAD5A.",
      "journal": "New Phytol",
      "pmid": "29577315",
-     "doi": null
-    },
-    {
-     "n": 92,
-     "authors": "Bochman ML, Paeschke K, Zakian VA",
-     "year": "2012",
-     "title": "DNA secondary structures: stability and function of G-quadruplex structures.",
-     "journal": "Nat Rev Genet",
-     "pmid": "23032257",
-     "doi": null
-    },
-    {
-     "n": 93,
-     "authors": "Rhodes D, Lipps HJ",
-     "year": "2015",
-     "title": "G-quadruplexes and their regulatory roles in biology.",
-     "journal": "Nucleic Acids Res",
-     "pmid": "26350216",
      "doi": null
     },
     {
@@ -2904,51 +2750,6 @@
      "doi": null
     },
     {
-     "n": 49,
-     "authors": "Rogers CM et al.",
-     "year": "2020",
-     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
-     "journal": "Prog Biophys Mol Biol",
-     "pmid": "32877700",
-     "doi": "10.1016/j.pbiomolbio.2020.08.005"
-    },
-    {
-     "n": 98,
-     "authors": "Siddiqui-Jain A et al.",
-     "year": "2002",
-     "title": "Direct evidence for a G-quadruplex in a promoter region and its targeting with a small molecule to repress c-MYC transcription.",
-     "journal": "Proc Natl Acad Sci U S A",
-     "pmid": "12195017",
-     "doi": null
-    },
-    {
-     "n": 99,
-     "authors": "Huppert JL, Balasubramanian S",
-     "year": "2007",
-     "title": "G-quadruplexes in promoters throughout the human genome.",
-     "journal": "Nucleic Acids Res",
-     "pmid": "17169996",
-     "doi": null
-    },
-    {
-     "n": 100,
-     "authors": "Chen Y et al.",
-     "year": "2024",
-     "title": "An Upstream G-Quadruplex DNA Structure Can Stimulate Gene Transcription.",
-     "journal": "ACS Chem Biol",
-     "pmid": "38417105",
-     "doi": null
-    },
-    {
-     "n": 101,
-     "authors": "Castillo Bosch P et al.",
-     "year": "2014",
-     "title": "FANCJ promotes DNA synthesis through G-quadruplex structures.",
-     "journal": "EMBO J",
-     "pmid": "25193968",
-     "doi": null
-    },
-    {
      "n": 102,
      "authors": "Arora A et al.",
      "year": "2016",
@@ -2977,15 +2778,6 @@
      "raw": "Gray SJ, Bochman ML. 2026. A genetically buffered helicase network promotes tolerance of G-quadruplex stabilization in Saccharomyces cerevisiae. bioRxiv doi:10.64898/2026.07.07.737069."
     },
     {
-     "n": 105,
-     "authors": "Revy P et al.",
-     "year": "2000",
-     "title": "Activation-induced cytidine deaminase (AID) deficiency causes the autosomal recessive form of the Hyper-IgM syndrome (HIGM2).",
-     "journal": "Cell",
-     "pmid": "11007475",
-     "doi": null
-    },
-    {
      "n": 106,
      "authors": "Regmi S et al.",
      "year": "2026",
@@ -2994,12 +2786,7 @@
      "pmid": null,
      "doi": "10.64898/2026.08.13.744683",
      "raw": "Regmi S, Alsulaiti N, Darling D, Bolgova A, Theulot B, Gray SJ, Bochman ML, Smith DJ. 2026. Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes. bioRxiv doi:10.64898/2026.08.13.744683."
-    }
-   ]
-  },
-  {
-   "topic": "Biochemical Activities And Mechanistic Logic \u2014 Regulatory logic",
-   "items": [
+    },
     {
      "n": 50,
      "authors": "Lu H et al.",
@@ -3084,7 +2871,7 @@
    ]
   },
   {
-   "topic": "Overview",
+   "topic": "Bacterial YprA helicases and immune systems",
    "items": [
     {
      "n": 27,
@@ -3104,12 +2891,7 @@
      "journal": "Gene",
      "pmid": "26456193",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "YprA helicases in prokaryotic immune systems",
-   "items": [
+    },
     {
      "n": 66,
      "authors": "Singleton MR, Dillingham MS, Wigley DB",
@@ -3230,7 +3012,7 @@
    ]
   },
   {
-   "topic": "Comparative Synthesis And Future Directions",
+   "topic": "Comparative synthesis",
    "items": [
     {
      "n": 22,
@@ -3249,12 +3031,7 @@
      "journal": "Cell Cycle",
      "pmid": "20980836",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 A Conserved Motor, Divergent Scaffolds",
-   "items": [
+    },
     {
      "n": 29,
      "authors": "Roske JJ et al.",
@@ -3326,12 +3103,7 @@
      "journal": "EMBO J",
      "pmid": "19177149",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 Replication-Coupled Repair Specialization",
-   "items": [
+    },
     {
      "n": 2,
      "authors": "Bernstein KA, Gangloff S, Rothstein R",
@@ -3376,12 +3148,7 @@
      "journal": "Nucleic Acids Res",
      "pmid": "28334827",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 Regulatory Integration",
-   "items": [
+    },
     {
      "n": 50,
      "authors": "Lu H et al.",
@@ -3453,20 +3220,6 @@
      "journal": "J Pathol",
      "pmid": "26690729",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 Evolutionary Plasticity",
-   "items": [
-    {
-     "n": 26,
-     "authors": "Burby PE, Simmons LA",
-     "year": "2019",
-     "title": "A bacterial DNA repair pathway specific to a natural antibiotic.",
-     "journal": "Mol Microbiol",
-     "pmid": "30379365",
-     "doi": null
     },
     {
      "n": 28,
@@ -3494,12 +3247,7 @@
      "journal": "PLoS One",
      "pmid": "19572017",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 Outstanding Mechanistic Questions",
-   "items": [
+    },
     {
      "n": 68,
      "authors": "Kaiser S, Sauer F, Kisker C",
@@ -3526,15 +3274,6 @@
      "journal": "Nucleic Acids Res",
      "pmid": "28334827",
      "doi": null
-    },
-    {
-     "n": 49,
-     "authors": "Rogers CM et al.",
-     "year": "2020",
-     "title": "Fanconi anemia-independent DNA inter-strand crosslink repair in eukaryotes.",
-     "journal": "Prog Biophys Mol Biol",
-     "pmid": "32877700",
-     "doi": "10.1016/j.pbiomolbio.2020.08.005"
     },
     {
      "n": 40,
@@ -3564,24 +3303,6 @@
      "doi": "10.64898/2026.02.13.705743"
     },
     {
-     "n": 214,
-     "authors": "Aguilera A, Garc\u00eda-Muse T",
-     "year": "2012",
-     "title": "R loops: from transcription byproducts to threats to genome stability.",
-     "journal": "Mol Cell",
-     "pmid": "22541554",
-     "doi": null
-    },
-    {
-     "n": 215,
-     "authors": "Santos-Pereira JM, Aguilera A",
-     "year": "2015",
-     "title": "R loops: new modulators of genome dynamics and function.",
-     "journal": "Nat Rev Genet",
-     "pmid": "26370899",
-     "doi": null
-    },
-    {
      "n": 216,
      "authors": "Chakraborty P, Grosse F",
      "year": "2011",
@@ -3597,15 +3318,6 @@
      "title": "Human RECQL1 participates in telomere maintenance.",
      "journal": "Nucleic Acids Res",
      "pmid": "24623817",
-     "doi": null
-    },
-    {
-     "n": 218,
-     "authors": "Hatchi E et al.",
-     "year": "2015",
-     "title": "BRCA1 recruitment to transcriptional pause sites is required for R-loop-driven DNA damage repair.",
-     "journal": "Mol Cell",
-     "pmid": "25699710",
      "doi": null
     },
     {
@@ -3634,12 +3346,7 @@
      "journal": "G3 (Bethesda)",
      "pmid": "33115721",
      "doi": null
-    }
-   ]
-  },
-  {
-   "topic": "Comparative Synthesis And Future Directions \u2014 Concluding Perspective",
-   "items": [
+    },
     {
      "n": 29,
      "authors": "Roske JJ et al.",
