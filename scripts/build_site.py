@@ -150,6 +150,45 @@ def curated_html(groups, headings=True):
     return h
 
 
+def sgd_clean(t):
+    """Keep SGD's text but allow only <br>, <i>, and links (rewritten to absolute SGD URLs)."""
+    t = t or ""
+    t = re.sub(r'<a [^>]*href="(/[^"]*)"[^>]*>', lambda m: '<a href="https://www.yeastgenome.org' + m.group(1) + '">', t)
+    t = re.sub(r'<a [^>]*href="(https?://[^"]*)"[^>]*>', lambda m: '<a href="' + m.group(1) + '">', t)
+    t = re.sub(r"</?(?!a\b|br\b|i\b)[a-zA-Z][^>]*>", "", t)
+    return t
+
+
+def sgd_summary_html(sd):
+    sm = sd.get("summary") or {}
+    if not sm: return ""
+    url = f'https://www.yeastgenome.org/locus/{sd["sgdid"]}'
+    h = ""
+    if sm.get("name_description") or sm.get("description"):
+        h += f'<p><b>{E(sm.get("name_description") or "")}</b>{" &mdash; " if sm.get("name_description") and sm.get("description") else ""}{E(sm.get("description") or "")}</p>'
+    if sm.get("paragraph"): h += f'<p>{sgd_clean(sm["paragraph"])}</p>'
+    rows = []
+    if sm.get("systematic"): rows.append(["Systematic name", E(sm["systematic"])])
+    if sm.get("former_names"): rows.append(["Former names", E(", ".join(sm["former_names"]))])
+    if sm.get("protein_summary") and not sm.get("paragraph"): rows.append(["Protein", E(sm["protein_summary"])])
+    pc = sm.get("ptm_counts") or {}
+    if pc: rows.append(["Post-translational modifications", E("; ".join(f"{v} {k}" for k, v in sorted(pc.items(), key=lambda kv: -kv[1]))) + f' &middot; <a href="{url}/protein">details at SGD</a>'])
+    if sm.get("phenotype_summary") and not sm.get("paragraph"): rows.append(["Phenotype summary", sgd_clean(sm["phenotype_summary"])])
+    if sm.get("regulation_summary") and not sm.get("paragraph"): rows.append(["Regulation", sgd_clean(sm["regulation_summary"])])
+    if sm.get("disease"): rows.append(["Disease annotations", E(", ".join(sm["disease"]))])
+    lt = sm.get("literature") or {}
+    if lt.get("total_count"):
+        rows.append(["Literature at SGD", f'{lt.get("primary_count",0)} primary, {lt.get("additional_count",0)} additional, {lt.get("review_count",0)} reviews ({lt["total_count"]} total) &middot; <a href="{url}/literature">view at SGD</a>'])
+    if rows: h += '<div class="scroll" style="max-height:none"><table>' + "".join(f"<tr><th>{a}</th><td>{b}</td></tr>" for a, b in rows) + "</table></div>"
+    reg = sm.get("regulation") or []
+    if reg:
+        h += "<h3>Regulation records</h3>" + tbl(["Regulator", "Regulates", "Condition", "Evidence", "Reference"], [
+            [f'<a href="https://www.yeastgenome.org/locus/{x["regulator_sgdid"]}">{E(x["regulator"])}</a>', E(x.get("of") or ""), E(x.get("during") or ""), E(x.get("evidence") or ""),
+             (f'<a href="https://pubmed.ncbi.nlm.nih.gov/{x["pmid"]}/">{E(x["ref"])}</a>' if x.get("pmid") else E(x.get("ref") or ""))] for x in reg], "scroll")
+    h += f'<p style="font-size:.88rem;color:var(--ink-soft)">Curated text from the <a href="{url}">Saccharomyces Genome Database</a> (SGD), refreshed with the rest of the data.</p>'
+    return h
+
+
 def protein_page(r, meta):
     u = r["uniprot_data"]; c = u["comments"]; f = u["features"]; af = r.get("alphafold") or {}
     acc = u["accession"]; secs = []; toc = []
@@ -175,6 +214,8 @@ def protein_page(r, meta):
                    ("DISRUPTION PHENOTYPE", "Disruption phenotype"), ("SIMILARITY", "Family"), ("MISCELLANEOUS", "Miscellaneous")):
         if c.get(k):
             extra += f"<tr><th style='position:static;width:190px'>{lab}</th><td>{'<br>'.join(pm_links(x) for x in c[k])}</td></tr>"
+    if (r.get("sgd_data") or {}).get("summary"):
+        sec("sgd", "SGD summary", sgd_summary_html(r["sgd_data"]))
     sec("function", "Function", fn + f'<div class="scroll" style="max-height:none"><table>{extra}</table></div>'
         + '<p class="mono-label" style="font-size:.8rem;color:var(--ink-soft)">'
         + ("Text from UniProt/Swiss-Prot curation." if u["reviewed"] else "Automatic annotation from UniProt (TrEMBL), not manually reviewed.") + "</p>")

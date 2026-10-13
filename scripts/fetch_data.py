@@ -8,7 +8,7 @@ Sources (all public, no API keys):
 Writes data/<UNIPROT>.json (one compact record per protein) and data/_meta.json.
 Re-run on a schedule (see .github/workflows/refresh-data.yml) to stay current.
 """
-import json, os, sys, time, urllib.parse, urllib.request
+import json, os, re, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -172,6 +172,40 @@ def intact(acc, self_id):
     return {"total": d.get("totalElements", 0), "partners": plist}
 
 
+def sgd_summary(sgdid):
+    """SGD's curated summary text and counts (description, summary paragraph, former names, PTMs, regulation, disease, literature)."""
+    d = jget(f"https://www.yeastgenome.org/backend/locus/{sgdid}") or {}
+    if not d:
+        return None
+    para = d.get("paragraph") or {}
+    reg = (d.get("regulation_overview") or {}).get("paragraph") or {}
+    cur = (d.get("display_name") or "").upper()
+    former = []
+    for h in d.get("history", []):
+        if h.get("category") == "Name":
+            nm = re.sub(r"<[^>]+>", "", h.get("note", "")).replace("Name:", "").strip()
+            if nm and nm.upper() != cur and nm not in former:
+                former.append(nm)
+    ptm = {}
+    for x in jget(f"https://www.yeastgenome.org/backend/locus/{sgdid}/posttranslational_details") or []:
+        ptm[x.get("type")] = ptm.get(x.get("type"), 0) + 1
+    reg_rows = []
+    for x in jget(f"https://www.yeastgenome.org/backend/locus/{sgdid}/regulation_details") or []:
+        reg_rows.append({"regulator": x["locus1"]["display_name"], "regulator_sgdid": x["locus1"]["link"].split("/")[-1],
+                         "target": x["locus2"]["display_name"], "of": x.get("regulation_of"), "during": x.get("happens_during"),
+                         "evidence": (x.get("evidence") or {}).get("display_name"),
+                         "ref": (x.get("reference") or {}).get("display_name"), "pmid": (x.get("reference") or {}).get("pubmed_id")})
+    dis = sorted({t["term"]["display_name"] for t in (d.get("disease_overview") or {}).get("manual_disease_terms", [])})
+    lit = d.get("literature_overview") or {}
+    return {"name_description": d.get("name_description"), "description": d.get("description"),
+            "paragraph": para.get("text"), "protein_summary": d.get("protein_summary") or None,
+            "phenotype_summary": (d.get("phenotype_overview") or {}).get("paragraph"),
+            "regulation_summary": reg.get("text"), "regulation": reg_rows,
+            "former_names": former, "ptm_counts": ptm, "disease": dis,
+            "literature": {k: lit.get(k) for k in ("primary_count", "additional_count", "review_count", "total_count")},
+            "systematic": d.get("format_name")}
+
+
 def sgd(sgdid):
     out = {"sgdid": sgdid}
     inter = jget(f"https://www.yeastgenome.org/backend/locus/{sgdid}/interaction_details") or []
@@ -190,6 +224,7 @@ def sgd(sgdid):
     out["genetic_partners"] = sorted(p["name"] for p in gen.values())
     out["genetic_count"] = len(gen)
     out["interaction_rows"] = len(inter)
+    out["summary"] = sgd_summary(sgdid)
     ph = jget(f"https://www.yeastgenome.org/backend/locus/{sgdid}/phenotype_details") or []
     rows = []
     for r in ph:
