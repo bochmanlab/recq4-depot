@@ -4076,6 +4076,33 @@
     "pmid": 40994099,
     "experiment": "classical genetics"
    }
-  ]
+  ],
+  "summary": {
+   "name_description": "Homologous to RecQ protein",
+   "description": "3'-5' DNA helicase of conserved RecQ family; involved in interstrand crosslink repair, nucleotide-excision repair, telomerase-independent telomere maintenance; binds telomeres, modulates telomerase activity with Pif1p, inhibits telomere addition to dsDNA breaks; lacks ssDNA annealing and strand exchange activities; N-terminal domain has DNA-binding site needed for repair of DNA inter-strand crosslinks; human homolog RecQL4 is involved in Rothmund-Thomson, Baller-Gerold and RAPADILINO syndromes",
+   "paragraph": null,
+   "protein_summary": "N-terminal domain of Hrq1 helicase houses DNA-binding site important for repair of DNA inter-strand crosslinks",
+   "phenotype_summary": null,
+   "regulation_summary": null,
+   "regulation": [],
+   "former_names": [],
+   "ptm_counts": {
+    "phosphorylated residue": 2,
+    "sumoylated lysine": 2
+   },
+   "disease": [
+    "Baller-Gerold syndrome",
+    "Rothmund-Thomson syndrome",
+    "breast cancer",
+    "rapadilino syndrome"
+   ],
+   "literature": {
+    "primary_count": 25,
+    "additional_count": 7,
+    "review_count": 5,
+    "total_count": 67
+   },
+   "systematic": "YDR291W"
+  }
  }
 }
