@@ -23,13 +23,13 @@
 <h2>Where the data come from</h2>
 <div class=""><table><thead><tr><th>Data</th><th>Source</th><th>Notes</th></tr></thead><tbody><tr><td>Sequence, domains, function, variants, mutagenesis</td><td><a href='https://www.uniprot.org/'>UniProt</a></td><td>Swiss-Prot entries are curated; TrEMBL entries are automatic and marked &ldquo;unreviewed&rdquo;</td></tr><tr><td>Family membership</td><td><a href='https://www.pantherdb.org/'>PANTHER</a> via UniProt</td><td>See rule above</td></tr><tr><td>Predicted structure</td><td><a href='https://alphafold.ebi.ac.uk/'>AlphaFold DB</a></td><td>Model files copied into this site; some entries have none</td></tr><tr><td>Experimental structures</td><td>PDB via UniProt cross-references</td><td></td></tr><tr><td>Interactions</td><td><a href='https://www.ebi.ac.uk/intact/'>IntAct</a>; <a href='https://www.yeastgenome.org/'>SGD</a> for <i>S. cerevisiae</i></td><td>Counts include high-throughput screens</td></tr><tr><td>Yeast alleles and phenotypes</td><td>SGD</td><td><i>S. cerevisiae</i> only</td></tr><tr><td>Clinical variants</td><td><a href='https://www.ncbi.nlm.nih.gov/clinvar/'>ClinVar</a></td><td>Human only; counts by classification, no individual variant tables yet</td></tr><tr><td>Literature</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/'>PubMed</a></td><td>Automatic keyword search per protein</td></tr></tbody></table></div>
 <h2>How it stays current</h2>
-<p>A script (<code>scripts/fetch_data.py</code>) re-downloads everything from the sources above and a second script (<code>scripts/build_site.py</code>) regenerates the pages. A scheduled GitHub Action runs both weekly. Data were last refreshed October 13, 2026.</p>
+<p>A script (<code>scripts/fetch_data.py</code>) re-downloads everything from the sources above and a second script (<code>scripts/build_site.py</code>) regenerates the pages. A scheduled GitHub Action runs both weekly. Data were last refreshed October 19, 2026.</p>
 <h2>Limitations</h2>
 <ul><li>This is aggregation, not expert curation. Annotations are only as good as the upstream databases, and unreviewed entries are the weakest.</li>
 <li>The automatic literature searches are imprecise; some off-topic papers appear and relevant ones can be missed.</li>
 <li>Only yeast has allele/phenotype detail so far, and only human has clinical variants.</li>
 <li>There is no alignment, tree, or ortholog table yet.</li></ul>
 <h2>Contact</h2><p>Corrections and suggestions: <a href="mailto:bochman@iu.edu">bochman@iu.edu</a>.</p></main>
-<footer><div class="wrap">Data last refreshed October 13, 2026. Sources: UniProt, AlphaFold DB, PDB, IntAct, SGD, ClinVar, PubMed &mdash; see <a href="about.html">About &amp; sources</a>. A project of the <a href="https://bochmanlab.github.io">Bochman Lab</a>, Indiana University Bloomington.</div></footer>
+<footer><div class="wrap">Data last refreshed October 19, 2026. Sources: UniProt, AlphaFold DB, PDB, IntAct, SGD, ClinVar, PubMed &mdash; see <a href="about.html">About &amp; sources</a>. A project of the <a href="https://bochmanlab.github.io">Bochman Lab</a>, Indiana University Bloomington.</div></footer>
 
 </body></html>
