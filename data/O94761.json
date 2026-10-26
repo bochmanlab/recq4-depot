@@ -569,7 +569,7 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 480,
+  "count": 481,
   "papers": [
    {
     "pmid": "42608969",
@@ -583,6 +583,19 @@
     "journal": "Ann Lab Med",
     "year": "2026",
     "date": "2026 Nov 1"
+   },
+   {
+    "pmid": "42910491",
+    "title": "Novel Compound Heterozygous RECQL4 Pathogenic Variants and Associated Phenotypes in a Chinese Patient With Rothmund-Thomson Syndrome: Case Report and Literature Review",
+    "authors": [
+     "Wang Y",
+     "Li L",
+     "Zheng C",
+     "et al."
+    ],
+    "journal": "Mol Genet Genomic Med",
+    "year": "2026",
+    "date": "2026 Oct"
    },
    {
     "pmid": "42806161",
@@ -1071,19 +1084,6 @@
     "journal": "BMC Cancer",
     "year": "2025",
     "date": "2025 Sep 29"
-   },
-   {
-    "pmid": "40963872",
-    "title": "Case Report: Genomic insights and personalized treatment in dual primary esophageal squamous cell carcinoma and gastric adenocarcinoma",
-    "authors": [
-     "Miao C",
-     "Guo Y",
-     "Yang H",
-     "et al."
-    ],
-    "journal": "Front Oncol",
-    "year": "2025",
-    "date": "2025"
    }
   ],
   "query": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]"
@@ -2347,10 +2347,10 @@
   ]
  },
  "clinvar": {
-  "total": 5656,
-  "pathogenic": 376,
-  "likely_pathogenic": 130,
-  "vus": 3007,
+  "total": 5657,
+  "pathogenic": 375,
+  "likely_pathogenic": 129,
+  "vus": 3008,
   "likely_benign": 1891,
   "benign": 120
  }
