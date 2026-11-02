@@ -300,8 +300,21 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 52,
+  "count": 53,
   "papers": [
+   {
+    "pmid": "42936142",
+    "title": "Podophyllotoxin suppresses growth of MFC gastric cancer cells by modulating DNA damage response-related gene expression",
+    "authors": [
+     "Li X",
+     "Pang Y",
+     "Liu Y",
+     "et al."
+    ],
+    "journal": "Cytotechnology",
+    "year": "2026",
+    "date": "2026 Dec"
+   },
    {
     "pmid": "42806161",
     "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
@@ -799,19 +812,6 @@
     "journal": "Gene",
     "year": "2010",
     "date": "2010 Jan 1"
-   },
-   {
-    "pmid": "18755177",
-    "title": "Drosophila homologue of the Rothmund-Thomson syndrome gene: essential function in DNA replication during development",
-    "authors": [
-     "Wu J",
-     "Capp C",
-     "Feng L",
-     "et al."
-    ],
-    "journal": "Dev Biol",
-    "year": "2008",
-    "date": "2008 Nov 1"
    }
   ],
   "query": "Recql4[tiab] AND (mouse OR mice OR murine)"

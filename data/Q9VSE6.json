@@ -338,7 +338,7 @@
   "query": "(RecQ4[tiab] OR DmRECQ4[tiab] OR CG7487[tiab]) AND Drosophila"
  },
  "interactions_intact": {
-  "total": 5,
+  "total": 50,
   "partners": [
    {
     "uniprot": "P34082",
@@ -356,6 +356,608 @@
      "25294943"
     ],
     "score": 0.6
+   },
+   {
+    "uniprot": "Q7KML2",
+    "name": "Acox1",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P22464",
+    "name": "AnxB9",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q8T8V3",
+    "name": "BORCS6",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VZU6",
+    "name": "BtbVII",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9I7Z8",
+    "name": "CG13372",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VW85",
+    "name": "CG13812",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VB02",
+    "name": "CROT",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VIK6",
+    "name": "Cen",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VVP3",
+    "name": "CheA75a",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "A1ZAK3",
+    "name": "Dek",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P07548",
+    "name": "Dfd",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9W221",
+    "name": "Dmel\\CG13510",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VIV5",
+    "name": "Dmel\\CG18094",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VRQ4",
+    "name": "Dmel\\CG5568",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VL27",
+    "name": "Dmel\\CG5731",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VGI6",
+    "name": "Dmel\\CG6923",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P34021",
+    "name": "EcR",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q8MMD2",
+    "name": "Eps-15",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VW57",
+    "name": "Grasp65",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q05192",
+    "name": "Hr39",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "O46108",
+    "name": "Lip3",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VNP3",
+    "name": "Mes2",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "O76136",
+    "name": "PHDP",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q7K4C7",
+    "name": "Pcyt1",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P40792",
+    "name": "Rac1",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VVE5",
+    "name": "Rbp6",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q95U38",
+    "name": "ScsbetaA",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q7JR71",
+    "name": "Sod3",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q8SZP2",
+    "name": "TwdlE",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q7YU81",
+    "name": "chn",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q95TT5",
+    "name": "cno",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9BJZ5",
+    "name": "fus",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9VS36",
+    "name": "mei-P22",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P22816",
+    "name": "nau",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "A1Z9L3",
+    "name": "pea",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q8T965",
+    "name": "q8t965_drome",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "EBI-97544",
+    "name": "q9v514_drome",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "EBI-151243",
+    "name": "q9w3g4_drome",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P05990",
+    "name": "r",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "O44924",
+    "name": "robo1",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q95V81",
+    "name": "seq",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q27297",
+    "name": "spn-A",
+    "methods": [
+     "2 hybrid"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15575970"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "Q9V4M2",
+    "name": "wech",
+    "methods": [
+     "2h fragment pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "15710747"
+    ],
+    "score": 0.37
    },
    {
     "uniprot": "Q9VDY1",

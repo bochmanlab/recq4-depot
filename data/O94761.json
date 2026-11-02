@@ -569,8 +569,21 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 481,
+  "count": 482,
   "papers": [
+   {
+    "pmid": "42936142",
+    "title": "Podophyllotoxin suppresses growth of MFC gastric cancer cells by modulating DNA damage response-related gene expression",
+    "authors": [
+     "Li X",
+     "Pang Y",
+     "Liu Y",
+     "et al."
+    ],
+    "journal": "Cytotechnology",
+    "year": "2026",
+    "date": "2026 Dec"
+   },
    {
     "pmid": "42608969",
     "title": "Identification of a Pathogenic RECQL4 1.6-kb Deletion-Insertion in a Neonate with Atypical Skeletal Phenotype of Baller-Gerold Syndrome Using Rapid Whole-Genome Sequencing",
@@ -1071,19 +1084,6 @@
     "journal": "Am J Med Genet A",
     "year": "2025",
     "date": "2025 Oct"
-   },
-   {
-    "pmid": "41023983",
-    "title": "Shared and non-overlapping functions of RECQL4 and BLM helicases in chemotherapeutics-induced glioma cell responses",
-    "authors": [
-     "Wojnicki K",
-     "Wojtas B",
-     "Ciechomska IA",
-     "et al."
-    ],
-    "journal": "BMC Cancer",
-    "year": "2025",
-    "date": "2025 Sep 29"
    }
   ],
   "query": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]"
@@ -1757,48 +1757,6 @@
     "score": 0.35
    },
    {
-    "uniprot": "P59595",
-    "name": "N",
-    "methods": [
-     "tap"
-    ],
-    "types": [
-     "association"
-    ],
-    "pmids": [
-     "34232536"
-    ],
-    "score": 0.35
-   },
-   {
-    "uniprot": "P15130",
-    "name": "N",
-    "methods": [
-     "tap"
-    ],
-    "types": [
-     "association"
-    ],
-    "pmids": [
-     "34232536"
-    ],
-    "score": 0.35
-   },
-   {
-    "uniprot": "Q0ZME3",
-    "name": "N",
-    "methods": [
-     "tap"
-    ],
-    "types": [
-     "association"
-    ],
-    "pmids": [
-     "34232536"
-    ],
-    "score": 0.35
-   },
-   {
     "uniprot": "Q6Q1R8",
     "name": "N",
     "methods": [
@@ -1841,7 +1799,49 @@
     "score": 0.35
    },
    {
+    "uniprot": "P15130",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "Q0ZME3",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
     "uniprot": "P0DTC9",
+    "name": "N",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "34232536"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P59595",
     "name": "N",
     "methods": [
      "tap"
@@ -2347,11 +2347,11 @@
   ]
  },
  "clinvar": {
-  "total": 5657,
+  "total": 5715,
   "pathogenic": 375,
   "likely_pathogenic": 129,
-  "vus": 3008,
-  "likely_benign": 1891,
+  "vus": 3046,
+  "likely_benign": 1910,
   "benign": 120
  }
 }
