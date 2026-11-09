@@ -32,7 +32,7 @@
   "sequence": "MERLRDVRERLQAWERAFRRQRGRRPSQDDVEAAPEETRALYREYRTLKRTTGQAGGGLRSSESLPAAAEEAPEPRCWGPHLNRAATKSPQSTPGRSRQGSVPDYGQRLKANLKGTLQAGPALGRRPWPLGRASSKASTPKPPGTGPVPSFAEKVSDEPPQLPEPQPRPGRLQHLQASLSQRLGSLDPGWLQRCHSEVPDFLGAPKACRPDLGSEESQLLIPGESAVLGPGAGSQGPEASAFQEVSIRVGSPQPSSSGGEKRRWNEEPWESPAQVQQESSQAGPPSEGAGAVAVEEDPPGEPVQAQPPQPCSSPSNPRYHGLSPSSQARAGKAEGTAPLHIFPRLARHDRGNYVRLNMKQKHYVRGRALRSRLLRKQAWKQKWRKKGECFGGGGATVTTKESCFLNEQFDHWAAQCPRPASEEDTDAVGPEPLVPSPQPVPEVPSLDPTVLPLYSLGPSGQLAETPAEVFQALEQLGHQAFRPGQERAVMRILSGISTLLVLPTGAGKSLCYQLPALLYSRRSPCLTLVVSPLLSLMDDQVSGLPPCLKAACIHSGMTRKQRESVLQKIRAAQVHVLMLTPEALVGAGGLPPAAQLPPVAFACIDEAHCLSQWSHNFRPCYLRVCKVLRERMGVHCFLGLTATATRRTASDVAQHLAVAEEPDLHGPAPVPTNLHLSVSMDRDTDQALLTLLQGKRFQNLDSIIIYCNRREDTERIAALLRTCLHAAWVPGSGGRAPKTTAEAYHAGMCSRERRRVQRAFMQGQLRVVVATVAFGMGLDRPDVRAVLHLGLPPSFESYVQAVGRAGRDGQPAHCHLFLQPQGEDLRELRRHVHADSTDFLAVKRLVQRVFPACTCTCTRPPSEQEGAVGGERPVPKYPPQEAEQLSHQAAPGPRRVCMGHERALPIQLTVQALDMPEEAIETLLCYLELHPHHWLELLATTYTHCRLNCPGGPAQLQALAHRCPPLAVCLAQQLPEDPGQGSSSVEFDMVKLVDSMGWELASVRRALCQLQWDHEPRTGVRRGTGVLVEFSELAFHLRSPGDLTAEEKDQICDFLYGRVQARERQALARLRRTFQAFHSVAFPSCGPCLEQQDEERSTRLKDLLGRYFEEEEGQEPGGMEDAQGPEPGQARLQDWEDQVRCDIRQFLSLRPEEKFSSRAVARIFHGIGSPCYPAQVYGQDRRFWRKYLHLSFHALVGLATEELLQVAR",
   "existence": "1: Evidence at protein level",
   "annotation_score": 5.0,
-  "last_modified": "2026-09-02",
+  "last_modified": "2026-11-04",
   "comments": {
    "FUNCTION": [
     "An ATP-dependent DNA helicase which unwinds dsDNA with a 3'-overhang in a 3'-5' direction (PubMed:28653661). Does not unwind more than 18 bp of dsDNA (PubMed:28653661). May modulate chromosome segregation. The N-terminal domain (residues 1-54) binds DNA Y-shaped DNA better than ss- or dsDNA (PubMed:22730300). The core helicase domain binds ssDNA (PubMed:22730300, PubMed:28653661)"
@@ -431,6 +431,10 @@
     "term": "F:DNA/DNA annealing activity"
    },
    {
+    "id": "GO:0009378",
+    "term": "F:four-way junction helicase activity"
+   },
+   {
     "id": "GO:0004386",
     "term": "F:helicase activity"
    },
@@ -443,16 +447,16 @@
     "term": "F:telomeric D-loop binding"
    },
    {
-    "id": "GO:0006310",
-    "term": "P:DNA recombination"
-   },
-   {
     "id": "GO:0006281",
     "term": "P:DNA repair"
    },
    {
     "id": "GO:0006260",
     "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0000724",
+    "term": "P:double-strand break repair via homologous recombination"
    },
    {
     "id": "GO:0000723",
@@ -569,7 +573,7 @@
   "modelCreatedDate": "2025-08-01T00:00:00Z"
  },
  "literature": {
-  "count": 482,
+  "count": 483,
   "papers": [
    {
     "pmid": "42936142",
@@ -583,6 +587,44 @@
     "journal": "Cytotechnology",
     "year": "2026",
     "date": "2026 Dec"
+   },
+   {
+    "pmid": "42697600",
+    "title": "MCM10 and RECQL4 have cooperative and redundant roles in activating the CMG helicase during the replication initiation",
+    "authors": [
+     "Bektash A",
+     "Zhu X",
+     "Hatoyama Y",
+     "et al."
+    ],
+    "journal": "Genes Dev",
+    "year": "2026",
+    "date": "2026 Nov 2"
+   },
+   {
+    "pmid": "42978058",
+    "title": "Ultraviolet B Photosensitivity in Rothmund-Thomson Syndrome Defined by Monochromator Phototesting",
+    "authors": [
+     "Warner-Levy J",
+     "Parkin D",
+     "Ayer J"
+    ],
+    "journal": "Photodermatol Photoimmunol Photomed",
+    "year": "2026",
+    "date": "2026 Nov"
+   },
+   {
+    "pmid": "42806161",
+    "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
+    "authors": [
+     "Sonneville R",
+     "Evrin C",
+     "Wright J",
+     "et al."
+    ],
+    "journal": "EMBO J",
+    "year": "2026",
+    "date": "2026 Nov"
    },
    {
     "pmid": "42608969",
@@ -611,19 +653,6 @@
     "date": "2026 Oct"
    },
    {
-    "pmid": "42806161",
-    "title": "MCM10 and SLD-2/RECQL4 jointly activate the CMG helicase during metazoan DNA replication initiation",
-    "authors": [
-     "Sonneville R",
-     "Evrin C",
-     "Wright J",
-     "et al."
-    ],
-    "journal": "EMBO J",
-    "year": "2026",
-    "date": "2026 Sep 28"
-   },
-   {
     "pmid": "42755368",
     "title": "DNA binding contributes to dominant-negative effects of a catalytically inactive RecQ4-family helicase",
     "authors": [
@@ -635,19 +664,6 @@
     "journal": "Nucleic Acids Res",
     "year": "2026",
     "date": "2026 Sep 7"
-   },
-   {
-    "pmid": "42697600",
-    "title": "MCM10 and RECQL4 have cooperative and redundant roles in activating the CMG helicase during the replication initiation",
-    "authors": [
-     "Bektash A",
-     "Zhu X",
-     "Hatoyama Y",
-     "et al."
-    ],
-    "journal": "Genes Dev",
-    "year": "2026",
-    "date": "2026 Sep 4"
    },
    {
     "pmid": "42567513",
@@ -1071,19 +1087,6 @@
     "journal": "G3 (Bethesda)",
     "year": "2025",
     "date": "2025 Oct 8"
-   },
-   {
-    "pmid": "40485636",
-    "title": "Rothmund-Thomson Syndrome Type 2 in an African American/Puerto Rican Child Demonstrates Diagnostic Challenges in Diverse Population",
-    "authors": [
-     "Teferedegn E",
-     "Izumi K",
-     "Ahrens-Nicklas R",
-     "et al."
-    ],
-    "journal": "Am J Med Genet A",
-    "year": "2025",
-    "date": "2025 Oct"
    }
   ],
   "query": "RECQL4[tiab] OR RECQ4[tiab] OR \"RecQ4\"[tiab]"
@@ -2348,10 +2351,10 @@
  },
  "clinvar": {
   "total": 5715,
-  "pathogenic": 375,
-  "likely_pathogenic": 129,
+  "pathogenic": 374,
+  "likely_pathogenic": 128,
   "vus": 3046,
-  "likely_benign": 1910,
+  "likely_benign": 1909,
   "benign": 120
  }
 }
