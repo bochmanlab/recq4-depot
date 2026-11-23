@@ -4102,6 +4102,18 @@
     "reference": "Shumaker KA, et al. (2025)",
     "pmid": 40994099,
     "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals",
+    "mutant_type": "dominant negative",
+    "alleles": [
+     "hrq1-K318A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Simmons RH, et al. (2026)",
+    "pmid": 42755368,
+    "experiment": "classical genetics"
    }
   ]
  }

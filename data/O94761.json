@@ -2352,7 +2352,7 @@
  "clinvar": {
   "total": 5715,
   "pathogenic": 374,
-  "likely_pathogenic": 128,
+  "likely_pathogenic": 129,
   "vus": 3046,
   "likely_benign": 1909,
   "benign": 120
